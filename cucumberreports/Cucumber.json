@@ -1,0 +1,208 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-20T11:52:25.751Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24155398591,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CableTVResidentialE2E.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 763787828,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProdToProd.before(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "ApplitoolProdToProdComparision",
+        "description": "",
+        "id": "applitoolscomparison;applitoolprodtoprodcomparision;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11382993996,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launching the url \"Url\" for \"SB_home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Url\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"SB_home\"",
+                  "offset": 33
+                }
+              ],
+              "location": "ProdToProd.userLaunchingUrl(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2063101,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Capturing applitool full \"SB_home\" page footprint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SB_home\"",
+                  "offset": 25
+                }
+              ],
+              "location": "ProdToProd.applitoolCapture(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "ApplitoolsComparison",
+    "description": "",
+    "id": "applitoolscomparison",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FunctionalTests/CableBuyflow/ApplitoolProdToProdComparision.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-20T11:53:02.141Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17855687554,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CableTVResidentialE2E.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 466599407,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProdToProd.before(Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "VerifyingCableBuyflowEndToEnd",
+        "description": "",
+        "id": "cablebuyflow-endtoend;verifyingcablebuyflowendtoend;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4723894925,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to address localization Page \"Url1\" for \"ContentValidation_Internet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Url1\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"ContentValidation_Internet\"",
+                  "offset": 55
+                }
+              ],
+              "location": "CableTVResidentialE2E.user_navigates_to_address_localization_Page_for(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52761569543,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Entering Valid credential \"PID\" and \"PWD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PID\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"PWD\"",
+                  "offset": 36
+                }
+              ],
+              "location": "CableTVResidentialE2E.entering_Valid_credential_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64889973385,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Localizing with valid \"Address\" \"Apt\" and \"Zipcode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Address\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Apt\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Zipcode\"",
+                  "offset": 47
+                }
+              ],
+              "location": "CableTVResidentialE2E.user_Localizing_with_valid_and(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 469258707,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Store Front page successfully",
+            "match": {
+              "location": "CableTVResidentialE2E.user_is_navigated_to_Store_Front_page_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CableBuyflow_EndToEnd",
+    "description": "",
+    "id": "cablebuyflow-endtoend",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FunctionalTests/CableBuyflow/CableBuyflow_EndToEnd.feature",
+    "tags": []
+  }
+]

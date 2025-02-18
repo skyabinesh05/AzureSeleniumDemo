@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="177.574471">
+    <testcase classname="ApplitoolsComparison" name="ApplitoolProdToProdComparision" time="36.384882">
+        <system-out><![CDATA[Given User launching the url "Url" for "SB_home"............................passed
+Then Capturing applitool full "SB_home" page footprint......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="CableBuyflow_EndToEnd" name="VerifyingCableBuyflowEndToEnd" time="141.189589">
+        <system-out><![CDATA[Given User navigates to address localization Page "Url1" for "ContentValidation_Internet".passed
+When Entering Valid credential "PID" and "PWD"..............................passed
+And User Localizing with valid "Address" "Apt" and "Zipcode"................passed
+Then User navigates to Store Front page successfully........................passed
+]]></system-out>
+    </testcase>
+</testsuite>

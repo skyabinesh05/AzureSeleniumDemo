@@ -1,0 +1,11 @@
+logfile: "sc.us-desktop-ng.log"
+pidfile: "sc.us-desktop-ng.pid"
+log-stats: 60
+se-port: 5001
+metrics-address: "localhost:5002"
+rest-url: "https://saucelabs.com/rest/v1"
+shared-tunnel: true
+#tunnel-domains: ""
+tunnel-identifier: "us-desktop-ng"
+verbose: 1
+no-remove-colliding-tunnels: "true"

@@ -1,0 +1,11 @@
+logfile: "sc.eu-desktop-ng.log"
+pidfile: "sc.eu-desktop-ng.pid"
+log-stats: 60
+se-port: 4001
+metrics-address: "localhost:4002"
+rest-url: "https://eu-central-1.saucelabs.com/rest/v1"
+shared-tunnel: true
+#tunnel-domains: ""
+tunnel-identifier: "eu-desktop-ng"
+verbose: 1
+no-remove-colliding-tunnels: "true"
