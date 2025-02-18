@@ -1,0 +1,845 @@
+2020-08-21 18:08:22.453 [236] Sauce Connect 4.6.2, build 5183 ad61662 
+2020-08-21 18:08:22.453 [236] Trying to autodetect proxy settings
+2020-08-21 18:08:22.463 [236] Starting up; pid 236
+2020-08-21 18:08:22.463 [236] Command line arguments: sc -u Madhudevi -k **** --config-file C:\Users\bmadhudevi\Documents\SauceTunnel\sc-4.6.2-win32\bin\config.eu-desktop-cb.yml 
+2020-08-21 18:08:22.463 [236] Log file: sc.eu-desktop-cb.log
+2020-08-21 18:08:22.463 [236] Pid file: sc.eu-desktop-cb.pid
+2020-08-21 18:08:22.464 [236] Timezone: IST GMT offset: 5h
+2020-08-21 18:08:22.464 [236] Using no proxy for connecting to Sauce Labs REST API.
+2020-08-21 18:08:25.355 [236] PROXY *** scproxy started ***
+2020-08-21 18:08:25.383 [236] PROXY found DNS server 142.136.252.87
+2020-08-21 18:08:25.385 [236] PROXY found DNS server 142.136.253.87
+2020-08-21 18:08:25.388 [236] PROXY found DNS server 192.168.1.1
+2020-08-21 18:08:25.406 [236] Started scproxy on port 56278.
+2020-08-21 18:08:25.406 [236] Please wait for 'you may start your tests' to start your tests.
+2020-08-21 18:08:44.207 [236] Secure remote tunnel VM provisioned.
+2020-08-21 18:08:44.207 [236] Tunnel ID: 1d6ce34b702540d58f9f5e959678de0d
+2020-08-21 18:08:47.116 [236] Starting OCSP certificate check.
+2020-08-21 18:08:47.117 [236] Using no proxy for connecting to http://status.geotrust.com.
+2020-08-21 18:08:48.382 [236] Using no proxy for connecting to http://ocsp.digicert.com.
+2020-08-21 18:08:49.372 [236] Reached a trusted CA. Certificate chain is verified.
+2020-08-21 18:08:49.373 [236] Using no proxy for connecting to tunnel VM.
+2020-08-21 18:08:49.376 [236] Starting Selenium listener...
+2020-08-21 18:08:49.376 [236] Establishing secure TLS connection to tunnel...
+2020-08-21 18:08:49.494 [236] [EVDNS] Added nameserver 142.136.252.87:53 as 023D46D8
+2020-08-21 18:08:49.495 [236] [EVDNS] Added nameserver 142.136.253.87:53 as 023D48F0
+2020-08-21 18:08:49.497 [236] [EVDNS] Added nameserver 192.168.1.1:53 as 023D4A28
+2020-08-21 18:08:49.498 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:08:49.633 [236] Selenium listener started on port 4001.
+2020-08-21 18:08:50.218 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 2281 ms
+2020-08-21 18:08:53.758 [236] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-08-21 18:08:53.771 [236] PROXY 127.0.0.1:56320 (127.0.0.1) -> HEAD http://localhost:4002/debug/vars (266 bytes)
+2020-08-21 18:08:53.861 [236] Sauce Connect is up, you may start your tests.
+2020-08-21 18:08:54.268 [236] PROXY 127.0.0.1:56320 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-08-21 18:09:10.682 [236] PROXY 127.0.0.1:56320 (10.113.8.35) -> GET http://detectportal.firefox.com/success.txt (484 bytes)
+2020-08-21 18:09:10.718 [236] PROXY 127.0.0.1:56340 (10.113.8.35) -> POST https://location.services.mozilla.com/v1/country?key=7e40f68c-7938-4c5d-9f95-e61647c213eb (591 bytes)
+2020-08-21 18:09:10.738 [236] PROXY 127.0.0.1:56342 (10.113.8.35) -> POST https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=77.0&pver=2.2 (1119 bytes)
+2020-08-21 18:09:10.759 [236] PROXY 127.0.0.1:56343 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/records?collection=messaging-experiments&bucket=main (578 bytes)
+2020-08-21 18:09:10.779 [236] PROXY 127.0.0.1:56341 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/records?collection=fxmonitor-breaches&bucket=main (575 bytes)
+2020-08-21 18:09:10.962 [236] PROXY resolved 'detectportal.firefox.com' to '23.55.62.177:80'
+2020-08-21 18:09:11.027 [236] PROXY resolved 'shavar.services.mozilla.com' to '23.55.62.201:443'
+2020-08-21 18:09:11.034 [236] PROXY resolved 'firefox.settings.services.mozilla.com' to '52.85.83.99:443'
+2020-08-21 18:09:11.042 [236] PROXY resolved 'location.services.mozilla.com' to '52.209.204.108:443'
+2020-08-21 18:09:11.068 [236] PROXY resolved 'firefox.settings.services.mozilla.com' to '52.85.83.76:443'
+2020-08-21 18:09:11.629 [236] PROXY resolved 'firefox.settings.services.mozilla.com' to '52.85.83.76:443'
+2020-08-21 18:09:11.636 [236] PROXY 127.0.0.1:56359 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/records?collection=cfr-fxa&bucket=main (564 bytes)
+2020-08-21 18:09:11.641 [236] PROXY 127.0.0.1:56320 (10.113.8.35) <- 200 detectportal.firefox.com:80 (479 bytes)
+2020-08-21 18:09:12.069 [236] PROXY 127.0.0.1:56320 (10.113.8.35) -> GET http://detectportal.firefox.com/success.txt?ipv4 (489 bytes)
+2020-08-21 18:09:12.089 [236] PROXY resolved 'detectportal.firefox.com' to '23.55.62.177:80'
+2020-08-21 18:09:12.094 [236] PROXY 127.0.0.1:56363 (10.113.8.35) -> GET http://detectportal.firefox.com/success.txt?ipv6 (489 bytes)
+2020-08-21 18:09:12.436 [236] PROXY 127.0.0.1:56320 (10.113.8.35) <- 200 detectportal.firefox.com:80 (479 bytes)
+2020-08-21 18:09:12.767 [236] PROXY 127.0.0.1:56342 (10.113.8.35) <- 200 shavar.services.mozilla.com:443 (2106 bytes)
+2020-08-21 18:09:12.770 [236] PROXY 127.0.0.1:56363 (10.113.8.35) <- 200 detectportal.firefox.com:80 (479 bytes)
+2020-08-21 18:09:12.829 [236] PROXY 127.0.0.1:56343 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (981 bytes)
+2020-08-21 18:09:12.973 [236] PROXY 127.0.0.1:56341 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (978 bytes)
+2020-08-21 18:09:13.218 [236] PROXY 127.0.0.1:56342 (10.113.8.35) -> GET https://tracking-protection.cdn.mozilla.net/ads-track-digest256/1596775200 (530 bytes)
+2020-08-21 18:09:13.259 [236] PROXY 127.0.0.1:56340 (10.113.8.35) <- 200 location.services.mozilla.com:443 (538 bytes)
+2020-08-21 18:09:13.278 [236] PROXY 127.0.0.1:56343 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/messaging-experiments/changeset?_expected=1597761468304 (615 bytes)
+2020-08-21 18:09:13.323 [236] PROXY 127.0.0.1:56359 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (967 bytes)
+2020-08-21 18:09:13.494 [236] PROXY 127.0.0.1:56341 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/fxmonitor-breaches/changeset?_expected=1597183042172 (612 bytes)
+2020-08-21 18:09:13.541 [236] PROXY resolved 'tracking-protection.cdn.mozilla.net' to '54.230.227.17:443'
+2020-08-21 18:09:13.716 [236] PROXY 127.0.0.1:56340 (10.113.8.35) -> GET https://search.services.mozilla.com/1/firefox/77.0/release/en-US/ZZ/default/default (546 bytes)
+2020-08-21 18:09:13.971 [236] PROXY 127.0.0.1:56359 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/cfr-fxa/changeset?_expected=1585237415718 (601 bytes)
+2020-08-21 18:09:14.253 [236] PROXY resolved 'search.services.mozilla.com' to '54.148.7.60:443'
+2020-08-21 18:09:14.269 [236] PROXY 127.0.0.1:56343 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (31795 bytes)
+2020-08-21 18:09:14.756 [236] PROXY 127.0.0.1:56359 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (2082 bytes)
+2020-08-21 18:09:15.612 [236] PROXY 127.0.0.1:56343 (10.113.8.35) -> GET https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2020-09-25-02-18-18.chain (561 bytes)
+2020-08-21 18:09:16.308 [236] PROXY 127.0.0.1:56359 (10.113.8.35) -> GET https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2020-09-25-02-18-18.chain (561 bytes)
+2020-08-21 18:09:16.373 [236] PROXY 127.0.0.1:56341 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (135937 bytes)
+2020-08-21 18:09:16.858 [236] PROXY resolved 'content-signature-2.cdn.mozilla.net' to '52.85.83.103:443'
+2020-08-21 18:09:17.065 [236] PROXY 127.0.0.1:56363 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/content/spectrum/buyflow-residential/EndtoEnd/buyflow-page.html (658 bytes)
+2020-08-21 18:09:17.618 [236] PROXY resolved 'content-signature-2.cdn.mozilla.net' to '52.85.83.102:443'
+2020-08-21 18:09:18.202 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:09:18.715 [236] PROXY resolved 'content-signature-2.cdn.mozilla.net' to '52.85.83.102:443'
+2020-08-21 18:09:18.721 [236] PROXY 127.0.0.1:56341 (10.113.8.35) -> GET https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2020-09-25-02-18-18.chain (561 bytes)
+2020-08-21 18:09:19.159 [236] PROXY 127.0.0.1:56342 (10.113.8.35) <- 200 tracking-protection.cdn.mozilla.net:443 (55125 bytes)
+2020-08-21 18:09:19.277 [236] PROXY 127.0.0.1:56340 (10.113.8.35) <- 200 search.services.mozilla.com:443 (330 bytes)
+2020-08-21 18:09:19.552 [236] PROXY 127.0.0.1:56363 (10.113.8.35) <- 302 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (327 bytes)
+2020-08-21 18:09:19.992 [236] PROXY 127.0.0.1:56342 (10.113.8.35) -> GET https://tracking-protection.cdn.mozilla.net/social-track-digest256/1594235398 (533 bytes)
+2020-08-21 18:09:20.092 [236] PROXY 127.0.0.1:56363 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/granite/core/content/login.html?resource=%2Fcontent%2Fspectrum%2Fbuyflow-residential%2FEndtoEnd%2Fbuyflow-page.html&$$login$$=%24%24login%24%24&j_reason=unknown&j_reason_code=unknown (780 bytes)
+2020-08-21 18:09:20.318 [236] PROXY 127.0.0.1:56343 (10.113.8.35) <- 200 content-signature-2.cdn.mozilla.net:443 (5846 bytes)
+2020-08-21 18:09:20.422 [236] PROXY 127.0.0.1:56342 (10.113.8.35) <- 200 tracking-protection.cdn.mozilla.net:443 (2579 bytes)
+2020-08-21 18:09:20.547 [236] PROXY 127.0.0.1:56359 (10.113.8.35) <- 200 content-signature-2.cdn.mozilla.net:443 (5846 bytes)
+2020-08-21 18:09:20.888 [236] PROXY 127.0.0.1:56342 (10.113.8.35) -> GET https://tracking-protection.cdn.mozilla.net/analytics-track-digest256/1595889526 (536 bytes)
+2020-08-21 18:09:20.984 [236] PROXY resolved 'firefox.settings.services.mozilla.com' to '52.85.83.76:443'
+2020-08-21 18:09:20.988 [236] PROXY 127.0.0.1:56343 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/records?collection=cfr&bucket=main (560 bytes)
+2020-08-21 18:09:21.193 [236] PROXY 127.0.0.1:56363 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (11655 bytes)
+2020-08-21 18:09:21.337 [236] PROXY 127.0.0.1:56342 (10.113.8.35) <- 200 tracking-protection.cdn.mozilla.net:443 (10323 bytes)
+2020-08-21 18:09:21.748 [236] PROXY 127.0.0.1:56363 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/clientlibs/granite/coralui3.css (803 bytes)
+2020-08-21 18:09:21.786 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:09:21.787 [236] PROXY 127.0.0.1:56340 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/clientlibs/granite/jquery.js (785 bytes)
+2020-08-21 18:09:21.806 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:09:21.808 [236] PROXY 127.0.0.1:56320 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/clientlibs/granite/utils.js (784 bytes)
+2020-08-21 18:09:21.830 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:09:21.831 [236] PROXY 127.0.0.1:56397 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/clientlibs/granite/moment.js (785 bytes)
+2020-08-21 18:09:21.852 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:09:21.855 [236] PROXY 127.0.0.1:56393 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/clientlibs/granite/jquery/granite.js (793 bytes)
+2020-08-21 18:09:21.875 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:09:21.877 [236] PROXY 127.0.0.1:56394 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/clientlibs/granite/typekit.js (786 bytes)
+2020-08-21 18:09:21.898 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:09:21.900 [236] PROXY 127.0.0.1:56395 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/clientlibs/granite/coralui3.js (787 bytes)
+2020-08-21 18:09:21.921 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:09:21.923 [236] PROXY 127.0.0.1:56396 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/granite/core/content/login/clientlib.js (786 bytes)
+2020-08-21 18:09:21.926 [236] PROXY 127.0.0.1:56342 (10.113.8.35) -> GET https://tracking-protection.cdn.mozilla.net/content-track-digest256/1594235398 (534 bytes)
+2020-08-21 18:09:22.376 [236] PROXY 127.0.0.1:56405 (10.113.8.35) -> GET https://arc.msn.com/v3/Delivery/Placement?pubid=da63df93-3dbc-42ae-a505-b34988683ac7&pid=280815&adm=2&w=1&h=1&wpx=1&hpx=1&fmt=json&cltp=app&dim=le&rafb=0&nct=1&pm=1&cfmt=text,image,poly&sft=jpeg,png,gif&topt=0&auid=060b9a0848a34c176839c18955d6df97&poptin=1&localid=w:F154A057-70CD-47CC-6CF6-A27ED92721A2&ctry=US&time=20200821T123929Z&lc=en-US&pl=en-US&idtp=mid&uid=f4ba3115-d80d-40f1-af82-2242713a5b60&aid=00000000-0000-0000-0000-000000000000&ua=WindowsShellClient%2F9.0.40929.0%20%28Windows%29&asid=e586a8cb1048402b9a49a3d2bef17732&ctmode=MultiSession&arch=x64&cdm=1&cdmver=10.0.15063.0&devfam=Windows.Desktop&devform=Unknown&devosver=10.0.15063.0&disphorzres=1920&dispsize=23.0&dispvertres=1080&isu=0&lo=1376075&metered=false&nettype=ethernet&npid=sc-280815&oemName=Bochs&oemid=Bochs&ossku=Professional&smBiosDm=Bochs&smBiosManufacturerName=Bochs&tl=4&tsu=1376075&waasBldFlt=1&waasCfgExp=1&waasCfgSet=1&waasRetail=1&waasRing= (2379 bytes)
+2020-08-21 18:09:22.534 [236] PROXY 127.0.0.1:56342 (10.113.8.35) <- 200 tracking-protection.cdn.mozilla.net:443 (15989 bytes)
+2020-08-21 18:09:23.588 [236] PROXY 127.0.0.1:56393 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (3236 bytes)
+2020-08-21 18:09:23.636 [236] PROXY resolved 'arc.msn.com' to '52.156.146.245:443'
+2020-08-21 18:09:23.719 [236] PROXY 127.0.0.1:56394 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (7855 bytes)
+2020-08-21 18:09:23.932 [236] PROXY 127.0.0.1:56396 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (3878 bytes)
+2020-08-21 18:09:24.129 [236] PROXY 127.0.0.1:56320 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (11071 bytes)
+2020-08-21 18:09:24.253 [236] PROXY 127.0.0.1:56342 (10.113.8.35) -> GET https://tracking-protection.cdn.mozilla.net/mozstd-trackwhite-digest256/1596775200 (538 bytes)
+2020-08-21 18:09:24.732 [236] PROXY 127.0.0.1:56363 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (139697 bytes)
+2020-08-21 18:09:25.393 [236] PROXY RX/TX bytes 22303/547379 requests/responses 32/28 active reqs 11
+2020-08-21 18:09:27.094 [236] PROXY 127.0.0.1:56343 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (962 bytes)
+2020-08-21 18:09:27.607 [236] PROXY 127.0.0.1:56397 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (39340 bytes)
+2020-08-21 18:09:28.694 [236] PROXY 127.0.0.1:56340 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (88429 bytes)
+2020-08-21 18:09:31.809 [236] KGP warning: no keepalive ack for 6s
+2020-08-21 18:09:32.802 [236] KGP warning: no keepalive ack for 7s
+2020-08-21 18:09:33.812 [236] KGP warning: no keepalive ack for 8s
+2020-08-21 18:09:34.634 [236] PROXY 127.0.0.1:56320 (10.113.8.35) -> GET https://aus5.mozilla.org/update/3/GMP/77.0/20200528194502/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.15063.0%20(x64)/default/default/update.xml (595 bytes)
+2020-08-21 18:09:34.807 [236] KGP warning: no keepalive ack for 9s
+2020-08-21 18:09:35.808 [236] KGP warning: no keepalive ack for 10s
+2020-08-21 18:09:36.477 [236] PROXY resolved 'aus5.mozilla.org' to '54.230.75.5:443'
+2020-08-21 18:09:36.809 [236] KGP warning: no keepalive ack for 11s
+2020-08-21 18:09:37.069 [236] PROXY 127.0.0.1:56342 (10.113.8.35) <- 200 tracking-protection.cdn.mozilla.net:443 (235223 bytes)
+2020-08-21 18:09:37.813 [236] KGP warning: no keepalive ack for 12s
+2020-08-21 18:09:38.680 [236] PROXY 127.0.0.1:56363 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/clientlibs/granite/typekit/resources/ruf7eed/c/ruf7eed-d.css (832 bytes)
+2020-08-21 18:09:38.767 [236] PROXY 127.0.0.1:56405 (10.113.8.35) <- 200 arc.msn.com:443 (1047 bytes)
+2020-08-21 18:09:39.338 [236] PROXY 127.0.0.1:56395 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (474354 bytes)
+2020-08-21 18:09:40.197 [236] PROXY resolved 'firefox.settings.services.mozilla.com' to '52.85.83.76:443'
+2020-08-21 18:09:40.203 [236] PROXY 127.0.0.1:56397 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/cfr/changeset?_expected=1597859572430 (597 bytes)
+2020-08-21 18:09:41.354 [236] PROXY 127.0.0.1:56320 (10.113.8.35) <- 200 aus5.mozilla.org:443 (1112 bytes)
+2020-08-21 18:09:44.112 [236] PROXY 127.0.0.1:56397 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (30374 bytes)
+2020-08-21 18:09:46.043 [236] PROXY 127.0.0.1:56340 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/granite/csrf/token.json (768 bytes)
+2020-08-21 18:09:46.724 [236] PROXY 127.0.0.1:56363 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (300636 bytes)
+2020-08-21 18:09:46.775 [236] PROXY 127.0.0.1:56340 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (247 bytes)
+2020-08-21 18:09:53.331 [236] PROXY 127.0.0.1:56343 (10.113.8.35) -> GET http://ciscobinary.openh264.org/openh264-win64-2e1774ab6dc6c43debb0b5b628bdf122a391d521.zip (515 bytes)
+2020-08-21 18:09:54.710 [236] PROXY resolved 'ciscobinary.openh264.org' to '23.40.207.139:80'
+2020-08-21 18:09:59.324 [236] PROXY 127.0.0.1:56342 (10.113.8.35) -> GET https://tracking-protection.cdn.mozilla.net/google-trackwhite-digest256/1591202430 (538 bytes)
+2020-08-21 18:10:04.907 [236] PROXY 127.0.0.1:56397 (10.113.8.35) -> GET https://snippets.cdn.mozilla.net/6/Firefox/77.0/20200528194502/WINNT_x86_64-msvc/en-US/release/Windows_NT%2010.0/default/default/ (557 bytes)
+2020-08-21 18:10:05.843 [236] PROXY 127.0.0.1:56395 (10.113.8.35) -> GET https://geover-prod.do.dsp.mp.microsoft.com/geoversion?doClientVersion=10.0.15063.0 (476 bytes)
+2020-08-21 18:10:09.196 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:10:09.368 [236] PROXY 127.0.0.1:56343 (10.113.8.35) <- 200 ciscobinary.openh264.org:80 (453433 bytes)
+2020-08-21 18:10:10.176 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 2021 ms
+2020-08-21 18:10:17.988 [236] KGP got (resent?) packet 57 that's already been seen (<=58)
+2020-08-21 18:10:17.990 [236] KGP got (resent?) packet 58 that's already been seen (<=58)
+2020-08-21 18:10:18.012 [236] PROXY resolved 'detectportal.firefox.com' to '23.55.62.177:80'
+2020-08-21 18:10:18.015 [236] PROXY 127.0.0.1:56405 (10.113.8.35) -> GET http://detectportal.firefox.com/success.txt (484 bytes)
+2020-08-21 18:10:18.018 [236] PROXY 127.0.0.1:56363 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/clientlibs/granite/coralui3/resources/coralui-component-icon/AdobeSpectrumIcons24.woff2?b750bfd862e4ef0daea700228de3e788 (792 bytes)
+2020-08-21 18:10:18.037 [236] PROXY resolved 'detectportal.firefox.com' to '23.55.62.177:80'
+2020-08-21 18:10:19.025 [236] PROXY 127.0.0.1:56393 (10.113.8.35) -> GET http://detectportal.firefox.com/success.txt (484 bytes)
+2020-08-21 18:10:19.027 [236] PROXY 127.0.0.1:56394 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/granite/core/content/login/clientlib/resources/adobe-logo.png (819 bytes)
+2020-08-21 18:10:19.029 [236] PROXY 127.0.0.1:56395 (10.113.8.35) -> failed to send half-close
+2020-08-21 18:10:19.030 [236] PROXY 127.0.0.1:56396 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/granite/core/content/login/clientlib/resources/bg/default/1280x768.jpg (828 bytes)
+2020-08-21 18:10:19.032 [236] PROXY 127.0.0.1:56405 (10.113.8.35) -> failed to send half-close
+2020-08-21 18:10:19.033 [236] PROXY 127.0.0.1:56340 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/granite/core/content/login/favicon.ico (548 bytes)
+2020-08-21 18:10:19.058 [236] PROXY 127.0.0.1:56542 (10.113.8.35) -> GET https://geover-prod.do.dsp.mp.microsoft.com/geoversion?doClientVersion=10.0.15063.0 (476 bytes)
+2020-08-21 18:10:20.973 [236] PROXY 127.0.0.1:56340 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (2497 bytes)
+2020-08-21 18:10:21.062 [236] PROXY 127.0.0.1:56394 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (2892 bytes)
+2020-08-21 18:10:21.127 [236] PROXY resolved 'geover-prod.do.dsp.mp.microsoft.com' to '23.67.115.95:443'
+2020-08-21 18:10:21.235 [236] PROXY 127.0.0.1:56393 (10.113.8.35) -> failed to send half-close
+2020-08-21 18:10:21.263 [236] PROXY resolved 'detectportal.firefox.com' to '23.55.62.177:80'
+2020-08-21 18:10:21.268 [236] PROXY 127.0.0.1:56557 (10.113.8.35) -> GET http://detectportal.firefox.com/success.txt (484 bytes)
+2020-08-21 18:10:23.112 [236] KGP warning: no keepalive ack for 6s
+2020-08-21 18:10:23.643 [236] PROXY 127.0.0.1:56342 (10.113.8.35) <- 200 tracking-protection.cdn.mozilla.net:443 (1470809 bytes)
+2020-08-21 18:10:23.824 [236] PROXY 127.0.0.1:56363 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (74645 bytes)
+2020-08-21 18:10:24.101 [236] KGP warning: no keepalive ack for 7s
+2020-08-21 18:10:24.983 [236] PROXY resolved 'detectportal.firefox.com' to '23.55.62.177:80'
+2020-08-21 18:10:24.987 [236] PROXY 127.0.0.1:56593 (10.113.8.35) -> GET http://detectportal.firefox.com/success.txt (484 bytes)
+2020-08-21 18:10:25.102 [236] KGP warning: no keepalive ack for 8s
+2020-08-21 18:10:25.412 [236] PROXY RX/TX bytes 10277/3176000 requests/responses 17/13 active reqs 8
+2020-08-21 18:10:25.689 [236] PROXY 127.0.0.1:56542 (10.113.8.35) -> failed to send half-close
+2020-08-21 18:10:25.751 [236] PROXY 127.0.0.1:56597 (10.113.8.35) -> GET https://geo-prod.do.dsp.mp.microsoft.com/geo?doClientVersion=10.0.15063.0 (463 bytes)
+2020-08-21 18:10:26.105 [236] KGP warning: no keepalive ack for 9s
+2020-08-21 18:10:26.772 [236] PROXY resolved 'geo-prod.do.dsp.mp.microsoft.com' to '52.143.84.45:443'
+2020-08-21 18:10:27.101 [236] KGP warning: no keepalive ack for 10s
+2020-08-21 18:10:27.133 [236] PROXY 127.0.0.1:56593 (10.113.8.35) <- 200 detectportal.firefox.com:80 (479 bytes)
+2020-08-21 18:10:28.105 [236] KGP warning: no keepalive ack for 11s
+2020-08-21 18:10:28.656 [236] PROXY 127.0.0.1:56597 (10.113.8.35) <- 200 geo-prod.do.dsp.mp.microsoft.com:443 (505 bytes)
+2020-08-21 18:10:29.111 [236] KGP warning: no keepalive ack for 12s
+2020-08-21 18:10:29.977 [236] PROXY resolved 'detectportal.firefox.com' to '23.55.62.177:80'
+2020-08-21 18:10:29.982 [236] PROXY 127.0.0.1:56629 (10.113.8.35) -> GET http://detectportal.firefox.com/success.txt (484 bytes)
+2020-08-21 18:10:30.114 [236] KGP warning: no keepalive ack for 13s
+2020-08-21 18:10:31.122 [236] KGP warning: no keepalive ack for 14s
+2020-08-21 18:10:31.642 [236] PROXY 127.0.0.1:56396 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (213187 bytes)
+2020-08-21 18:10:31.921 [236] PROXY 127.0.0.1:56629 (10.113.8.35) <- 200 detectportal.firefox.com:80 (479 bytes)
+2020-08-21 18:10:32.127 [236] KGP warning: no keepalive ack for 15s
+2020-08-21 18:10:33.115 [236] KGP warning: no keepalive ack for 16s
+2020-08-21 18:10:33.946 [236] PROXY resolved 'arc.msn.com' to '52.156.146.245:443'
+2020-08-21 18:10:33.950 [236] PROXY 127.0.0.1:56635 (10.113.8.35) -> POST https://arc.msn.com/v3/Delivery/Events/Impression (3465 bytes)
+2020-08-21 18:10:33.969 [236] PROXY resolved 'geover-prod.do.dsp.mp.microsoft.com' to '23.67.115.95:443'
+2020-08-21 18:10:34.126 [236] KGP warning: no keepalive ack for 17s
+2020-08-21 18:10:35.139 [236] KGP warning: no keepalive ack for 18s
+2020-08-21 18:10:35.095 [236] PROXY 127.0.0.1:56636 (10.113.8.35) -> GET https://geover-prod.do.dsp.mp.microsoft.com/geoversion?doClientVersion=10.0.15063.0 (476 bytes)
+2020-08-21 18:10:35.215 [236] PROXY resolved 'detectportal.firefox.com' to '23.55.62.177:80'
+2020-08-21 18:10:35.224 [236] PROXY 127.0.0.1:56646 (10.113.8.35) -> GET http://detectportal.firefox.com/success.txt (484 bytes)
+2020-08-21 18:10:36.131 [236] KGP warning: no keepalive ack for 19s
+2020-08-21 18:10:36.173 [236] PROXY resolved 'snippets.cdn.mozilla.net' to '52.85.83.46:443'
+2020-08-21 18:10:37.349 [236] PROXY 127.0.0.1:56646 (10.113.8.35) <- 200 detectportal.firefox.com:80 (479 bytes)
+2020-08-21 18:10:39.564 [236] PROXY 127.0.0.1:56636 (10.113.8.35) <- 200 geover-prod.do.dsp.mp.microsoft.com:443 (387 bytes)
+2020-08-21 18:10:39.900 [236] PROXY 127.0.0.1:56397 (10.113.8.35) <- 302 snippets.cdn.mozilla.net:443 (680 bytes)
+2020-08-21 18:10:39.953 [236] PROXY 127.0.0.1:56635 (10.113.8.35) <- 200 arc.msn.com:443 (358 bytes)
+2020-08-21 18:10:42.138 [236] KGP warning: no keepalive ack for 6s
+2020-08-21 18:10:42.305 [236] PROXY resolved 'geo-prod.do.dsp.mp.microsoft.com' to '52.143.84.45:443'
+2020-08-21 18:10:42.309 [236] PROXY 127.0.0.1:56676 (10.113.8.35) -> GET https://geo-prod.do.dsp.mp.microsoft.com/geo?doClientVersion=10.0.15063.0 (463 bytes)
+2020-08-21 18:10:49.391 [236] PROXY 127.0.0.1:56676 (10.113.8.35) <- 200 geo-prod.do.dsp.mp.microsoft.com:443 (505 bytes)
+2020-08-21 18:10:58.161 [236] KGP warning: no keepalive ack for 6s
+2020-08-21 18:11:02.054 [236] PROXY 127.0.0.1:56714 (10.113.8.35) -> GET https://redirector.gvt1.com/edgedl/widevine-cdm/4.10.1582.2-win-x64.zip (494 bytes)
+2020-08-21 18:11:03.511 [236] PROXY resolved 'redirector.gvt1.com' to '172.217.197.113:443'
+2020-08-21 18:11:04.177 [236] KGP warning: no keepalive ack for 6s
+2020-08-21 18:11:04.563 [236] PROXY 127.0.0.1:56394 (10.113.8.35) -> GET http://www.msftconnecttest.com/connecttest.txt (299 bytes)
+2020-08-21 18:11:04.854 [236] PROXY resolved 'www.msftconnecttest.com' to '13.107.4.52:80'
+2020-08-21 18:11:05.182 [236] KGP warning: no keepalive ack for 7s
+2020-08-21 18:11:05.277 [236] PROXY 127.0.0.1:56714 (10.113.8.35) <- 302 redirector.gvt1.com:443 (1133 bytes)
+2020-08-21 18:11:05.950 [236] PROXY 127.0.0.1:56394 (10.113.8.35) <- 200 www.msftconnecttest.com:80 (523 bytes)
+2020-08-21 18:11:06.188 [236] KGP warning: no keepalive ack for 8s
+2020-08-21 18:11:07.203 [236] KGP warning: no keepalive ack for 9s
+2020-08-21 18:11:08.194 [236] KGP warning: no keepalive ack for 10s
+2020-08-21 18:11:09.299 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:11:10.052 [236] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2020-08-21 18:11:10.054 [236] MAIN DNS error: EVUTIL_EAI_FAIL
+2020-08-21 18:11:10.055 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 18:11:12.066 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:11:14.320 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 2251 ms
+2020-08-21 18:11:20.863 [236] KGP got (resent?) packet 90 that's already been seen (<=98)
+2020-08-21 18:11:20.864 [236] KGP got (resent?) packet 91 that's already been seen (<=98)
+2020-08-21 18:11:20.864 [236] KGP got (resent?) packet 92 that's already been seen (<=98)
+2020-08-21 18:11:20.866 [236] KGP got (resent?) packet 93 that's already been seen (<=98)
+2020-08-21 18:11:20.867 [236] KGP got (resent?) packet 94 that's already been seen (<=98)
+2020-08-21 18:11:20.868 [236] KGP got (resent?) packet 95 that's already been seen (<=98)
+2020-08-21 18:11:20.869 [236] KGP got (resent?) packet 96 that's already been seen (<=98)
+2020-08-21 18:11:20.870 [236] KGP got (resent?) packet 97 that's already been seen (<=98)
+2020-08-21 18:11:20.871 [236] KGP got (resent?) packet 98 that's already been seen (<=98)
+2020-08-21 18:11:20.873 [236] PROXY 127.0.0.1:56342 (10.113.8.35) -> GET https://tracking-protection.cdn.mozilla.net/allow-flashallow-digest256/1490633678 (537 bytes)
+2020-08-21 18:11:21.181 [236] PROXY 127.0.0.1:56342 (10.113.8.35) <- 200 tracking-protection.cdn.mozilla.net:443 (527 bytes)
+2020-08-21 18:11:21.524 [236] PROXY resolved 'snippets.cdn.mozilla.net' to '52.85.83.46:443'
+2020-08-21 18:11:21.528 [236] PROXY 127.0.0.1:56394 (10.113.8.35) -> GET https://snippets.cdn.mozilla.net/us-west/bundles-pregen/Firefox/release/en-us/default.json (518 bytes)
+2020-08-21 18:11:21.556 [236] PROXY 127.0.0.1:56714 (10.113.8.35) -> GET https://r1---sn-ab5l6nzl.gvt1.com/edgedl/widevine-cdm/4.10.1582.2-win-x64.zip?cms_redirect=yes&mh=-w&mip=161.69.123.10&mm=28&mn=sn-ab5l6nzl&ms=nvh&mt=1598013613&mv=m&mvi=1&pl=24&shardbypass=yes (622 bytes)
+2020-08-21 18:11:21.614 [236] PROXY resolved 'www.msftconnecttest.com' to '13.107.4.52:80'
+2020-08-21 18:11:21.621 [236] PROXY 127.0.0.1:56635 (10.113.8.35) -> GET http://www.msftconnecttest.com/connecttest.txt (299 bytes)
+2020-08-21 18:11:21.623 [236] PROXY 127.0.0.1:56342 (10.113.8.35) -> GET https://tracking-protection.cdn.mozilla.net/except-flashallow-digest256/1490633678 (538 bytes)
+2020-08-21 18:11:21.706 [236] PROXY 127.0.0.1:56397 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/content/spectrum/buyflow-residential/EndtoEnd/buyflow-page.html (658 bytes)
+2020-08-21 18:11:21.856 [236] PROXY resolved 'r1---sn-ab5l6nzl.gvt1.com' to '74.125.0.23:443'
+2020-08-21 18:11:21.935 [236] PROXY 127.0.0.1:56342 (10.113.8.35) <- 200 tracking-protection.cdn.mozilla.net:443 (527 bytes)
+2020-08-21 18:11:22.064 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:11:22.359 [236] PROXY 127.0.0.1:56635 (10.113.8.35) <- 200 www.msftconnecttest.com:80 (523 bytes)
+2020-08-21 18:11:22.447 [236] PROXY 127.0.0.1:56342 (10.113.8.35) -> GET https://tracking-protection.cdn.mozilla.net/block-flash-digest256/1496263270 (532 bytes)
+2020-08-21 18:11:22.822 [236] PROXY 127.0.0.1:56342 (10.113.8.35) <- 200 tracking-protection.cdn.mozilla.net:443 (7123 bytes)
+2020-08-21 18:11:22.981 [236] PROXY 127.0.0.1:56397 (10.113.8.35) <- 302 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (327 bytes)
+2020-08-21 18:11:22.983 [236] PROXY 127.0.0.1:56635 (10.113.8.35) -> GET http://www.msftconnecttest.com/connecttest.txt (299 bytes)
+2020-08-21 18:11:23.422 [236] PROXY 127.0.0.1:56394 (10.113.8.35) <- 200 snippets.cdn.mozilla.net:443 (7645 bytes)
+2020-08-21 18:11:23.486 [236] PROXY 127.0.0.1:56635 (10.113.8.35) <- 200 www.msftconnecttest.com:80 (523 bytes)
+2020-08-21 18:11:23.508 [236] PROXY 127.0.0.1:56397 (10.113.8.35) -> GET https://tracking-protection.cdn.mozilla.net/except-flash-digest256/1494877265 (533 bytes)
+2020-08-21 18:11:23.529 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:11:23.531 [236] PROXY 127.0.0.1:56342 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/granite/core/content/login.html?resource=%2Fcontent%2Fspectrum%2Fbuyflow-residential%2FEndtoEnd%2Fbuyflow-page.html&$$login$$=%24%24login%24%24&j_reason=unknown&j_reason_code=unknown (780 bytes)
+2020-08-21 18:11:23.946 [236] PROXY resolved 'tracking-protection.cdn.mozilla.net' to '54.230.227.17:443'
+2020-08-21 18:11:24.013 [236] PROXY 127.0.0.1:56394 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/records?collection=whats-new-panel&bucket=main (572 bytes)
+2020-08-21 18:11:24.313 [236] PROXY 127.0.0.1:56635 (10.113.8.35) -> GET http://www.msftconnecttest.com/connecttest.txt (299 bytes)
+2020-08-21 18:11:24.337 [236] PROXY resolved 'firefox.settings.services.mozilla.com' to '52.85.83.76:443'
+2020-08-21 18:11:24.346 [236] PROXY 127.0.0.1:56342 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (11655 bytes)
+2020-08-21 18:11:24.893 [236] PROXY 127.0.0.1:56635 (10.113.8.35) <- 200 www.msftconnecttest.com:80 (523 bytes)
+2020-08-21 18:11:25.127 [236] PROXY 127.0.0.1:56342 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/granite/csrf/token.json (768 bytes)
+2020-08-21 18:11:25.396 [236] PROXY RX/TX bytes 13583/238343 requests/responses 21/20 active reqs 8
+2020-08-21 18:11:26.197 [236] PROXY 127.0.0.1:56635 (10.113.8.35) -> GET http://www.msftconnecttest.com/connecttest.txt (299 bytes)
+2020-08-21 18:11:26.567 [236] PROXY 127.0.0.1:56342 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (247 bytes)
+2020-08-21 18:11:27.640 [236] PROXY 127.0.0.1:56635 (10.113.8.35) <- 200 www.msftconnecttest.com:80 (523 bytes)
+2020-08-21 18:11:28.211 [236] PROXY 127.0.0.1:56397 (10.113.8.35) <- 200 tracking-protection.cdn.mozilla.net:443 (559 bytes)
+2020-08-21 18:11:29.693 [236] PROXY 127.0.0.1:56394 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (974 bytes)
+2020-08-21 18:11:29.837 [236] PROXY 127.0.0.1:56397 (10.113.8.35) -> GET https://tracking-protection.cdn.mozilla.net/block-flashsubdoc-digest256/1512160865 (538 bytes)
+2020-08-21 18:11:31.006 [236] PROXY 127.0.0.1:56394 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/whats-new-panel/changeset?_expected=1593530372996 (609 bytes)
+2020-08-21 18:11:32.759 [236] PROXY 127.0.0.1:56394 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (8736 bytes)
+2020-08-21 18:11:35.871 [236] PROXY 127.0.0.1:56397 (10.113.8.35) <- 200 tracking-protection.cdn.mozilla.net:443 (73877 bytes)
+2020-08-21 18:11:36.882 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:11:39.370 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 4512 ms
+2020-08-21 18:11:52.955 [236] KGP warning: no keepalive ack for 6s
+2020-08-21 18:11:53.951 [236] KGP warning: no keepalive ack for 7s
+2020-08-21 18:11:54.948 [236] KGP warning: no keepalive ack for 8s
+2020-08-21 18:11:55.954 [236] KGP warning: no keepalive ack for 9s
+2020-08-21 18:11:56.945 [236] KGP warning: no keepalive ack for 10s
+2020-08-21 18:11:57.944 [236] KGP warning: no keepalive ack for 11s
+2020-08-21 18:11:59.597 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:12:01.163 [236] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2020-08-21 18:12:01.165 [236] MAIN DNS error: EVUTIL_EAI_FAIL
+2020-08-21 18:12:01.166 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 18:12:03.173 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:12:07.291 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 4117 ms
+2020-08-21 18:12:17.145 [236] KGP got (resent?) packet 115 that's already been seen (<=115)
+2020-08-21 18:12:17.148 [236] PROXY 127.0.0.1:56397 (10.113.8.35) -> GET https://tracking-protection.cdn.mozilla.net/except-flashsubdoc-digest256/1517935265 (539 bytes)
+2020-08-21 18:12:18.969 [236] PROXY 127.0.0.1:56397 (10.113.8.35) <- 200 tracking-protection.cdn.mozilla.net:443 (592 bytes)
+2020-08-21 18:12:21.422 [236] KGP warning: no keepalive ack for 6s
+2020-08-21 18:12:22.420 [236] KGP warning: no keepalive ack for 7s
+2020-08-21 18:12:23.428 [236] KGP warning: no keepalive ack for 8s
+2020-08-21 18:12:24.427 [236] KGP warning: no keepalive ack for 9s
+2020-08-21 18:12:25.386 [236] PROXY RX/TX bytes 1985/4656612 requests/responses 4/7 active reqs 4
+2020-08-21 18:12:25.434 [236] KGP warning: no keepalive ack for 10s
+2020-08-21 18:12:26.442 [236] KGP warning: no keepalive ack for 11s
+2020-08-21 18:12:27.431 [236] KGP warning: no keepalive ack for 12s
+2020-08-21 18:12:28.181 [236] PROXY 127.0.0.1:56714 (10.113.8.35) <- 200 r1---sn-ab5l6nzl.gvt1.com:443 (5098395 bytes)
+2020-08-21 18:12:28.434 [236] KGP warning: no keepalive ack for 13s
+2020-08-21 18:12:29.441 [236] KGP warning: no keepalive ack for 14s
+2020-08-21 18:12:30.434 [236] KGP warning: no keepalive ack for 15s
+2020-08-21 18:12:31.441 [236] KGP warning: no keepalive ack for 16s
+2020-08-21 18:12:32.428 [236] KGP warning: no keepalive ack for 17s
+2020-08-21 18:12:33.443 [236] KGP warning: no keepalive ack for 18s
+2020-08-21 18:12:34.457 [236] KGP warning: no keepalive ack for 19s
+2020-08-21 18:12:35.457 [236] KGP warning: no keepalive ack for 20s
+2020-08-21 18:12:36.458 [236] KGP warning: no keepalive ack for 21s
+2020-08-21 18:12:37.459 [236] KGP warning: no keepalive ack for 22s
+2020-08-21 18:12:38.461 [236] KGP warning: no keepalive ack for 23s
+2020-08-21 18:12:39.472 [236] KGP warning: no keepalive ack for 24s
+2020-08-21 18:12:40.468 [236] KGP warning: no keepalive ack for 25s
+2020-08-21 18:12:41.473 [236] KGP warning: no keepalive ack for 26s
+2020-08-21 18:12:42.474 [236] KGP warning: no keepalive ack for 27s
+2020-08-21 18:12:43.482 [236] KGP warning: no keepalive ack for 28s
+2020-08-21 18:12:44.476 [236] KGP warning: no keepalive ack for 29s
+2020-08-21 18:12:45.490 [236] KGP warning: no keepalive ack for 30s
+2020-08-21 18:12:46.504 [236] KGP warning: time since last keepalive has exceeded maximum allowed timelimit
+2020-08-21 18:12:46.505 [236] KGP warning: the last keepalive ack was received 31 seconds ago
+2020-08-21 18:12:47.514 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:12:48.573 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 1056 ms
+2020-08-21 18:12:52.404 [236] KGP got (resent?) packet 116 that's already been seen (<=122)
+2020-08-21 18:12:52.406 [236] KGP got (resent?) packet 117 that's already been seen (<=122)
+2020-08-21 18:12:52.407 [236] KGP got (resent?) packet 118 that's already been seen (<=122)
+2020-08-21 18:12:52.408 [236] KGP got (resent?) packet 119 that's already been seen (<=122)
+2020-08-21 18:12:52.409 [236] KGP got (resent?) packet 120 that's already been seen (<=122)
+2020-08-21 18:12:52.411 [236] KGP got (resent?) packet 121 that's already been seen (<=122)
+2020-08-21 18:12:52.413 [236] KGP got (resent?) packet 122 that's already been seen (<=122)
+2020-08-21 18:12:57.751 [236] KGP warning: no keepalive ack for 6s
+2020-08-21 18:12:58.740 [236] KGP warning: no keepalive ack for 7s
+2020-08-21 18:12:59.752 [236] KGP warning: no keepalive ack for 8s
+2020-08-21 18:13:00.753 [236] KGP warning: no keepalive ack for 9s
+2020-08-21 18:13:01.754 [236] KGP warning: no keepalive ack for 10s
+2020-08-21 18:13:02.750 [236] KGP warning: no keepalive ack for 11s
+2020-08-21 18:13:04.398 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:13:05.200 [236] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2020-08-21 18:13:05.201 [236] MAIN DNS error: EVUTIL_EAI_FAIL
+2020-08-21 18:13:05.202 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 18:13:07.196 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:13:08.066 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 2131 ms
+2020-08-21 18:13:12.507 [236] KGP got (resent?) packet 116 that's already been seen (<=122)
+2020-08-21 18:13:12.508 [236] KGP got (resent?) packet 117 that's already been seen (<=122)
+2020-08-21 18:13:12.509 [236] KGP got (resent?) packet 118 that's already been seen (<=122)
+2020-08-21 18:13:12.511 [236] KGP got (resent?) packet 119 that's already been seen (<=122)
+2020-08-21 18:13:12.512 [236] KGP got (resent?) packet 120 that's already been seen (<=122)
+2020-08-21 18:13:12.513 [236] KGP got (resent?) packet 121 that's already been seen (<=122)
+2020-08-21 18:13:12.514 [236] KGP got (resent?) packet 122 that's already been seen (<=122)
+2020-08-21 18:13:12.536 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:13:12.537 [236] PROXY 127.0.0.1:57016 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/granite/csrf/token.json (768 bytes)
+2020-08-21 18:13:16.203 [236] PROXY 127.0.0.1:57016 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (247 bytes)
+2020-08-21 18:13:17.360 [236] PROXY 127.0.0.1:57023 (10.113.8.35) -> GET https://settings-ssl.xboxlive.com/XBLWinClient/v10_store/configuration.xml (430 bytes)
+2020-08-21 18:13:17.404 [236] PROXY 127.0.0.1:57024 (10.113.8.35) -> POST https://login.live.com/RST2.srf (5222 bytes)
+2020-08-21 18:13:17.497 [236] KGP warning: no keepalive ack for 6s
+2020-08-21 18:13:18.019 [236] PROXY 127.0.0.1:57025 (10.113.8.35) -> POST https://login.live.com/RST2.srf (5222 bytes)
+2020-08-21 18:13:18.224 [236] PROXY resolved 'settings-ssl.xboxlive.com' to '23.46.200.8:443'
+2020-08-21 18:13:18.247 [236] PROXY resolved 'login.live.com' to '40.90.22.184:443'
+2020-08-21 18:13:18.498 [236] KGP warning: no keepalive ack for 7s
+2020-08-21 18:13:19.497 [236] KGP warning: no keepalive ack for 8s
+2020-08-21 18:13:19.774 [236] PROXY resolved 'login.live.com' to '40.90.22.185:443'
+2020-08-21 18:13:20.605 [236] KGP warning: no keepalive ack for 9s
+2020-08-21 18:13:21.599 [236] KGP warning: no keepalive ack for 10s
+2020-08-21 18:13:22.136 [236] PROXY 127.0.0.1:57040 (10.113.8.35) -> GET https://storeedgefd.dsx.mp.microsoft.com/v7.0/oemdiscovery?oemId=&scmId=&phoneManufacturerName=&smBiosManufacturerName=Bochs&phoneDeviceModel=&smBiosDm=Bochs (557 bytes)
+2020-08-21 18:13:22.443 [236] PROXY resolved 'storeedgefd.dsx.mp.microsoft.com' to '23.46.197.9:443'
+2020-08-21 18:13:22.600 [236] KGP warning: no keepalive ack for 11s
+2020-08-21 18:13:22.800 [236] PROXY 127.0.0.1:57023 (10.113.8.35) <- 200 settings-ssl.xboxlive.com:443 (505 bytes)
+2020-08-21 18:13:23.600 [236] KGP warning: no keepalive ack for 12s
+2020-08-21 18:13:24.021 [236] PROXY 127.0.0.1:57024 (10.113.8.35) <- 200 login.live.com:443 (12452 bytes)
+2020-08-21 18:13:24.599 [236] KGP warning: no keepalive ack for 13s
+2020-08-21 18:13:25.389 [236] PROXY RX/TX bytes 12199/457760 requests/responses 5/3 active reqs 5
+2020-08-21 18:13:26.518 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:13:26.960 [236] PROXY 127.0.0.1:57040 (10.113.8.35) <- 200 storeedgefd.dsx.mp.microsoft.com:443 (525 bytes)
+2020-08-21 18:13:31.496 [236] PROXY 127.0.0.1:57025 (10.113.8.35) <- 200 login.live.com:443 (12452 bytes)
+2020-08-21 18:13:31.887 [236] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2020-08-21 18:13:31.888 [236] MAIN DNS error: EVUTIL_EAI_FAIL
+2020-08-21 18:13:31.889 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 18:13:33.881 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:13:38.251 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 6632 ms
+2020-08-21 18:13:51.945 [236] KGP warning: no keepalive ack for 6s
+2020-08-21 18:13:52.946 [236] KGP warning: no keepalive ack for 7s
+2020-08-21 18:13:53.946 [236] KGP warning: no keepalive ack for 8s
+2020-08-21 18:13:54.954 [236] KGP warning: no keepalive ack for 9s
+2020-08-21 18:13:55.956 [236] KGP warning: no keepalive ack for 10s
+2020-08-21 18:13:56.957 [236] KGP warning: no keepalive ack for 11s
+2020-08-21 18:13:57.957 [236] KGP warning: no keepalive ack for 12s
+2020-08-21 18:13:58.957 [236] KGP warning: no keepalive ack for 13s
+2020-08-21 18:13:59.016 [236] KGP got (resent?) packet 117 that's already been seen (<=132)
+2020-08-21 18:13:59.018 [236] KGP got (resent?) packet 118 that's already been seen (<=132)
+2020-08-21 18:13:59.019 [236] KGP got (resent?) packet 119 that's already been seen (<=132)
+2020-08-21 18:13:59.020 [236] KGP got (resent?) packet 120 that's already been seen (<=132)
+2020-08-21 18:13:59.022 [236] KGP got (resent?) packet 121 that's already been seen (<=132)
+2020-08-21 18:13:59.023 [236] KGP got (resent?) packet 122 that's already been seen (<=132)
+2020-08-21 18:13:59.025 [236] KGP got (resent?) packet 123 that's already been seen (<=132)
+2020-08-21 18:13:59.026 [236] KGP got (resent?) packet 124 that's already been seen (<=132)
+2020-08-21 18:13:59.027 [236] KGP got (resent?) packet 125 that's already been seen (<=132)
+2020-08-21 18:13:59.029 [236] KGP got (resent?) packet 126 that's already been seen (<=132)
+2020-08-21 18:13:59.030 [236] KGP got (resent?) packet 127 that's already been seen (<=132)
+2020-08-21 18:13:59.032 [236] KGP got (resent?) packet 128 that's already been seen (<=132)
+2020-08-21 18:13:59.033 [236] KGP got (resent?) packet 129 that's already been seen (<=132)
+2020-08-21 18:13:59.034 [236] KGP got (resent?) packet 130 that's already been seen (<=132)
+2020-08-21 18:13:59.036 [236] KGP got (resent?) packet 131 that's already been seen (<=132)
+2020-08-21 18:13:59.037 [236] KGP got (resent?) packet 132 that's already been seen (<=132)
+2020-08-21 18:13:59.503 [236] PROXY 127.0.0.1:57084 (10.113.8.35) -> GET https://livetileedge.dsx.mp.microsoft.com/v7.0/background/pages/livetile?appversion=11701.1001.87.0&market=US&locale=en-US&deviceType=&deviceFamily=Windows.Desktop&catalogLocales=en-US&musicMarket=US&screenSize=L&hardware=&packageHardware=&deviceFamilyVersion=2814750754275328&architecture= (691 bytes)
+2020-08-21 18:13:59.526 [236] PROXY resolved 'storeedgefd.dsx.mp.microsoft.com' to '23.46.197.9:443'
+2020-08-21 18:13:59.563 [236] PROXY 127.0.0.1:57085 (10.113.8.35) -> GET https://storeedgefd.dsx.mp.microsoft.com/v7.0/oemdiscovery?oemId=&scmId=&phoneManufacturerName=&smBiosManufacturerName=Bochs&phoneDeviceModel=&smBiosDm=Bochs (557 bytes)
+2020-08-21 18:13:59.952 [236] KGP warning: no keepalive ack for 14s
+2020-08-21 18:14:00.825 [236] PROXY resolved 'livetileedge.dsx.mp.microsoft.com' to '23.46.197.9:443'
+2020-08-21 18:14:00.944 [236] KGP warning: no keepalive ack for 15s
+2020-08-21 18:14:01.944 [236] KGP warning: no keepalive ack for 16s
+2020-08-21 18:14:02.952 [236] KGP warning: no keepalive ack for 17s
+2020-08-21 18:14:03.944 [236] KGP warning: no keepalive ack for 18s
+2020-08-21 18:14:04.942 [236] KGP warning: no keepalive ack for 19s
+2020-08-21 18:14:05.944 [236] KGP warning: no keepalive ack for 20s
+2020-08-21 18:14:06.943 [236] KGP warning: no keepalive ack for 21s
+2020-08-21 18:14:07.947 [236] KGP warning: no keepalive ack for 22s
+2020-08-21 18:14:08.316 [236] PROXY 127.0.0.1:57085 (10.113.8.35) <- 200 storeedgefd.dsx.mp.microsoft.com:443 (525 bytes)
+2020-08-21 18:14:08.944 [236] KGP warning: no keepalive ack for 23s
+2020-08-21 18:14:09.767 [236] PROXY 127.0.0.1:57084 (10.113.8.35) <- 500 livetileedge.dsx.mp.microsoft.com:443 (145 bytes)
+2020-08-21 18:14:09.957 [236] KGP warning: no keepalive ack for 24s
+2020-08-21 18:14:10.947 [236] KGP warning: no keepalive ack for 25s
+2020-08-21 18:14:11.952 [236] KGP warning: no keepalive ack for 26s
+2020-08-21 18:14:13.059 [236] KGP warning: no keepalive ack for 27s
+2020-08-21 18:14:14.067 [236] KGP warning: no keepalive ack for 28s
+2020-08-21 18:14:15.053 [236] KGP warning: no keepalive ack for 29s
+2020-08-21 18:14:16.065 [236] KGP warning: no keepalive ack for 30s
+2020-08-21 18:14:17.053 [236] KGP warning: time since last keepalive has exceeded maximum allowed timelimit
+2020-08-21 18:14:17.054 [236] KGP warning: the last keepalive ack was received 31 seconds ago
+2020-08-21 18:14:18.061 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:14:19.584 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 1521 ms
+2020-08-21 18:14:23.122 [236] KGP got (resent?) packet 119 that's already been seen (<=139)
+2020-08-21 18:14:23.123 [236] KGP got (resent?) packet 120 that's already been seen (<=139)
+2020-08-21 18:14:23.124 [236] KGP got (resent?) packet 121 that's already been seen (<=139)
+2020-08-21 18:14:23.125 [236] KGP got (resent?) packet 122 that's already been seen (<=139)
+2020-08-21 18:14:23.127 [236] KGP got (resent?) packet 123 that's already been seen (<=139)
+2020-08-21 18:14:23.127 [236] KGP got (resent?) packet 124 that's already been seen (<=139)
+2020-08-21 18:14:23.128 [236] KGP got (resent?) packet 125 that's already been seen (<=139)
+2020-08-21 18:14:23.129 [236] KGP got (resent?) packet 126 that's already been seen (<=139)
+2020-08-21 18:14:23.131 [236] KGP got (resent?) packet 127 that's already been seen (<=139)
+2020-08-21 18:14:23.133 [236] KGP got (resent?) packet 128 that's already been seen (<=139)
+2020-08-21 18:14:23.133 [236] KGP got (resent?) packet 129 that's already been seen (<=139)
+2020-08-21 18:14:23.135 [236] KGP got (resent?) packet 130 that's already been seen (<=139)
+2020-08-21 18:14:23.135 [236] KGP got (resent?) packet 131 that's already been seen (<=139)
+2020-08-21 18:14:23.136 [236] KGP got (resent?) packet 132 that's already been seen (<=139)
+2020-08-21 18:14:23.137 [236] KGP got (resent?) packet 133 that's already been seen (<=139)
+2020-08-21 18:14:23.138 [236] KGP got (resent?) packet 134 that's already been seen (<=139)
+2020-08-21 18:14:23.139 [236] KGP got (resent?) packet 135 that's already been seen (<=139)
+2020-08-21 18:14:23.140 [236] KGP got (resent?) packet 136 that's already been seen (<=139)
+2020-08-21 18:14:23.328 [236] KGP got (resent?) packet 137 that's already been seen (<=139)
+2020-08-21 18:14:23.329 [236] KGP got (resent?) packet 138 that's already been seen (<=139)
+2020-08-21 18:14:23.331 [236] KGP got (resent?) packet 139 that's already been seen (<=139)
+2020-08-21 18:14:25.385 [236] PROXY RX/TX bytes 1248/13647 requests/responses 2/4 active reqs 4
+2020-08-21 18:14:28.117 [236] KGP warning: no keepalive ack for 6s
+2020-08-21 18:14:29.120 [236] KGP warning: no keepalive ack for 7s
+2020-08-21 18:14:30.122 [236] KGP warning: no keepalive ack for 8s
+2020-08-21 18:14:31.122 [236] KGP warning: no keepalive ack for 9s
+2020-08-21 18:14:32.123 [236] KGP warning: no keepalive ack for 10s
+2020-08-21 18:14:33.127 [236] KGP warning: no keepalive ack for 11s
+2020-08-21 18:14:34.125 [236] KGP warning: no keepalive ack for 12s
+2020-08-21 18:14:35.123 [236] KGP warning: no keepalive ack for 13s
+2020-08-21 18:14:36.122 [236] KGP warning: no keepalive ack for 14s
+2020-08-21 18:14:37.122 [236] KGP warning: no keepalive ack for 15s
+2020-08-21 18:14:38.121 [236] KGP warning: no keepalive ack for 16s
+2020-08-21 18:14:39.122 [236] KGP warning: no keepalive ack for 17s
+2020-08-21 18:14:40.117 [236] KGP warning: no keepalive ack for 18s
+2020-08-21 18:14:41.123 [236] KGP warning: no keepalive ack for 19s
+2020-08-21 18:14:42.122 [236] KGP warning: no keepalive ack for 20s
+2020-08-21 18:14:43.123 [236] KGP warning: no keepalive ack for 21s
+2020-08-21 18:14:44.122 [236] KGP warning: no keepalive ack for 22s
+2020-08-21 18:14:45.127 [236] KGP warning: no keepalive ack for 23s
+2020-08-21 18:14:46.122 [236] KGP warning: no keepalive ack for 24s
+2020-08-21 18:14:47.435 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:14:48.418 [236] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2020-08-21 18:14:48.420 [236] MAIN DNS error: EVUTIL_EAI_FAIL
+2020-08-21 18:14:48.421 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 18:14:50.421 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:14:53.750 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 3327 ms
+2020-08-21 18:15:00.430 [236] KGP got (resent?) packet 123 that's already been seen (<=139)
+2020-08-21 18:15:00.432 [236] KGP got (resent?) packet 124 that's already been seen (<=139)
+2020-08-21 18:15:00.434 [236] KGP got (resent?) packet 125 that's already been seen (<=139)
+2020-08-21 18:15:00.436 [236] KGP got (resent?) packet 126 that's already been seen (<=139)
+2020-08-21 18:15:00.438 [236] KGP got (resent?) packet 127 that's already been seen (<=139)
+2020-08-21 18:15:00.440 [236] KGP got (resent?) packet 128 that's already been seen (<=139)
+2020-08-21 18:15:00.442 [236] KGP got (resent?) packet 129 that's already been seen (<=139)
+2020-08-21 18:15:00.443 [236] KGP got (resent?) packet 130 that's already been seen (<=139)
+2020-08-21 18:15:00.444 [236] KGP got (resent?) packet 131 that's already been seen (<=139)
+2020-08-21 18:15:00.446 [236] KGP got (resent?) packet 132 that's already been seen (<=139)
+2020-08-21 18:15:00.447 [236] KGP got (resent?) packet 133 that's already been seen (<=139)
+2020-08-21 18:15:00.448 [236] KGP got (resent?) packet 134 that's already been seen (<=139)
+2020-08-21 18:15:00.450 [236] KGP got (resent?) packet 135 that's already been seen (<=139)
+2020-08-21 18:15:00.451 [236] KGP got (resent?) packet 136 that's already been seen (<=139)
+2020-08-21 18:15:01.629 [236] KGP got (resent?) packet 137 that's already been seen (<=139)
+2020-08-21 18:15:01.661 [236] KGP got (resent?) packet 138 that's already been seen (<=139)
+2020-08-21 18:15:01.664 [236] KGP got (resent?) packet 139 that's already been seen (<=139)
+2020-08-21 18:15:01.850 [236] PROXY 127.0.0.1:57023 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/granite/csrf/token.json (768 bytes)
+2020-08-21 18:15:03.800 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:15:07.040 [236] PROXY 127.0.0.1:57023 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (247 bytes)
+2020-08-21 18:15:09.231 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:15:09.232 [236] PROXY 127.0.0.1:57204 (10.113.8.35) -> POST http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/granite/core/content/login.html/j_security_check (1012 bytes)
+2020-08-21 18:15:12.480 [236] PROXY 127.0.0.1:57204 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (335 bytes)
+2020-08-21 18:15:14.499 [236] PROXY 127.0.0.1:57204 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/content/spectrum/buyflow-residential/EndtoEnd/buyflow-page.html (1050 bytes)
+2020-08-21 18:15:16.127 [236] PROXY 127.0.0.1:57204 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (3697 bytes)
+2020-08-21 18:15:17.556 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:15:17.558 [236] PROXY 127.0.0.1:57084 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/spectrum/buyflow-residential/clientlibs/buyflow-residential-react.css (888 bytes)
+2020-08-21 18:15:17.563 [236] PROXY 127.0.0.1:57016 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/granite/author/deviceemulator/clientlibs.js (837 bytes)
+2020-08-21 18:15:17.584 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:15:17.586 [236] PROXY 127.0.0.1:57085 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/cq/gui/components/authoring/editors/clientlibs/internal/page.css (873 bytes)
+2020-08-21 18:15:17.608 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:15:17.610 [236] PROXY 127.0.0.1:57258 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/foundation/clientlibs/jquery.js (835 bytes)
+2020-08-21 18:15:17.630 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:15:17.632 [236] PROXY 127.0.0.1:57259 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/cq/gui/components/authoring/editors/clientlibs/internal/messaging.js (862 bytes)
+2020-08-21 18:15:17.652 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:15:17.654 [236] PROXY 127.0.0.1:57260 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/foundation/clientlibs/shared.js (835 bytes)
+2020-08-21 18:15:17.676 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:15:17.678 [236] PROXY 127.0.0.1:57261 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/cq/gui/components/authoring/editors/clientlibs/utils.js (849 bytes)
+2020-08-21 18:15:17.695 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:15:17.697 [236] PROXY 127.0.0.1:57257 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/wcm/foundation/clientlibs/main.css (853 bytes)
+2020-08-21 18:15:17.714 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:15:17.716 [236] PROXY 127.0.0.1:57262 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/cq/gui/components/authoring/editors/clientlibs/internal/pagemodel/messaging.js (872 bytes)
+2020-08-21 18:15:17.734 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:15:17.736 [236] PROXY 127.0.0.1:57265 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/cq/gui/components/authoring/editors/clientlibs/internal/page.js (857 bytes)
+2020-08-21 18:15:17.753 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:15:17.755 [236] PROXY 127.0.0.1:57266 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/spectrum/buyflow-residential/clientlibs/buyflow-residential-react.js (872 bytes)
+2020-08-21 18:15:17.771 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:15:17.773 [236] PROXY 127.0.0.1:57267 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/wcm/foundation/clientlibs/main.js (837 bytes)
+2020-08-21 18:15:19.517 [236] PROXY 127.0.0.1:57016 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (4188 bytes)
+2020-08-21 18:15:21.094 [236] PROXY 127.0.0.1:57258 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (572 bytes)
+2020-08-21 18:15:21.103 [236] PROXY 127.0.0.1:57257 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (684 bytes)
+2020-08-21 18:15:22.446 [236] PROXY 127.0.0.1:57085 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (854 bytes)
+2020-08-21 18:15:22.482 [236] PROXY 127.0.0.1:57259 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (4842 bytes)
+2020-08-21 18:15:22.529 [236] PROXY 127.0.0.1:57261 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (666 bytes)
+2020-08-21 18:15:22.539 [236] PROXY 127.0.0.1:57262 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (453 bytes)
+2020-08-21 18:15:22.573 [236] PROXY 127.0.0.1:57265 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (2581 bytes)
+2020-08-21 18:15:22.604 [236] PROXY 127.0.0.1:57267 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (280 bytes)
+2020-08-21 18:15:22.882 [236] PROXY 127.0.0.1:57260 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (18767 bytes)
+2020-08-21 18:15:23.110 [236] PROXY 127.0.0.1:57084 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (41369 bytes)
+2020-08-21 18:15:25.382 [236] PROXY RX/TX bytes 13100/272423 requests/responses 15/15 active reqs 13
+2020-08-21 18:15:26.069 [236] PROXY 127.0.0.1:57084 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/libs/granite/csrf/token.json (815 bytes)
+2020-08-21 18:15:26.085 [236] PROXY 127.0.0.1:57260 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/spectrum/buyflow-residential/clientlibs/buyflow-residential-react/resources/static/media/OpenSans-Regular.d7d5d458.ttf (1004 bytes)
+2020-08-21 18:15:27.805 [236] PROXY 127.0.0.1:57084 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (349 bytes)
+2020-08-21 18:15:27.811 [236] PROXY 127.0.0.1:57266 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (271154 bytes)
+2020-08-21 18:15:28.495 [236] PROXY 127.0.0.1:57267 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/favicon.ico (687 bytes)
+2020-08-21 18:15:29.220 [236] PROXY 127.0.0.1:57267 (10.113.8.35) <- 404 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (9511 bytes)
+2020-08-21 18:15:29.913 [236] PROXY 127.0.0.1:57260 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (217540 bytes)
+2020-08-21 18:15:32.303 [236] PROXY 127.0.0.1:57265 (10.113.8.35) -> GET https://arc.msn.com/v3/Delivery/Placement?pubid=da63df93-3dbc-42ae-a505-b34988683ac7&pid=280815&adm=2&w=1&h=1&wpx=1&hpx=1&fmt=json&cltp=app&dim=le&rafb=0&nct=1&pm=1&cfmt=text,image,poly&sft=jpeg,png,gif&topt=0&auid=060b9a0848a34c176839c18955d6df97&poptin=1&localid=w:F154A057-70CD-47CC-6CF6-A27ED92721A2&ctry=US&time=20200821T124539Z&lc=en-US&pl=en-US&idtp=mid&uid=f4ba3115-d80d-40f1-af82-2242713a5b60&aid=00000000-0000-0000-0000-000000000000&ua=WindowsShellClient%2F9.0.40929.0%20%28Windows%29&asid=4b41f1446d234f0a8e9595b0fda18f85&ctmode=MultiSession&arch=x64&cdm=1&cdmver=10.0.15063.0&devfam=Windows.Desktop&devform=Unknown&devosver=10.0.15063.0&disphorzres=1920&dispsize=23.0&dispvertres=1080&isu=0&lo=1376081&metered=false&nettype=ethernet&npid=sc-280815&oemName=Bochs&oemid=Bochs&ossku=Professional&smBiosDm=Bochs&smBiosManufacturerName=Bochs&tl=4&tsu=1376081&waasBldFlt=1&waasCfgExp=1&waasCfgSet=1&waasRetail=1&waasRing= (2379 bytes)
+2020-08-21 18:15:33.081 [236] PROXY resolved 'arc.msn.com' to '52.149.60.244:443'
+2020-08-21 18:15:33.249 [236] PROXY 127.0.0.1:57266 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/content/spectrum/buyflow-residential.model.json (834 bytes)
+2020-08-21 18:15:33.751 [236] PROXY 127.0.0.1:57084 (10.113.8.35) -> GET https://displaycatalog.mp.microsoft.com/v7/products?bigIds=9NBLGGH1ZRPV%2C9PHNB71MKR4J%2C9NBLGGH2JHXJ&market=US&languages=en-US%2Cen%2Cneutral&fieldsTemplate=InstallAgent&moId=Public&oemId=Public&scmId=Public (532 bytes)
+2020-08-21 18:15:33.776 [236] PROXY 127.0.0.1:57262 (10.113.8.35) -> GET https://displaycatalog.mp.microsoft.com/v7/products?bigIds=9NBLGGH4VZW5%2C9NBLGGH5Q1ZL%2C9WZDNCRFHVFW%2C9WZDNCRFJ3Q8&market=US&languages=en-US%2Cen%2Cneutral&fieldsTemplate=InstallAgent&moId=Public&oemId=Public&scmId=Public (547 bytes)
+2020-08-21 18:15:35.284 [236] PROXY resolved 'displaycatalog.mp.microsoft.com' to '20.44.85.237:443'
+2020-08-21 18:15:35.290 [236] PROXY resolved 'displaycatalog.mp.microsoft.com' to '20.44.85.237:443'
+2020-08-21 18:15:40.961 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:15:43.646 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 2491 ms
+2020-08-21 18:15:43.694 [236] PROXY 127.0.0.1:57084 (10.113.8.35) <- 200 displaycatalog.mp.microsoft.com:443 (37630 bytes)
+2020-08-21 18:15:45.126 [236] PROXY 127.0.0.1:57266 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (793054 bytes)
+2020-08-21 18:15:45.479 [236] PROXY 127.0.0.1:57262 (10.113.8.35) <- 200 displaycatalog.mp.microsoft.com:443 (46083 bytes)
+2020-08-21 18:15:50.141 [236] PROXY 127.0.0.1:57265 (10.113.8.35) <- 200 arc.msn.com:443 (1047 bytes)
+2020-08-21 18:15:56.823 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:15:57.728 [236] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2020-08-21 18:15:57.729 [236] MAIN DNS error: EVUTIL_EAI_FAIL
+2020-08-21 18:15:57.730 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 18:15:59.730 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:16:01.683 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 3049 ms
+2020-08-21 18:16:10.167 [236] KGP warning: no keepalive ack for 6s
+2020-08-21 18:16:11.164 [236] KGP warning: no keepalive ack for 7s
+2020-08-21 18:16:12.164 [236] KGP warning: no keepalive ack for 8s
+2020-08-21 18:16:13.165 [236] KGP warning: no keepalive ack for 9s
+2020-08-21 18:16:14.165 [236] KGP warning: no keepalive ack for 10s
+2020-08-21 18:16:15.164 [236] KGP warning: no keepalive ack for 11s
+2020-08-21 18:16:16.162 [236] KGP warning: no keepalive ack for 12s
+2020-08-21 18:16:17.178 [236] KGP warning: no keepalive ack for 13s
+2020-08-21 18:16:18.184 [236] KGP warning: no keepalive ack for 14s
+2020-08-21 18:16:19.179 [236] KGP warning: no keepalive ack for 15s
+2020-08-21 18:16:20.179 [236] KGP warning: no keepalive ack for 16s
+2020-08-21 18:16:21.107 [236] PROXY 127.0.0.1:57084 (10.113.8.35) -> GET http://www.msftconnecttest.com/connecttest.txt (299 bytes)
+2020-08-21 18:16:21.182 [236] KGP warning: no keepalive ack for 17s
+2020-08-21 18:16:22.186 [236] KGP warning: no keepalive ack for 18s
+2020-08-21 18:16:23.182 [236] KGP warning: no keepalive ack for 19s
+2020-08-21 18:16:23.915 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:16:23.917 [236] PROXY 127.0.0.1:57265 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/content/dam/spectrum/buyflow-residential/logos/spectrum-logo.svg (862 bytes)
+2020-08-21 18:16:23.962 [236] PROXY resolved 'buyflow-auth1-dev1.ncw.webapps.rr.com' to '142.136.168.18:4502'
+2020-08-21 18:16:23.965 [236] PROXY 127.0.0.1:57262 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/spectrum/buyflow-residential/clientlibs/buyflow-residential-react/resources/static/media/OpenSans-SemiBold.e1c83f94.ttf (1005 bytes)
+2020-08-21 18:16:23.985 [236] PROXY 127.0.0.1:57266 (10.113.8.35) -> GET https://res.cloudinary.com/spectrum-com/image/upload/v1549555125/Residential/Buyflow/Animations/30_circle_anim_25.gif (676 bytes)
+2020-08-21 18:16:23.988 [236] PROXY 127.0.0.1:57260 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/services/spectrum/buyflow/attosProxy.json/serviceability1/contextWrapper/v2/context (900 bytes)
+2020-08-21 18:16:24.003 [236] PROXY 127.0.0.1:57267 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/etc.clientlibs/spectrum/buyflow-residential/clientlibs/buyflow-residential-react/resources/static/media/OpenSans-Light.9ff12f69.ttf (1002 bytes)
+2020-08-21 18:16:24.076 [236] PROXY 127.0.0.1:57363 (10.113.8.35) -> GET http://tags.tiqcdn.com/utag/charter/marketing/prod/utag.js (599 bytes)
+2020-08-21 18:16:24.265 [236] PROXY resolved 'res.cloudinary.com' to '151.101.201.137:443'
+2020-08-21 18:16:24.374 [236] PROXY resolved 'tags.tiqcdn.com' to '152.199.4.210:80'
+2020-08-21 18:16:24.680 [236] PROXY resolved 'arc.msn.com' to '52.149.60.244:443'
+2020-08-21 18:16:24.685 [236] PROXY 127.0.0.1:57368 (10.113.8.35) -> GET https://arc.msn.com/v3/Delivery/Placement?pubid=da63df93-3dbc-42ae-a505-b34988683ac7&pid=280815&adm=2&w=1&h=1&wpx=1&hpx=1&fmt=json&cltp=app&dim=le&rafb=0&nct=1&pm=1&cfmt=text,image,poly&sft=jpeg,png,gif&topt=0&auid=060b9a0848a34c176839c18955d6df97&poptin=1&localid=w:F154A057-70CD-47CC-6CF6-A27ED92721A2&ctry=US&time=20200821T124631Z&lc=en-US&pl=en-US&idtp=mid&uid=f4ba3115-d80d-40f1-af82-2242713a5b60&aid=00000000-0000-0000-0000-000000000000&ua=WindowsShellClient%2F9.0.40929.0%20%28Windows%29&asid=00362084fa924dfd91e3e5f832018320&ctmode=MultiSession&arch=x64&cdm=1&cdmver=10.0.15063.0&devfam=Windows.Desktop&devform=Unknown&devosver=10.0.15063.0&disphorzres=1920&dispsize=23.0&dispvertres=1080&isu=0&lo=1376081&metered=false&nettype=ethernet&npid=sc-280815&oemName=Bochs&oemid=Bochs&ossku=Professional&smBiosDm=Bochs&smBiosManufacturerName=Bochs&tl=4&tsu=1376081&waasBldFlt=1&waasCfgExp=1&waasCfgSet=1&waasRetail=1&waasRing= (2379 bytes)
+2020-08-21 18:16:24.704 [236] PROXY 127.0.0.1:57265 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (3537 bytes)
+2020-08-21 18:16:24.706 [236] PROXY 127.0.0.1:57260 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (14234 bytes)
+2020-08-21 18:16:25.387 [236] PROXY RX/TX bytes 14520/1255651 requests/responses 15/11 active reqs 8
+2020-08-21 18:16:26.499 [236] PROXY 127.0.0.1:57260 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/services/spectrum/buyflow/attosProxy.json/serviceability1/phones (851 bytes)
+2020-08-21 18:16:27.933 [236] PROXY 127.0.0.1:57260 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (817 bytes)
+2020-08-21 18:16:30.980 [236] PROXY 127.0.0.1:57267 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (222500 bytes)
+2020-08-21 18:16:31.833 [236] PROXY 127.0.0.1:57262 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (221428 bytes)
+2020-08-21 18:16:31.870 [236] PROXY 127.0.0.1:57363 (10.113.8.35) <- 200 tags.tiqcdn.com:80 (131828 bytes)
+2020-08-21 18:16:32.012 [236] PROXY 127.0.0.1:57368 (10.113.8.35) <- 200 arc.msn.com:443 (1047 bytes)
+2020-08-21 18:16:33.625 [236] PROXY 127.0.0.1:57266 (10.113.8.35) <- 200 res.cloudinary.com:443 (94339 bytes)
+2020-08-21 18:16:35.181 [236] KGP warning: no keepalive ack for 6s
+2020-08-21 18:16:36.711 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:16:38.571 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 3142 ms
+2020-08-21 18:16:43.261 [236] PROXY 127.0.0.1:57260 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/services/spectrum/buyflow/attosProxy.json/set1/offers (840 bytes)
+2020-08-21 18:16:48.607 [236] PROXY 127.0.0.1:57260 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (60156 bytes)
+2020-08-21 18:16:48.832 [236] KGP warning: no keepalive ack for 6s
+2020-08-21 18:16:49.830 [236] KGP warning: no keepalive ack for 7s
+2020-08-21 18:16:50.831 [236] KGP warning: no keepalive ack for 8s
+2020-08-21 18:16:50.878 [236] PROXY resolved 'tags.tiqcdn.com' to '152.199.4.210:80'
+2020-08-21 18:16:50.883 [236] PROXY 127.0.0.1:57368 (10.113.8.35) -> GET http://tags.tiqcdn.com/utag/charter/marketing/prod/utag.862.js?utv=ut4.39.202004271457 (625 bytes)
+2020-08-21 18:16:51.437 [236] PROXY resolved 'www.msftconnecttest.com' to '13.107.4.52:80'
+2020-08-21 18:16:51.663 [236] PROXY 127.0.0.1:57368 (10.113.8.35) <- 200 tags.tiqcdn.com:80 (2007 bytes)
+2020-08-21 18:16:51.819 [236] KGP warning: no keepalive ack for 9s
+2020-08-21 18:16:52.832 [236] KGP warning: no keepalive ack for 10s
+2020-08-21 18:16:52.850 [236] PROXY 127.0.0.1:57084 (10.113.8.35) <- 200 www.msftconnecttest.com:80 (523 bytes)
+2020-08-21 18:16:53.833 [236] KGP warning: no keepalive ack for 11s
+2020-08-21 18:16:54.834 [236] KGP warning: no keepalive ack for 12s
+2020-08-21 18:16:55.834 [236] KGP warning: no keepalive ack for 13s
+2020-08-21 18:16:56.835 [236] KGP warning: no keepalive ack for 14s
+2020-08-21 18:16:58.027 [236] PROXY resolved 'tags.tiqcdn.com' to '152.199.4.210:80'
+2020-08-21 18:16:58.032 [236] PROXY 127.0.0.1:57260 (10.113.8.35) -> GET http://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=charter/marketing/202008182338&cb=1598014025553 (633 bytes)
+2020-08-21 18:16:58.053 [236] PROXY 127.0.0.1:57368 (10.113.8.35) -> GET http://uconnect.tealiumiq.com/ulog/_error?utid=charter/marketing/202008182338&e0=ge%3A%3A3%3A%3A%2F%2Ftags.tiqcdn.com%2Futag%2Fcharter%2Fmarketing%2Fprod%2Futag.js%3A%3Ab.digmktg_pathname%20is%20undefined&e1=ge%3A%3A40%3A%3A%2F%2Ftags.tiqcdn.com%2Futag%2Fcharter%2Fmarketing%2Fprod%2Futag.js%3A%3AJSON.parse%3A%20unexpected%20character%20at%20line%201%20column%201%20of%20the%20JSON%20data&e2=ge%3A%3A55%3A%3A%2F%2Ftags.tiqcdn.com%2Futag%2Fcharter%2Fmarketing%2Fprod%2Futag.js%3A%3Autag_data.zipCode%20is%20undefined&e3=ge%3A%3A57%3A%3A%2F%2Ftags.tiqcdn.com%2Futag%2Fcharter%2Fmarketing%2Fprod%2Futag.js%3A%3AJSON.parse%3A%20unexpected%20character%20at%20line%201%20column%201%20of%20the%20JSON%20data&e4=ge%3A%3A73%3A%3A%2F%2Ftags.tiqcdn.com%2Futag%2Fcharter%2Fmarketing%2Fprod%2Futag.js%3A%3AJSON.parse%3A%20unexpected%20character%20at%20line%201%20column%201%20of%20the%20JSON%20data (1380 bytes)
+2020-08-21 18:16:58.529 [236] PROXY resolved 'uconnect.tealiumiq.com' to '34.194.174.212:80'
+2020-08-21 18:16:58.582 [236] PROXY 127.0.0.1:57262 (10.113.8.35) -> GET http://cm.g.doubleclick.net/pixel?tealium_cookie_sync=true&google_nid=tealium_dmp&google_cm&tealium_vid=0174110ed2e60001099043c6419b0104e007100d00bd0&tealium_account=charter&tealium_profile=main (686 bytes)
+2020-08-21 18:16:58.587 [236] PROXY 127.0.0.1:57267 (10.113.8.35) -> GET http://buyflow-auth1-dev1.ncw.webapps.rr.com:4502/services/buyflow/enrichment.json/INTERNETGIG/BASEINTERNET/INTERNETULTRA/DP35INTGIGPH/DP31INTPH/DP34INTULTPH/TP10TVSILINTG/TP06TVSILINT/TP09TVSILINTU/TP05TVSELINTG/TP01TVSELINT/TP04TVSELINTU/TP15TVGOLINTG/TP11TVGOLINT/TP14TVGOLINTU/TP20TVSELINTG/TP16TVSELINT/TP19TVSELINTU/TP25TVSILINTG/TP21TVSILINT/TP24TVSILINTU/TP30TVGOLINTG/TP26TVGOLINT/TP29TVGOLINTU/DP10TVSILINTGIG/DP06TVSILINT/DP09TVSILINTULT/DP05TVSELINTGIG/DP01TVSELINT/DP04TVSELINTULT/DP15TVGOLINTGIG/DP11TVGOLINT/DP14TVGOLINTULT/DP20TVGOLINTGIG/DP16TVGOLINT/DP19TVGOLINTULT/DP25TVGOLINTGIG/DP21TVGOLINT/DP24TVGOLINTULT/DP30TVGOLINTGIG/DP26TVGOLINT/DP29TVGOLINTULT/TVSILVER/TVSELECT/TVGOLD (1759 bytes)
+2020-08-21 18:16:58.619 [236] PROXY 127.0.0.1:57266 (10.113.8.35) -> GET http://dpm.demdex.net/id?d_visid_ver=3.1.2&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=97C902BE53295FC80A490D4C%40AdobeOrg&d_nsid=0&ts=1598014025596 (731 bytes)
+2020-08-21 18:16:58.883 [236] PROXY resolved 'cm.g.doubleclick.net' to '173.194.206.154:80'
+2020-08-21 18:16:58.888 [236] PROXY resolved 'dpm.demdex.net' to '34.227.216.113:80'
+2020-08-21 18:16:59.199 [236] PROXY 127.0.0.1:57260 (10.113.8.35) <- 200 tags.tiqcdn.com:80 (437 bytes)
+2020-08-21 18:16:59.320 [236] PROXY 127.0.0.1:57368 (10.113.8.35) <- 200 uconnect.tealiumiq.com:80 (625 bytes)
+2020-08-21 18:16:59.432 [236] PROXY 127.0.0.1:57267 (10.113.8.35) <- 200 buyflow-auth1-dev1.ncw.webapps.rr.com:4502 (9607 bytes)
+2020-08-21 18:16:59.701 [236] PROXY 127.0.0.1:57262 (10.113.8.35) <- 403 cm.g.doubleclick.net:80 (5475 bytes)
+2020-08-21 18:16:59.766 [236] PROXY 127.0.0.1:57266 (10.113.8.35) <- 200 dpm.demdex.net:80 (2457 bytes)
+2020-08-21 18:17:00.288 [236] PROXY 127.0.0.1:57266 (10.113.8.35) -> GET http://fast.charter.demdex.net/dest5.html?d_nsid=0 (635 bytes)
+2020-08-21 18:17:00.312 [236] PROXY 127.0.0.1:57262 (10.113.8.35) -> GET http://charter.d2.sc.omtrdc.net/id?d_visid_ver=3.1.2&d_fieldgroup=A&mcorgid=97C902BE53295FC80A490D4C%40AdobeOrg&mid=86081428161179979350173659054352368555&ts=1598014027833 (764 bytes)
+2020-08-21 18:17:00.588 [236] PROXY resolved 'charter.d2.sc.omtrdc.net' to '54.157.65.136:80'
+2020-08-21 18:17:00.601 [236] PROXY resolved 'fast.charter.demdex.net' to '184.51.150.83:80'
+2020-08-21 18:17:01.295 [236] PROXY 127.0.0.1:57262 (10.113.8.35) <- 200 charter.d2.sc.omtrdc.net:80 (546 bytes)
+2020-08-21 18:17:01.364 [236] PROXY 127.0.0.1:57266 (10.113.8.35) <- 200 fast.charter.demdex.net:80 (3492 bytes)
+2020-08-21 18:17:01.862 [236] PROXY resolved 'charter.d2.sc.omtrdc.net' to '54.157.65.136:80'
+2020-08-21 18:17:01.866 [236] PROXY 127.0.0.1:57541 (10.113.8.35) -> POST http://charter.d2.sc.omtrdc.net/b/ss/charterpreviewuat/1/JS-2.6.0/s44831297058385 (2750 bytes)
+2020-08-21 18:17:02.554 [236] PROXY 127.0.0.1:57541 (10.113.8.35) <- 200 charter.d2.sc.omtrdc.net:80 (719 bytes)
+2020-08-21 18:17:25.388 [236] PROXY RX/TX bytes 11654/703603 requests/responses 11/15 active reqs 4
+2020-08-21 18:17:38.480 [236] PROXY 127.0.0.1:57267 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/records? (534 bytes)
+2020-08-21 18:17:38.772 [236] PROXY resolved 'firefox.settings.services.mozilla.com' to '52.85.83.76:443'
+2020-08-21 18:17:40.773 [236] PROXY 127.0.0.1:57267 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (16472 bytes)
+2020-08-21 18:17:42.024 [236] PROXY 127.0.0.1:57267 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/normandy-recipes-capabilities/changeset?_expected=1597968074495 (623 bytes)
+2020-08-21 18:17:46.435 [236] PROXY 127.0.0.1:57267 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (93421 bytes)
+2020-08-21 18:17:46.793 [236] PROXY 127.0.0.1:57597 (10.113.8.35) -> GET https://serviceability-sit1.webapps.rr.com/?a=7511+HARLAN+WALK&u=&z=63123&sc=ATTOS&tgt=http%3A%2F%2Fbuyflow-auth1-dev1.ncw.webapps.rr.com%3A4502%2Fcontent%2Fspectrum%2Fbuyflow-residential%2FEndtoEnd%2Fconfigure%2Finternet.html%3Fwcmmode%3Ddisabled (2225 bytes)
+2020-08-21 18:17:47.152 [236] PROXY resolved 'serviceability-sit1.webapps.rr.com' to '142.136.53.105:443'
+2020-08-21 18:17:47.750 [236] PROXY 127.0.0.1:57267 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/search-config/changeset?_expected=1597327602800&_since=%221589299342073%22 (634 bytes)
+2020-08-21 18:17:48.113 [236] PROXY 127.0.0.1:57267 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (16071 bytes)
+2020-08-21 18:17:48.247 [236] PROXY 127.0.0.1:57597 (10.113.8.35) <- serviceability-sit1.webapps.rr.com:443 connection error: libevent connection error
+2020-08-21 18:17:48.993 [236] PROXY resolved 'serviceability-sit1.webapps.rr.com' to '142.136.53.105:443'
+2020-08-21 18:17:48.997 [236] PROXY 127.0.0.1:57267 (10.113.8.35) -> GET https://serviceability-sit1.webapps.rr.com/favicon.ico (1820 bytes)
+2020-08-21 18:17:49.124 [236] PROXY resolved 'firefox.settings.services.mozilla.com' to '52.85.83.76:443'
+2020-08-21 18:17:49.300 [236] PROXY 127.0.0.1:57604 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/security-state/collections/cert-revocations/changeset?_expected=1595915891792 (620 bytes)
+2020-08-21 18:17:49.964 [236] PROXY 127.0.0.1:57267 (10.113.8.35) <- serviceability-sit1.webapps.rr.com:443 connection error: libevent connection error
+2020-08-21 18:17:50.926 [236] PROXY 127.0.0.1:57604 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (2947 bytes)
+2020-08-21 18:17:51.441 [236] PROXY 127.0.0.1:57604 (10.113.8.35) -> GET https://content-signature-2.cdn.mozilla.net/chains/onecrl.content-signature.mozilla.org-2020-09-25-02-18-15.chain (552 bytes)
+2020-08-21 18:17:51.743 [236] PROXY resolved 'content-signature-2.cdn.mozilla.net' to '52.85.83.55:443'
+2020-08-21 18:17:53.572 [236] PROXY 127.0.0.1:57604 (10.113.8.35) <- 200 content-signature-2.cdn.mozilla.net:443 (5821 bytes)
+2020-08-21 18:17:54.173 [236] PROXY resolved 'firefox.settings.services.mozilla.com' to '52.85.83.76:443'
+2020-08-21 18:17:54.177 [236] PROXY 127.0.0.1:57604 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/url-classifier-skip-urls/changeset?_expected=1594765026508&_since=%221582750412802%22 (645 bytes)
+2020-08-21 18:17:55.761 [236] PROXY 127.0.0.1:57604 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (1687 bytes)
+2020-08-21 18:17:57.954 [236] PROXY 127.0.0.1:57604 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/security-state/collections/intermediates/changeset?_expected=1591908420097&_since=%221580831371709%22 (644 bytes)
+2020-08-21 18:18:02.024 [236] PROXY 127.0.0.1:57604 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (277376 bytes)
+2020-08-21 18:18:05.663 [236] PROXY 127.0.0.1:57604 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/security-state/collections/onecrl/changeset?_expected=1591722356162&_since=%221584052365964%22 (637 bytes)
+2020-08-21 18:18:05.998 [236] PROXY 127.0.0.1:57604 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (11856 bytes)
+2020-08-21 18:18:06.998 [236] PROXY 127.0.0.1:57604 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/public-suffix-list/changeset?_expected=1575468539758 (612 bytes)
+2020-08-21 18:18:07.313 [236] PROXY 127.0.0.1:57604 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (1358 bytes)
+2020-08-21 18:18:07.824 [236] PROXY 127.0.0.1:57604 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/hijack-blocklists?_expected=1572620201554 (601 bytes)
+2020-08-21 18:18:08.130 [236] PROXY 127.0.0.1:57604 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (1432 bytes)
+2020-08-21 18:18:08.637 [236] PROXY 127.0.0.1:57604 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/language-dictionaries?_expected=1569410800356 (605 bytes)
+2020-08-21 18:18:08.953 [236] PROXY 127.0.0.1:57604 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (1426 bytes)
+2020-08-21 18:18:09.413 [236] PROXY 127.0.0.1:57604 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/anti-tracking-url-decoration?_expected=1564511755134 (612 bytes)
+2020-08-21 18:18:09.728 [236] PROXY 127.0.0.1:57604 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (1448 bytes)
+2020-08-21 18:18:10.493 [236] PROXY 127.0.0.1:57604 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/tippytop/changeset?_expected=1563206404819 (602 bytes)
+2020-08-21 18:18:10.882 [236] PROXY 127.0.0.1:57604 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (22725 bytes)
+2020-08-21 18:18:11.787 [236] PROXY 127.0.0.1:57604 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/sites-classification?_expected=1544035467383 (604 bytes)
+2020-08-21 18:18:12.097 [236] PROXY 127.0.0.1:57604 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (1413 bytes)
+2020-08-21 18:18:12.582 [236] PROXY 127.0.0.1:57604 (10.113.8.35) -> GET https://firefox.settings.services.mozilla.com/v1/buckets/pinning/collections/pins/changeset?_expected=1485794868067 (601 bytes)
+2020-08-21 18:18:12.897 [236] PROXY 127.0.0.1:57604 (10.113.8.35) <- 200 firefox.settings.services.mozilla.com:443 (1267 bytes)
+2020-08-21 18:18:13.750 [236] PROXY resolved 'content-signature-2.cdn.mozilla.net' to '52.85.83.55:443'
+2020-08-21 18:18:13.754 [236] PROXY 127.0.0.1:57604 (10.113.8.35) -> GET https://content-signature-2.cdn.mozilla.net/chains/pinning-preload.content-signature.mozilla.org-2020-09-25-02-18-17.chain (561 bytes)
+2020-08-21 18:18:15.481 [236] PROXY 127.0.0.1:57604 (10.113.8.35) <- 200 content-signature-2.cdn.mozilla.net:443 (5846 bytes)
+2020-08-21 18:18:25.393 [236] PROXY RX/TX bytes 13732/462566 requests/responses 18/16 active reqs 1
+2020-08-21 18:18:55.000 [236] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-08-21 18:18:55.014 [236] PROXY 127.0.0.1:57604 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-08-21 18:18:55.017 [236] PROXY 127.0.0.1:57604 (127.0.0.1) <- 200 localhost:4002 (4553 bytes)
+2020-08-21 18:19:25.390 [236] PROXY RX/TX bytes 0/4553 requests/responses 0/1 active reqs 1
+2020-08-21 18:20:25.388 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:21:25.385 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:22:25.382 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:23:25.382 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:24:25.383 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:25:25.384 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:26:25.387 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:27:25.387 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:28:25.392 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:28:55.678 [236] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-08-21 18:28:55.680 [236] PROXY 127.0.0.1:58721 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-08-21 18:28:55.683 [236] PROXY 127.0.0.1:58721 (127.0.0.1) <- 200 localhost:4002 (4670 bytes)
+2020-08-21 18:29:25.383 [236] PROXY RX/TX bytes 0/4670 requests/responses 0/1 active reqs 1
+2020-08-21 18:30:25.383 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:31:25.395 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:32:25.389 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:33:25.382 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:34:25.387 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:35:25.390 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:36:25.393 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:37:25.393 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:38:25.389 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:38:56.165 [236] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-08-21 18:38:56.178 [236] PROXY 127.0.0.1:59622 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-08-21 18:38:56.180 [236] PROXY 127.0.0.1:59622 (127.0.0.1) <- 200 localhost:4002 (4762 bytes)
+2020-08-21 18:39:25.387 [236] PROXY RX/TX bytes 0/4762 requests/responses 0/1 active reqs 1
+2020-08-21 18:40:25.387 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:41:25.386 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:42:25.387 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:43:25.387 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:44:25.387 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:45:25.391 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:46:25.390 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:47:25.389 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:48:25.382 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:48:56.732 [236] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-08-21 18:48:56.745 [236] PROXY 127.0.0.1:60316 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-08-21 18:48:56.747 [236] PROXY 127.0.0.1:60316 (127.0.0.1) <- 200 localhost:4002 (4872 bytes)
+2020-08-21 18:49:25.381 [236] PROXY RX/TX bytes 0/4872 requests/responses 0/1 active reqs 1
+2020-08-21 18:50:25.387 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:51:25.389 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:52:25.392 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:53:25.391 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:54:25.393 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:55:25.393 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:56:25.392 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:57:25.387 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:58:25.386 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:58:57.798 [236] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-08-21 18:58:57.812 [236] PROXY 127.0.0.1:61077 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-08-21 18:58:57.814 [236] PROXY 127.0.0.1:61077 (127.0.0.1) <- 200 localhost:4002 (4963 bytes)
+2020-08-21 18:59:25.394 [236] PROXY RX/TX bytes 0/4963 requests/responses 0/1 active reqs 1
+2020-08-21 19:00:25.381 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:01:25.382 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:02:25.387 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:03:25.389 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:04:25.391 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:05:25.387 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:06:25.387 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:07:25.387 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:08:25.394 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:08:58.375 [236] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-08-21 19:08:58.389 [236] PROXY 127.0.0.1:61774 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-08-21 19:08:58.391 [236] PROXY 127.0.0.1:61774 (127.0.0.1) <- 200 localhost:4002 (5059 bytes)
+2020-08-21 19:09:25.392 [236] PROXY RX/TX bytes 0/5059 requests/responses 0/1 active reqs 1
+2020-08-21 19:10:25.385 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:11:25.382 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:12:25.385 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:13:14.234 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:13:15.927 [236] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2020-08-21 19:13:15.928 [236] MAIN DNS error: EVUTIL_EAI_FAIL
+2020-08-21 19:13:15.929 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 19:13:17.941 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:13:20.202 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 4740 ms
+2020-08-21 19:13:25.385 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:13:38.414 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:13:43.461 [236]  socket 1964 timeout
+2020-08-21 19:13:45.676 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 7261 ms
+2020-08-21 19:14:25.386 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:14:25.413 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:14:26.862 [236] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2020-08-21 19:14:26.863 [236] MAIN DNS error: EVUTIL_EAI_FAIL
+2020-08-21 19:14:26.864 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 19:14:28.868 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:14:31.870 [236] MAIN DNS error: nodename nor servname provided, or not known (-908)
+2020-08-21 19:14:31.872 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 19:14:35.873 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:14:41.907 [236] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2020-08-21 19:14:41.908 [236] MAIN DNS error: EVUTIL_EAI_FAIL
+2020-08-21 19:14:41.910 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 19:14:49.913 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:14:53.691 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 5224 ms
+2020-08-21 19:14:57.376 [236]  socket 1964 timeout
+2020-08-21 19:15:00.378 [236]  socket 1964 timeout
+2020-08-21 19:15:01.229 [236] CURL curl_easy_perform() failed: Couldn't resolve host name, host maki3483.eu-central-1.miso.saucelabs.com port 443 no proxy
+2020-08-21 19:15:17.229 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:15:25.233 [236] MAIN DNS error: nodename nor servname provided, or not known (-908)
+2020-08-21 19:15:25.234 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 19:15:25.386 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:15:57.234 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:16:00.540 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 3303 ms
+2020-08-21 19:16:25.386 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:16:29.930 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:16:52.384 [236] MAIN failed to connect KGP (socket error: socket error: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+2020-08-21 19:16:54.382 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:16:55.894 [236] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2020-08-21 19:16:55.896 [236] MAIN DNS error: EVUTIL_EAI_FAIL
+2020-08-21 19:16:55.897 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 19:16:59.899 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:17:02.903 [236] MAIN DNS error: nodename nor servname provided, or not known (-908)
+2020-08-21 19:17:02.906 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 19:17:10.908 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:17:22.121 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 13789 ms
+2020-08-21 19:17:25.389 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:17:25.444 [236]  socket 1964 timeout
+2020-08-21 19:17:55.316 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:17:58.317 [236] MAIN DNS error: nodename nor servname provided, or not known (-908)
+2020-08-21 19:17:58.318 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 19:18:00.318 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:18:03.319 [236] MAIN DNS error: nodename nor servname provided, or not known (-908)
+2020-08-21 19:18:03.320 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 19:18:07.320 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:18:13.453 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 6131 ms
+2020-08-21 19:18:25.383 [236] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 19:18:31.249 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:18:34.250 [236] MAIN DNS error: nodename nor servname provided, or not known (-908)
+2020-08-21 19:18:34.250 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 19:18:36.251 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:18:39.253 [236] MAIN DNS error: nodename nor servname provided, or not known (-908)
+2020-08-21 19:18:39.254 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 19:18:43.256 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:18:50.081 [236] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2020-08-21 19:18:50.082 [236] MAIN DNS error: EVUTIL_EAI_FAIL
+2020-08-21 19:18:50.083 [236] MAIN failed to connect KGP (socket error: libevent connection error)
+2020-08-21 19:18:58.089 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:19:00.894 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 2802 ms
+2020-08-21 19:19:23.389 [236] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-08-21 19:19:23.403 [236] PROXY 127.0.0.1:62805 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-08-21 19:19:23.405 [236] PROXY 127.0.0.1:62805 (127.0.0.1) <- 200 localhost:4002 (5150 bytes)
+2020-08-21 19:19:25.394 [236] PROXY RX/TX bytes 0/5150 requests/responses 0/1 active reqs 1
+2020-08-21 19:19:25.578 [236] Disconnected since 1598017464 **** exiting ****
+2020-08-21 19:19:25.578 [236] Cleaning up.
+2020-08-21 19:19:25.579 [236] Removing tunnel 1d6ce34b702540d58f9f5e959678de0d.
+2020-08-21 19:19:25.579 [236] Waiting for any active jobs using this tunnel to finish.
+2020-08-21 19:19:25.579 [236] Press CTRL-C again to shut down immediately.
+2020-08-21 19:19:25.579 [236] Note: if you do this, tests that are still running will fail.
+2020-08-21 19:19:39.355 [236] MAIN connecting to maki3483.eu-central-1.miso.saucelabs.com - maki3483.eu-central-1.miso.saucelabs.com:443
+2020-08-21 19:19:43.239 [236] MAIN connecting to KGP server maki3483.eu-central-1.miso.saucelabs.com took 5117 ms
+2020-08-21 19:19:46.324 [236] All jobs using the tunnel have finished.
+2020-08-21 19:19:46.324 [236] Waiting for the connection to terminate...
+2020-08-21 19:19:46.324 [236] SC Status: 1598017778 after 1 tries
+2020-08-21 19:19:47.325 [236] SC Status: 0 after 2 tries
+2020-08-21 19:19:48.326 [236] SC Status: 1598017778 after 3 tries
+2020-08-21 19:19:49.326 [236] SC Status: 1 after 4 tries
+2020-08-21 19:19:50.328 [236] SC Status: 1 after 5 tries
+2020-08-21 19:19:51.328 [236] Connection closed (0).
+2020-08-21 19:19:51.328 [236] Goodbye.

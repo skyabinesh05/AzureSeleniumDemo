@@ -1,0 +1,1990 @@
+2020-07-14 11:24:17.184 [10280] Sauce Connect 4.6.2, build 5183 ad61662 
+2020-07-14 11:24:17.184 [10280] Trying to autodetect proxy settings
+2020-07-14 11:24:17.190 [10280] Starting up; pid 10280
+2020-07-14 11:24:17.190 [10280] Command line arguments: sc -u InfyDMQA -k **** --config-file D:\Automation\Sauceconnect\sc-4.6.2-win32\bin\config.eu-desktop.yml 
+2020-07-14 11:24:17.190 [10280] Log file: sc.eu-desktop_livetest.log
+2020-07-14 11:24:17.190 [10280] Pid file: sc.eu-desktop_livetest.pid
+2020-07-14 11:24:17.190 [10280] Timezone: MDT GMT offset: -6h
+2020-07-14 11:24:17.191 [10280] Using no proxy for connecting to Sauce Labs REST API.
+2020-07-14 11:24:17.405 [10280] PROXY *** scproxy started ***
+2020-07-14 11:24:17.420 [10280] PROXY found DNS server 10.64.173.141
+2020-07-14 11:24:17.421 [10280] PROXY found DNS server 10.64.173.142
+2020-07-14 11:24:17.421 [10280] PROXY found DNS server 165.237.86.86
+2020-07-14 11:24:17.456 [10280] Started scproxy on port 56755.
+2020-07-14 11:24:17.456 [10280] Please wait for 'you may start your tests' to start your tests.
+2020-07-14 11:24:37.438 [10280] Secure remote tunnel VM provisioned.
+2020-07-14 11:24:37.441 [10280] Tunnel ID: e0f622ac3df24f548cc7cae116f18813
+2020-07-14 11:24:37.991 [10280] Starting OCSP certificate check.
+2020-07-14 11:24:37.991 [10280] Using no proxy for connecting to http://status.geotrust.com.
+2020-07-14 11:24:38.167 [10280] Using no proxy for connecting to http://ocsp.digicert.com.
+2020-07-14 11:24:38.255 [10280] Reached a trusted CA. Certificate chain is verified.
+2020-07-14 11:24:38.255 [10280] Using no proxy for connecting to tunnel VM.
+2020-07-14 11:24:38.257 [10280] Starting Selenium listener...
+2020-07-14 11:24:38.257 [10280] Establishing secure TLS connection to tunnel...
+2020-07-14 11:24:38.297 [10280] [EVDNS] Added nameserver 10.64.173.141:53 as 01FD7740
+2020-07-14 11:24:38.297 [10280] [EVDNS] Added nameserver 10.64.173.142:53 as 01FD7B78
+2020-07-14 11:24:38.297 [10280] [EVDNS] Added nameserver 165.237.86.86:53 as 01FD7CB0
+2020-07-14 11:24:38.298 [10280] MAIN connecting to maki3642.eu-central-1.miso.saucelabs.com - maki3642.eu-central-1.miso.saucelabs.com:443
+2020-07-14 11:24:38.574 [10280] MAIN connecting to KGP server maki3642.eu-central-1.miso.saucelabs.com took 276 ms
+2020-07-14 11:24:38.972 [10280] Selenium listener started on port 4001.
+2020-07-14 11:24:39.683 [10280] PROXY 127.0.0.1:56806 (127.0.0.1) -> HEAD http://localhost:4002/debug/vars (266 bytes)
+2020-07-14 11:24:39.727 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 11:24:39.921 [10280] PROXY 127.0.0.1:56806 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 11:24:40.976 [10280] Sauce Connect is up, you may start your tests.
+2020-07-14 11:25:17.423 [10280] PROXY RX/TX bytes 0/4293 requests/responses 0/0 active reqs 1
+2020-07-14 11:26:17.429 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:27:17.434 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:28:17.424 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:29:17.434 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:30:17.433 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:31:17.434 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:32:17.437 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:33:17.435 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:34:17.438 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:34:40.168 [10280] PROXY 127.0.0.1:57390 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 11:34:40.217 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 11:34:40.232 [10280] PROXY 127.0.0.1:57390 (127.0.0.1) <- 200 localhost:4002 (4500 bytes)
+2020-07-14 11:35:17.439 [10280] PROXY RX/TX bytes 0/4500 requests/responses 0/1 active reqs 1
+2020-07-14 11:36:17.436 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:37:17.435 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:38:17.439 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:39:17.431 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:40:17.441 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:41:17.445 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:42:17.440 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:43:17.440 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:44:17.438 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:44:40.420 [10280] PROXY 127.0.0.1:58327 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 11:44:40.465 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 11:44:40.477 [10280] PROXY 127.0.0.1:58327 (127.0.0.1) <- 200 localhost:4002 (4603 bytes)
+2020-07-14 11:45:17.469 [10280] PROXY RX/TX bytes 0/4603 requests/responses 0/1 active reqs 1
+2020-07-14 11:46:17.443 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:47:17.438 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:48:17.441 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:49:17.437 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:50:17.443 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:51:17.445 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:52:17.439 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:53:17.443 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:54:17.443 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:54:40.663 [10280] PROXY 127.0.0.1:59292 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 11:54:40.710 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 11:54:40.725 [10280] PROXY 127.0.0.1:59292 (127.0.0.1) <- 200 localhost:4002 (4719 bytes)
+2020-07-14 11:55:17.452 [10280] PROXY RX/TX bytes 0/4719 requests/responses 0/1 active reqs 1
+2020-07-14 11:56:17.442 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:57:17.456 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:58:17.455 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 11:59:17.449 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:00:17.450 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:01:17.452 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:02:17.451 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:03:17.451 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:04:17.457 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:04:41.068 [10280] PROXY 127.0.0.1:60019 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 12:04:41.110 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 12:04:41.177 [10280] PROXY 127.0.0.1:60019 (127.0.0.1) <- 200 localhost:4002 (4814 bytes)
+2020-07-14 12:05:17.455 [10280] PROXY RX/TX bytes 0/4814 requests/responses 0/1 active reqs 1
+2020-07-14 12:06:17.450 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:07:17.461 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:08:17.457 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:09:17.459 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:10:17.463 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:11:17.457 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:12:17.456 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:13:17.460 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:14:17.456 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:14:41.610 [10280] PROXY 127.0.0.1:60757 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 12:14:41.653 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 12:14:41.658 [10280] PROXY 127.0.0.1:60757 (127.0.0.1) <- 200 localhost:4002 (4916 bytes)
+2020-07-14 12:15:17.467 [10280] PROXY RX/TX bytes 0/4916 requests/responses 0/1 active reqs 1
+2020-07-14 12:16:17.459 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:17:17.459 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:18:17.471 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:19:17.507 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:20:17.467 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:21:17.473 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:22:17.463 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:23:17.480 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:24:17.464 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:24:41.846 [10280] PROXY 127.0.0.1:61523 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 12:24:41.887 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 12:24:41.903 [10280] PROXY 127.0.0.1:61523 (127.0.0.1) <- 200 localhost:4002 (5009 bytes)
+2020-07-14 12:25:17.479 [10280] PROXY RX/TX bytes 0/5009 requests/responses 0/1 active reqs 1
+2020-07-14 12:26:17.477 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:27:17.478 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:28:17.474 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:29:17.469 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:30:17.471 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:31:17.469 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:32:17.479 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:33:17.475 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:34:17.472 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:34:42.090 [10280] PROXY 127.0.0.1:62241 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 12:34:42.133 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 12:34:42.146 [10280] PROXY 127.0.0.1:62241 (127.0.0.1) <- 200 localhost:4002 (5105 bytes)
+2020-07-14 12:35:17.487 [10280] PROXY RX/TX bytes 0/5105 requests/responses 0/1 active reqs 1
+2020-07-14 12:36:17.482 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:37:17.482 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:38:17.483 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:39:17.478 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:40:17.482 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:41:17.490 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:42:17.479 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:43:17.484 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:44:17.480 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:44:42.339 [10280] PROXY 127.0.0.1:62989 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 12:44:42.380 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 12:44:42.395 [10280] PROXY 127.0.0.1:62989 (127.0.0.1) <- 200 localhost:4002 (5199 bytes)
+2020-07-14 12:45:17.487 [10280] PROXY RX/TX bytes 0/5199 requests/responses 0/1 active reqs 1
+2020-07-14 12:46:17.489 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:47:17.493 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:48:17.491 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:49:17.484 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:50:17.491 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:51:17.486 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:52:17.494 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:53:17.490 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:54:17.489 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:54:42.593 [10280] PROXY 127.0.0.1:63756 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 12:54:42.641 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 12:54:42.646 [10280] PROXY 127.0.0.1:63756 (127.0.0.1) <- 200 localhost:4002 (5296 bytes)
+2020-07-14 12:55:17.498 [10280] PROXY RX/TX bytes 0/5296 requests/responses 0/1 active reqs 1
+2020-07-14 12:56:17.502 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:57:17.495 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:58:17.500 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 12:59:17.502 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:00:17.499 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:01:17.501 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:02:17.501 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:03:17.508 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:04:17.499 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:04:42.844 [10280] PROXY 127.0.0.1:64814 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 13:04:42.885 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 13:04:42.899 [10280] PROXY 127.0.0.1:64814 (127.0.0.1) <- 200 localhost:4002 (5388 bytes)
+2020-07-14 13:05:17.500 [10280] PROXY RX/TX bytes 0/5388 requests/responses 0/1 active reqs 1
+2020-07-14 13:06:17.500 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:07:17.509 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:08:17.526 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:09:17.498 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:10:17.508 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:11:17.500 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:12:17.513 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:13:17.514 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:14:17.505 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:14:43.090 [10280] PROXY 127.0.0.1:49190 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 13:14:43.133 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 13:14:43.139 [10280] PROXY 127.0.0.1:49190 (127.0.0.1) <- 200 localhost:4002 (5479 bytes)
+2020-07-14 13:15:17.514 [10280] PROXY RX/TX bytes 0/5479 requests/responses 0/1 active reqs 1
+2020-07-14 13:16:17.515 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:17:17.505 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:18:17.508 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:19:17.505 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:20:17.519 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:21:17.514 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:22:17.516 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:23:17.512 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:24:17.518 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:24:43.326 [10280] PROXY 127.0.0.1:49915 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 13:24:43.368 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 13:24:43.385 [10280] PROXY 127.0.0.1:49915 (127.0.0.1) <- 200 localhost:4002 (5572 bytes)
+2020-07-14 13:25:17.511 [10280] PROXY RX/TX bytes 0/5572 requests/responses 0/1 active reqs 1
+2020-07-14 13:26:17.516 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:27:17.521 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:28:17.513 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:29:17.527 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:30:17.522 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:31:17.515 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:32:17.528 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:33:17.523 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:34:17.528 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:34:43.734 [10280] PROXY 127.0.0.1:50645 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 13:34:43.776 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 13:34:43.782 [10280] PROXY 127.0.0.1:50645 (127.0.0.1) <- 200 localhost:4002 (5665 bytes)
+2020-07-14 13:35:17.519 [10280] PROXY RX/TX bytes 0/5665 requests/responses 0/1 active reqs 1
+2020-07-14 13:36:17.522 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:37:17.531 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:38:17.528 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:39:17.530 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:40:17.527 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:41:17.528 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:42:17.536 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:43:17.530 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:44:17.529 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:44:43.973 [10280] PROXY 127.0.0.1:51366 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 13:44:44.016 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 13:44:44.032 [10280] PROXY 127.0.0.1:51366 (127.0.0.1) <- 200 localhost:4002 (5758 bytes)
+2020-07-14 13:45:17.530 [10280] PROXY RX/TX bytes 0/5758 requests/responses 0/1 active reqs 1
+2020-07-14 13:46:17.534 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:47:17.535 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:48:17.535 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:49:17.542 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:50:17.531 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:51:17.535 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:52:17.539 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:53:17.544 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:54:17.548 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:54:44.218 [10280] PROXY 127.0.0.1:52073 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 13:54:44.258 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 13:54:44.265 [10280] PROXY 127.0.0.1:52073 (127.0.0.1) <- 200 localhost:4002 (5851 bytes)
+2020-07-14 13:55:17.537 [10280] PROXY RX/TX bytes 0/5851 requests/responses 0/1 active reqs 1
+2020-07-14 13:56:17.545 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:57:17.543 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:58:17.542 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 13:59:17.547 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:00:17.547 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:01:17.553 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:02:17.539 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:03:17.553 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:04:17.547 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:04:48.575 [10280] PROXY 127.0.0.1:52808 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 14:04:48.636 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 14:04:48.664 [10280] PROXY 127.0.0.1:52808 (127.0.0.1) <- 200 localhost:4002 (5941 bytes)
+2020-07-14 14:05:17.553 [10280] PROXY RX/TX bytes 0/5941 requests/responses 0/1 active reqs 1
+2020-07-14 14:06:17.543 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:07:17.549 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:08:17.556 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:09:17.555 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:10:17.546 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:11:17.553 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:12:17.547 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:13:17.554 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:14:17.578 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:14:48.856 [10280] PROXY 127.0.0.1:53646 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 14:14:48.899 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 14:14:48.905 [10280] PROXY 127.0.0.1:53646 (127.0.0.1) <- 200 localhost:4002 (6033 bytes)
+2020-07-14 14:15:17.551 [10280] PROXY RX/TX bytes 0/6033 requests/responses 0/1 active reqs 1
+2020-07-14 14:16:17.563 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:17:17.550 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:18:17.566 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:19:17.555 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:20:17.559 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:21:17.563 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:22:17.568 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:23:17.570 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:24:17.570 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:24:49.094 [10280] PROXY 127.0.0.1:54407 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 14:24:49.135 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 14:24:49.149 [10280] PROXY 127.0.0.1:54407 (127.0.0.1) <- 200 localhost:4002 (6123 bytes)
+2020-07-14 14:25:17.559 [10280] PROXY RX/TX bytes 0/6123 requests/responses 0/1 active reqs 1
+2020-07-14 14:26:17.568 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:27:17.572 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:28:17.575 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:29:17.564 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:30:17.568 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:31:17.573 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:32:17.577 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:33:17.566 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:34:17.571 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:34:49.340 [10280] PROXY 127.0.0.1:55128 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 14:34:49.384 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 14:34:49.397 [10280] PROXY 127.0.0.1:55128 (127.0.0.1) <- 200 localhost:4002 (6213 bytes)
+2020-07-14 14:35:17.572 [10280] PROXY RX/TX bytes 0/6213 requests/responses 0/1 active reqs 1
+2020-07-14 14:36:17.580 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:37:17.569 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:38:17.577 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:39:17.581 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:40:17.583 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:41:17.584 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:42:17.584 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:43:17.585 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:44:17.585 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:44:49.648 [10280] PROXY 127.0.0.1:55525 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 14:44:49.692 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 14:44:49.708 [10280] PROXY 127.0.0.1:55525 (127.0.0.1) <- 200 localhost:4002 (6304 bytes)
+2020-07-14 14:45:17.587 [10280] PROXY RX/TX bytes 0/6304 requests/responses 0/1 active reqs 1
+2020-07-14 14:46:17.577 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:47:17.581 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:48:17.589 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:49:17.590 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:50:17.591 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:51:17.580 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:52:17.584 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:53:17.589 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:54:17.594 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:54:49.896 [10280] PROXY 127.0.0.1:55821 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 14:54:49.935 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 14:54:49.949 [10280] PROXY 127.0.0.1:55821 (127.0.0.1) <- 200 localhost:4002 (6397 bytes)
+2020-07-14 14:55:17.594 [10280] PROXY RX/TX bytes 0/6397 requests/responses 0/1 active reqs 1
+2020-07-14 14:56:17.594 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:57:17.596 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:58:17.595 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 14:59:17.597 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:00:17.598 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:01:17.599 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:02:17.588 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:03:17.593 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:04:17.597 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:04:50.139 [10280] PROXY 127.0.0.1:56060 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 15:04:50.179 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 15:04:50.185 [10280] PROXY 127.0.0.1:56060 (127.0.0.1) <- 200 localhost:4002 (6492 bytes)
+2020-07-14 15:05:17.591 [10280] PROXY RX/TX bytes 0/6492 requests/responses 0/1 active reqs 1
+2020-07-14 15:06:17.603 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:07:17.603 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:08:17.599 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:09:17.593 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:10:17.591 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:11:17.597 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:12:17.602 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:13:17.606 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:14:17.607 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:14:50.373 [10280] PROXY 127.0.0.1:56299 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 15:14:50.415 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 15:14:50.431 [10280] PROXY 127.0.0.1:56299 (127.0.0.1) <- 200 localhost:4002 (6583 bytes)
+2020-07-14 15:15:17.598 [10280] PROXY RX/TX bytes 0/6583 requests/responses 0/1 active reqs 1
+2020-07-14 15:16:17.609 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:17:17.603 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:18:17.615 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:19:17.607 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:20:17.617 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:21:17.611 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:22:17.610 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:23:17.622 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:24:17.616 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:24:50.635 [10280] PROXY 127.0.0.1:56518 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 15:24:50.677 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 15:24:50.688 [10280] PROXY 127.0.0.1:56518 (127.0.0.1) <- 200 localhost:4002 (6676 bytes)
+2020-07-14 15:25:17.621 [10280] PROXY RX/TX bytes 0/6676 requests/responses 0/1 active reqs 1
+2020-07-14 15:26:17.623 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:27:17.628 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:28:17.621 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:29:17.620 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:30:17.628 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:31:17.623 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:32:17.629 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:33:17.633 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:34:17.626 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:34:50.875 [10280] PROXY 127.0.0.1:56741 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 15:34:50.918 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 15:34:50.933 [10280] PROXY 127.0.0.1:56741 (127.0.0.1) <- 200 localhost:4002 (6774 bytes)
+2020-07-14 15:35:17.630 [10280] PROXY RX/TX bytes 0/6774 requests/responses 0/1 active reqs 1
+2020-07-14 15:36:17.633 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:37:17.631 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:38:17.633 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:39:17.632 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:40:17.632 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:41:17.638 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:42:17.631 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:43:17.634 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:44:17.633 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:44:51.121 [10280] PROXY 127.0.0.1:56998 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 15:44:51.162 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 15:44:51.176 [10280] PROXY 127.0.0.1:56998 (127.0.0.1) <- 200 localhost:4002 (6862 bytes)
+2020-07-14 15:45:17.632 [10280] PROXY RX/TX bytes 0/6862 requests/responses 0/1 active reqs 1
+2020-07-14 15:46:17.642 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:47:17.637 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:48:17.642 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:49:17.649 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:50:17.640 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:51:17.661 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:52:17.650 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:53:17.642 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:54:17.651 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:54:51.366 [10280] PROXY 127.0.0.1:57226 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 15:54:51.411 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 15:54:51.426 [10280] PROXY 127.0.0.1:57226 (127.0.0.1) <- 200 localhost:4002 (6954 bytes)
+2020-07-14 15:55:17.645 [10280] PROXY RX/TX bytes 0/6954 requests/responses 0/1 active reqs 1
+2020-07-14 15:56:17.645 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:57:17.654 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:58:17.643 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 15:59:17.649 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:00:17.651 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:01:17.647 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:02:17.644 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:03:17.651 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:04:17.659 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:04:51.614 [10280] PROXY 127.0.0.1:57450 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 16:04:51.662 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 16:04:51.676 [10280] PROXY 127.0.0.1:57450 (127.0.0.1) <- 200 localhost:4002 (7045 bytes)
+2020-07-14 16:05:17.650 [10280] PROXY RX/TX bytes 0/7045 requests/responses 0/1 active reqs 1
+2020-07-14 16:06:17.651 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:07:17.652 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:08:17.655 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:09:17.654 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:10:17.657 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:11:17.655 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:12:17.655 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:13:17.665 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:14:17.656 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:14:51.861 [10280] PROXY 127.0.0.1:57671 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 16:14:51.906 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 16:14:51.921 [10280] PROXY 127.0.0.1:57671 (127.0.0.1) <- 200 localhost:4002 (7135 bytes)
+2020-07-14 16:15:17.658 [10280] PROXY RX/TX bytes 0/7135 requests/responses 0/1 active reqs 1
+2020-07-14 16:16:17.661 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:17:17.655 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:18:17.660 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:19:17.671 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:20:17.659 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:21:17.663 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:22:17.673 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:23:17.660 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:24:17.674 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:24:52.110 [10280] PROXY 127.0.0.1:57904 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 16:24:52.154 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 16:24:52.168 [10280] PROXY 127.0.0.1:57904 (127.0.0.1) <- 200 localhost:4002 (7225 bytes)
+2020-07-14 16:25:17.671 [10280] PROXY RX/TX bytes 0/7225 requests/responses 0/1 active reqs 1
+2020-07-14 16:26:17.671 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:27:17.667 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:28:17.664 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:29:17.676 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:30:17.671 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:31:17.681 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:32:17.673 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:33:17.681 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:34:17.668 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:34:52.358 [10280] PROXY 127.0.0.1:58132 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 16:34:52.401 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 16:34:52.415 [10280] PROXY 127.0.0.1:58132 (127.0.0.1) <- 200 localhost:4002 (7317 bytes)
+2020-07-14 16:35:17.668 [10280] PROXY RX/TX bytes 0/7317 requests/responses 0/1 active reqs 1
+2020-07-14 16:36:17.674 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:37:17.678 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:38:17.671 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:39:17.686 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:40:17.678 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:41:17.686 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:42:17.678 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:43:17.686 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:44:17.721 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:44:52.602 [10280] PROXY 127.0.0.1:58362 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 16:44:52.643 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 16:44:52.650 [10280] PROXY 127.0.0.1:58362 (127.0.0.1) <- 200 localhost:4002 (7411 bytes)
+2020-07-14 16:45:17.683 [10280] PROXY RX/TX bytes 0/7411 requests/responses 0/1 active reqs 1
+2020-07-14 16:46:17.686 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:47:17.686 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:48:17.679 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:49:17.680 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:50:17.686 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:51:17.684 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:52:17.690 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:53:17.692 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:54:17.698 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:54:52.839 [10280] PROXY 127.0.0.1:58585 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 16:54:52.884 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 16:54:52.900 [10280] PROXY 127.0.0.1:58585 (127.0.0.1) <- 200 localhost:4002 (7510 bytes)
+2020-07-14 16:55:17.690 [10280] PROXY RX/TX bytes 0/7510 requests/responses 0/1 active reqs 1
+2020-07-14 16:56:17.689 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:57:17.978 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:58:17.694 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 16:59:17.689 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:00:17.692 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:01:17.700 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:02:17.697 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:03:17.702 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:04:17.702 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:04:53.091 [10280] PROXY 127.0.0.1:58806 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 17:04:53.133 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 17:04:53.139 [10280] PROXY 127.0.0.1:58806 (127.0.0.1) <- 200 localhost:4002 (7601 bytes)
+2020-07-14 17:05:17.697 [10280] PROXY RX/TX bytes 0/7601 requests/responses 0/1 active reqs 1
+2020-07-14 17:06:17.700 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:07:17.700 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:08:17.695 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:09:17.704 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:10:17.888 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:11:17.887 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:12:17.854 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:13:17.704 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:14:17.701 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:14:53.613 [10280] PROXY 127.0.0.1:59120 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 17:14:53.703 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 17:14:53.715 [10280] PROXY 127.0.0.1:59120 (127.0.0.1) <- 200 localhost:4002 (7697 bytes)
+2020-07-14 17:15:17.712 [10280] PROXY RX/TX bytes 0/7697 requests/responses 0/1 active reqs 1
+2020-07-14 17:16:22.637 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:17:17.715 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:18:17.716 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:19:17.712 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:20:17.717 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:21:17.719 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:22:17.719 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:23:17.707 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:24:17.712 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:24:53.905 [10280] PROXY 127.0.0.1:59318 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 17:24:53.944 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 17:24:53.958 [10280] PROXY 127.0.0.1:59318 (127.0.0.1) <- 200 localhost:4002 (7805 bytes)
+2020-07-14 17:25:17.712 [10280] PROXY RX/TX bytes 0/7805 requests/responses 0/1 active reqs 1
+2020-07-14 17:26:17.709 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:27:17.713 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:28:17.718 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:29:17.723 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:30:17.726 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:31:17.720 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:32:17.724 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:33:17.728 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:34:17.729 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:34:54.145 [10280] PROXY 127.0.0.1:59406 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 17:34:54.187 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 17:34:54.199 [10280] PROXY 127.0.0.1:59406 (127.0.0.1) <- 200 localhost:4002 (7896 bytes)
+2020-07-14 17:35:17.720 [10280] PROXY RX/TX bytes 0/7896 requests/responses 0/1 active reqs 1
+2020-07-14 17:36:17.730 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:37:17.715 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:38:17.732 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:39:17.733 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:40:17.733 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:41:17.734 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:42:17.735 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:43:17.736 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:44:17.736 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:44:54.382 [10280] PROXY 127.0.0.1:59486 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 17:44:54.428 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 17:44:54.443 [10280] PROXY 127.0.0.1:59486 (127.0.0.1) <- 200 localhost:4002 (7989 bytes)
+2020-07-14 17:45:17.728 [10280] PROXY RX/TX bytes 0/7989 requests/responses 0/1 active reqs 1
+2020-07-14 17:46:17.726 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:47:17.731 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:48:17.735 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:49:17.739 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:50:17.741 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:51:17.741 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:52:17.743 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:53:17.743 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:54:17.744 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:54:54.629 [10280] PROXY 127.0.0.1:59572 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 17:54:54.673 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 17:54:54.692 [10280] PROXY 127.0.0.1:59572 (127.0.0.1) <- 200 localhost:4002 (8091 bytes)
+2020-07-14 17:55:17.742 [10280] PROXY RX/TX bytes 0/8091 requests/responses 0/1 active reqs 1
+2020-07-14 17:56:17.743 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:57:17.747 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:58:17.747 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 17:59:17.748 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:00:17.748 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:01:17.740 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:02:17.744 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:03:17.748 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:04:17.736 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:04:54.879 [10280] PROXY 127.0.0.1:59657 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 18:04:54.921 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 18:04:54.933 [10280] PROXY 127.0.0.1:59657 (127.0.0.1) <- 200 localhost:4002 (8181 bytes)
+2020-07-14 18:05:17.750 [10280] PROXY RX/TX bytes 0/8181 requests/responses 0/1 active reqs 1
+2020-07-14 18:06:17.740 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:07:17.744 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:08:17.748 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:09:17.752 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:10:17.756 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:11:17.754 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:12:17.752 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:13:17.758 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:14:17.753 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:14:55.117 [10280] PROXY 127.0.0.1:59739 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 18:14:55.161 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 18:14:55.176 [10280] PROXY 127.0.0.1:59739 (127.0.0.1) <- 200 localhost:4002 (8272 bytes)
+2020-07-14 18:15:17.749 [10280] PROXY RX/TX bytes 0/8272 requests/responses 0/1 active reqs 1
+2020-07-14 18:16:17.761 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:17:17.758 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:18:17.753 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:19:17.763 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:20:17.759 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:21:17.765 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:22:17.755 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:23:17.756 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:24:17.764 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:24:55.378 [10280] PROXY 127.0.0.1:59830 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 18:24:55.420 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 18:24:55.427 [10280] PROXY 127.0.0.1:59830 (127.0.0.1) <- 200 localhost:4002 (8362 bytes)
+2020-07-14 18:25:17.766 [10280] PROXY RX/TX bytes 0/8362 requests/responses 0/1 active reqs 1
+2020-07-14 18:26:17.755 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:27:17.766 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:28:17.755 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:29:17.768 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:30:17.763 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:31:17.763 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:32:17.768 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:33:17.759 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:34:17.766 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:34:55.617 [10280] PROXY 127.0.0.1:59917 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 18:34:55.660 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 18:34:55.677 [10280] PROXY 127.0.0.1:59917 (127.0.0.1) <- 200 localhost:4002 (8460 bytes)
+2020-07-14 18:35:17.769 [10280] PROXY RX/TX bytes 0/8460 requests/responses 0/1 active reqs 1
+2020-07-14 18:36:17.762 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:37:17.775 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:38:17.769 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:39:17.800 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:40:17.766 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:41:17.768 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:42:17.767 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:43:17.777 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:44:17.775 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:44:55.863 [10280] PROXY 127.0.0.1:60099 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 18:44:55.904 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 18:44:55.909 [10280] PROXY 127.0.0.1:60099 (127.0.0.1) <- 200 localhost:4002 (8556 bytes)
+2020-07-14 18:45:17.773 [10280] PROXY RX/TX bytes 0/8556 requests/responses 0/1 active reqs 1
+2020-07-14 18:46:17.777 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:47:17.804 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:48:17.778 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:49:17.784 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:50:17.773 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:51:17.779 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:52:17.786 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:53:17.776 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:54:17.777 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:54:56.097 [10280] PROXY 127.0.0.1:60188 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 18:54:56.140 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 18:54:56.155 [10280] PROXY 127.0.0.1:60188 (127.0.0.1) <- 200 localhost:4002 (8647 bytes)
+2020-07-14 18:55:17.788 [10280] PROXY RX/TX bytes 0/8647 requests/responses 0/1 active reqs 1
+2020-07-14 18:56:17.790 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:57:18.348 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:58:17.785 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 18:59:17.783 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:00:17.781 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:01:17.790 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:02:17.795 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:03:17.802 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:04:17.793 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:04:56.339 [10280] PROXY 127.0.0.1:60264 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 19:04:56.380 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 19:04:56.387 [10280] PROXY 127.0.0.1:60264 (127.0.0.1) <- 200 localhost:4002 (8736 bytes)
+2020-07-14 19:05:17.784 [10280] PROXY RX/TX bytes 0/8736 requests/responses 0/1 active reqs 1
+2020-07-14 19:06:17.791 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:07:17.790 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:08:17.788 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:09:17.794 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:10:17.792 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:11:17.801 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:12:17.794 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:13:17.799 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:14:17.791 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:14:56.582 [10280] PROXY 127.0.0.1:60345 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 19:14:56.628 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 19:14:56.643 [10280] PROXY 127.0.0.1:60345 (127.0.0.1) <- 200 localhost:4002 (8837 bytes)
+2020-07-14 19:15:17.803 [10280] PROXY RX/TX bytes 0/8837 requests/responses 0/1 active reqs 1
+2020-07-14 19:16:17.796 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:17:17.803 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:18:17.802 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:19:17.798 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:20:17.801 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:21:17.810 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:22:17.800 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:23:17.800 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:24:17.808 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:24:56.828 [10280] PROXY 127.0.0.1:60432 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 19:24:56.870 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 19:24:56.875 [10280] PROXY 127.0.0.1:60432 (127.0.0.1) <- 200 localhost:4002 (8927 bytes)
+2020-07-14 19:25:17.801 [10280] PROXY RX/TX bytes 0/8927 requests/responses 0/1 active reqs 1
+2020-07-14 19:26:17.814 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:27:17.804 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:28:17.815 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:29:17.814 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:30:17.819 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:31:17.804 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:32:17.807 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:33:17.806 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:34:17.814 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:34:57.060 [10280] PROXY 127.0.0.1:60510 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 19:34:57.107 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 19:34:57.122 [10280] PROXY 127.0.0.1:60510 (127.0.0.1) <- 200 localhost:4002 (9021 bytes)
+2020-07-14 19:35:17.813 [10280] PROXY RX/TX bytes 0/9021 requests/responses 0/1 active reqs 1
+2020-07-14 19:36:17.822 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:37:17.818 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:38:17.814 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:39:17.811 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:40:17.813 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:41:17.820 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:42:17.819 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:43:17.814 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:44:17.829 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:44:57.312 [10280] PROXY 127.0.0.1:60588 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 19:44:57.355 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 19:44:57.361 [10280] PROXY 127.0.0.1:60588 (127.0.0.1) <- 200 localhost:4002 (9115 bytes)
+2020-07-14 19:45:17.815 [10280] PROXY RX/TX bytes 0/9115 requests/responses 0/1 active reqs 1
+2020-07-14 19:46:17.825 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:47:17.820 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:48:17.820 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:49:17.825 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:50:17.828 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:51:17.823 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:52:17.820 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:53:17.823 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:54:17.835 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:54:57.555 [10280] PROXY 127.0.0.1:60668 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 19:54:57.600 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 19:54:57.615 [10280] PROXY 127.0.0.1:60668 (127.0.0.1) <- 200 localhost:4002 (9205 bytes)
+2020-07-14 19:55:17.828 [10280] PROXY RX/TX bytes 0/9205 requests/responses 0/1 active reqs 1
+2020-07-14 19:56:17.832 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:57:17.827 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:58:17.830 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 19:59:17.838 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:00:17.837 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:01:17.833 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:02:17.833 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:03:17.841 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:04:17.829 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:04:57.880 [10280] PROXY 127.0.0.1:60757 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 20:04:57.921 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 20:04:57.927 [10280] PROXY 127.0.0.1:60757 (127.0.0.1) <- 200 localhost:4002 (9257 bytes)
+2020-07-14 20:05:17.840 [10280] PROXY RX/TX bytes 0/9257 requests/responses 0/1 active reqs 1
+2020-07-14 20:06:17.845 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:07:17.833 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:08:17.843 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:09:17.871 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:10:17.848 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:11:17.847 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:12:17.836 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:13:17.836 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:14:17.838 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:14:58.131 [10280] PROXY 127.0.0.1:60951 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 20:14:58.175 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 20:14:58.191 [10280] PROXY 127.0.0.1:60951 (127.0.0.1) <- 200 localhost:4002 (9269 bytes)
+2020-07-14 20:15:17.851 [10280] PROXY RX/TX bytes 0/9269 requests/responses 0/1 active reqs 1
+2020-07-14 20:16:17.847 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:17:17.847 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:18:17.854 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:19:17.848 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:20:17.847 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:21:17.855 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:22:17.850 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:23:17.844 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:24:17.854 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:24:58.380 [10280] PROXY 127.0.0.1:61029 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 20:24:58.423 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 20:24:58.429 [10280] PROXY 127.0.0.1:61029 (127.0.0.1) <- 200 localhost:4002 (9264 bytes)
+2020-07-14 20:25:17.875 [10280] PROXY RX/TX bytes 0/9264 requests/responses 0/1 active reqs 1
+2020-07-14 20:26:17.859 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:27:17.854 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:28:17.857 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:29:17.860 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:30:17.853 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:31:17.854 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:32:17.851 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:33:17.852 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:34:17.864 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:34:58.617 [10280] PROXY 127.0.0.1:61110 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 20:34:58.658 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 20:34:58.672 [10280] PROXY 127.0.0.1:61110 (127.0.0.1) <- 200 localhost:4002 (9257 bytes)
+2020-07-14 20:35:17.864 [10280] PROXY RX/TX bytes 0/9257 requests/responses 0/1 active reqs 1
+2020-07-14 20:36:17.866 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:37:17.856 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:38:17.867 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:39:17.870 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:40:17.870 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:41:17.869 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:42:17.858 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:43:17.860 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:44:17.861 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:44:58.859 [10280] PROXY 127.0.0.1:61188 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 20:44:58.902 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 20:44:58.908 [10280] PROXY 127.0.0.1:61188 (127.0.0.1) <- 200 localhost:4002 (9259 bytes)
+2020-07-14 20:45:17.874 [10280] PROXY RX/TX bytes 0/9259 requests/responses 0/1 active reqs 1
+2020-07-14 20:46:17.870 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:47:17.870 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:48:17.870 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:49:17.876 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:50:17.875 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:51:17.874 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:52:17.878 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:53:17.878 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:54:17.877 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:54:59.100 [10280] PROXY 127.0.0.1:61279 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 20:54:59.141 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 20:54:59.158 [10280] PROXY 127.0.0.1:61279 (127.0.0.1) <- 200 localhost:4002 (9259 bytes)
+2020-07-14 20:55:17.880 [10280] PROXY RX/TX bytes 0/9259 requests/responses 0/1 active reqs 1
+2020-07-14 20:56:17.881 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:57:17.920 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:58:17.883 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 20:59:17.876 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:00:17.874 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:01:17.882 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:02:17.884 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:03:18.023 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:04:17.891 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:04:59.347 [10280] PROXY 127.0.0.1:61370 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 21:04:59.389 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 21:04:59.394 [10280] PROXY 127.0.0.1:61370 (127.0.0.1) <- 200 localhost:4002 (9266 bytes)
+2020-07-14 21:05:17.881 [10280] PROXY RX/TX bytes 0/9266 requests/responses 0/1 active reqs 1
+2020-07-14 21:06:17.892 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:07:17.879 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:08:17.883 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:09:17.893 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:10:17.891 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:11:17.891 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:12:17.890 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:13:17.888 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:14:17.886 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:14:59.583 [10280] PROXY 127.0.0.1:61452 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 21:14:59.626 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 21:14:59.642 [10280] PROXY 127.0.0.1:61452 (127.0.0.1) <- 200 localhost:4002 (9265 bytes)
+2020-07-14 21:15:17.885 [10280] PROXY RX/TX bytes 0/9265 requests/responses 0/1 active reqs 1
+2020-07-14 21:16:17.899 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:17:17.892 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:18:17.892 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:19:17.889 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:20:17.905 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:21:17.904 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:22:17.893 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:23:17.903 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:24:17.892 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:24:59.827 [10280] PROXY 127.0.0.1:61531 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 21:24:59.874 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 21:24:59.880 [10280] PROXY 127.0.0.1:61531 (127.0.0.1) <- 200 localhost:4002 (9266 bytes)
+2020-07-14 21:25:17.898 [10280] PROXY RX/TX bytes 0/9266 requests/responses 0/1 active reqs 1
+2020-07-14 21:26:17.904 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:27:17.988 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:28:17.904 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:29:17.898 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:30:17.898 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:31:17.916 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:32:17.907 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:33:17.911 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:34:17.907 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:35:00.065 [10280] PROXY 127.0.0.1:61617 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 21:35:00.106 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 21:35:00.121 [10280] PROXY 127.0.0.1:61617 (127.0.0.1) <- 200 localhost:4002 (9273 bytes)
+2020-07-14 21:35:17.914 [10280] PROXY RX/TX bytes 0/9273 requests/responses 0/1 active reqs 1
+2020-07-14 21:36:17.910 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:37:17.903 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:38:17.905 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:39:17.911 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:40:17.918 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:41:17.908 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:42:17.905 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:43:17.905 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:44:17.908 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:45:00.317 [10280] PROXY 127.0.0.1:61724 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 21:45:00.358 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 21:45:00.365 [10280] PROXY 127.0.0.1:61724 (127.0.0.1) <- 200 localhost:4002 (9275 bytes)
+2020-07-14 21:45:17.917 [10280] PROXY RX/TX bytes 0/9275 requests/responses 0/1 active reqs 1
+2020-07-14 21:46:17.920 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:47:17.915 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:48:17.919 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:49:17.923 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:50:18.067 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:51:17.911 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:52:17.913 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:53:17.924 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:54:17.914 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:55:00.555 [10280] PROXY 127.0.0.1:61809 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 21:55:00.598 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 21:55:00.614 [10280] PROXY 127.0.0.1:61809 (127.0.0.1) <- 200 localhost:4002 (9277 bytes)
+2020-07-14 21:55:17.915 [10280] PROXY RX/TX bytes 0/9277 requests/responses 0/1 active reqs 1
+2020-07-14 21:56:17.916 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:57:17.991 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:58:17.927 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 21:59:17.931 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:00:17.932 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:01:17.928 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:02:17.921 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:03:17.932 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:04:17.923 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:05:00.803 [10280] PROXY 127.0.0.1:61888 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 22:05:00.850 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 22:05:00.856 [10280] PROXY 127.0.0.1:61888 (127.0.0.1) <- 200 localhost:4002 (9277 bytes)
+2020-07-14 22:05:17.923 [10280] PROXY RX/TX bytes 0/9277 requests/responses 0/1 active reqs 1
+2020-07-14 22:06:17.923 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:07:17.926 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:08:17.928 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:09:17.937 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:10:17.927 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:11:17.927 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:12:17.938 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:13:17.929 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:14:17.932 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:15:01.042 [10280] PROXY 127.0.0.1:61970 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 22:15:01.084 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 22:15:01.097 [10280] PROXY 127.0.0.1:61970 (127.0.0.1) <- 200 localhost:4002 (9277 bytes)
+2020-07-14 22:15:17.942 [10280] PROXY RX/TX bytes 0/9277 requests/responses 0/1 active reqs 1
+2020-07-14 22:16:17.937 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:17:17.939 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:18:17.933 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:19:17.947 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:20:17.938 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:21:17.939 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:22:17.945 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:23:17.941 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:24:17.947 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:25:01.303 [10280] PROXY 127.0.0.1:62064 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 22:25:01.345 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 22:25:01.352 [10280] PROXY 127.0.0.1:62064 (127.0.0.1) <- 200 localhost:4002 (9279 bytes)
+2020-07-14 22:25:17.945 [10280] PROXY RX/TX bytes 0/9279 requests/responses 0/1 active reqs 1
+2020-07-14 22:26:17.939 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:27:17.943 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:28:17.941 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:29:17.943 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:30:17.954 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:31:17.949 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:32:17.943 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:33:17.955 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:34:17.945 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:35:01.545 [10280] PROXY 127.0.0.1:62145 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 22:35:01.589 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 22:35:01.605 [10280] PROXY 127.0.0.1:62145 (127.0.0.1) <- 200 localhost:4002 (9279 bytes)
+2020-07-14 22:35:17.957 [10280] PROXY RX/TX bytes 0/9279 requests/responses 0/1 active reqs 1
+2020-07-14 22:36:17.952 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:37:17.957 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:38:17.948 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:39:17.961 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:40:17.957 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:41:17.962 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:42:17.962 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:43:17.953 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:44:17.962 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:45:01.801 [10280] PROXY 127.0.0.1:62235 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 22:45:01.842 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 22:45:01.848 [10280] PROXY 127.0.0.1:62235 (127.0.0.1) <- 200 localhost:4002 (9278 bytes)
+2020-07-14 22:45:17.957 [10280] PROXY RX/TX bytes 0/9278 requests/responses 0/1 active reqs 1
+2020-07-14 22:46:17.966 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:47:18.051 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:48:17.959 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:49:17.959 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:50:17.970 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:51:17.972 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:52:17.966 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:53:17.961 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:54:17.964 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:55:02.039 [10280] PROXY 127.0.0.1:62320 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 22:55:02.081 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 22:55:02.096 [10280] PROXY 127.0.0.1:62320 (127.0.0.1) <- 200 localhost:4002 (9287 bytes)
+2020-07-14 22:55:17.973 [10280] PROXY RX/TX bytes 0/9287 requests/responses 0/1 active reqs 1
+2020-07-14 22:56:17.973 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:57:18.214 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:58:17.973 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 22:59:17.976 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:00:17.971 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:01:17.978 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:02:17.978 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:03:17.981 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:04:17.970 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:05:02.289 [10280] PROXY 127.0.0.1:62402 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 23:05:02.333 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 23:05:02.339 [10280] PROXY 127.0.0.1:62402 (127.0.0.1) <- 200 localhost:4002 (9288 bytes)
+2020-07-14 23:05:17.968 [10280] PROXY RX/TX bytes 0/9288 requests/responses 0/1 active reqs 1
+2020-07-14 23:06:17.978 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:07:17.970 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:08:17.974 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:09:17.976 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:10:17.983 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:11:17.982 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:12:17.974 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:13:17.985 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:14:17.984 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:15:02.527 [10280] PROXY 127.0.0.1:62520 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 23:15:02.569 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 23:15:02.583 [10280] PROXY 127.0.0.1:62520 (127.0.0.1) <- 200 localhost:4002 (9291 bytes)
+2020-07-14 23:15:17.983 [10280] PROXY RX/TX bytes 0/9291 requests/responses 0/1 active reqs 1
+2020-07-14 23:16:17.977 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:17:17.990 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:18:17.993 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:19:17.990 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:20:17.986 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:21:17.982 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:22:17.987 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:23:17.997 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:24:17.988 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:25:02.782 [10280] PROXY 127.0.0.1:62598 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 23:25:02.825 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 23:25:02.830 [10280] PROXY 127.0.0.1:62598 (127.0.0.1) <- 200 localhost:4002 (9301 bytes)
+2020-07-14 23:25:17.995 [10280] PROXY RX/TX bytes 0/9301 requests/responses 0/1 active reqs 1
+2020-07-14 23:26:17.995 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:27:17.997 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:28:17.987 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:29:17.992 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:30:17.991 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:31:17.994 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:32:18.000 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:33:18.120 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:34:17.994 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:35:03.018 [10280] PROXY 127.0.0.1:62664 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 23:35:03.060 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 23:35:03.075 [10280] PROXY 127.0.0.1:62664 (127.0.0.1) <- 200 localhost:4002 (9301 bytes)
+2020-07-14 23:35:18.002 [10280] PROXY RX/TX bytes 0/9301 requests/responses 0/1 active reqs 1
+2020-07-14 23:36:18.000 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:37:18.000 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:38:17.995 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:39:18.000 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:40:18.003 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:41:18.006 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:42:18.009 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:43:18.002 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:44:17.998 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:45:03.268 [10280] PROXY 127.0.0.1:62750 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 23:45:03.309 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 23:45:03.315 [10280] PROXY 127.0.0.1:62750 (127.0.0.1) <- 200 localhost:4002 (9306 bytes)
+2020-07-14 23:45:18.006 [10280] PROXY RX/TX bytes 0/9306 requests/responses 0/1 active reqs 1
+2020-07-14 23:46:18.014 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:47:18.008 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:48:18.004 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:49:18.005 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:50:18.012 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:51:18.010 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:52:18.013 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:53:18.017 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:54:18.006 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:55:03.617 [10280] PROXY 127.0.0.1:62846 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-14 23:55:03.660 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-14 23:55:03.678 [10280] PROXY 127.0.0.1:62846 (127.0.0.1) <- 200 localhost:4002 (9306 bytes)
+2020-07-14 23:55:18.011 [10280] PROXY RX/TX bytes 0/9306 requests/responses 0/1 active reqs 1
+2020-07-14 23:56:18.013 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:57:18.019 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:58:18.022 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-14 23:59:18.011 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:00:18.016 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:01:18.020 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:02:18.022 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:03:18.019 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:04:18.024 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:05:03.869 [10280] PROXY 127.0.0.1:62944 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 00:05:03.910 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 00:05:03.916 [10280] PROXY 127.0.0.1:62944 (127.0.0.1) <- 200 localhost:4002 (9300 bytes)
+2020-07-15 00:05:18.021 [10280] PROXY RX/TX bytes 0/9300 requests/responses 0/1 active reqs 1
+2020-07-15 00:06:18.019 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:07:18.018 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:08:18.024 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:09:18.022 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:10:18.023 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:11:18.405 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:12:18.029 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:13:18.030 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:14:18.029 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:15:04.104 [10280] PROXY 127.0.0.1:63022 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 00:15:04.144 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 00:15:04.158 [10280] PROXY 127.0.0.1:63022 (127.0.0.1) <- 200 localhost:4002 (9300 bytes)
+2020-07-15 00:15:18.022 [10280] PROXY RX/TX bytes 0/9300 requests/responses 0/1 active reqs 1
+2020-07-15 00:16:18.028 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:17:18.030 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:18:18.028 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:19:18.037 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:20:18.040 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:21:18.036 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:22:18.032 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:23:18.038 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:24:18.036 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:25:04.347 [10280] PROXY 127.0.0.1:63103 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 00:25:04.392 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 00:25:04.397 [10280] PROXY 127.0.0.1:63103 (127.0.0.1) <- 200 localhost:4002 (9299 bytes)
+2020-07-15 00:25:18.045 [10280] PROXY RX/TX bytes 0/9299 requests/responses 0/1 active reqs 1
+2020-07-15 00:26:18.046 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:27:18.036 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:28:18.039 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:29:18.046 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:30:18.050 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:31:18.038 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:32:18.361 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:33:18.049 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:34:18.052 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:35:04.588 [10280] PROXY 127.0.0.1:63219 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 00:35:04.629 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 00:35:04.644 [10280] PROXY 127.0.0.1:63219 (127.0.0.1) <- 200 localhost:4002 (9306 bytes)
+2020-07-15 00:35:18.053 [10280] PROXY RX/TX bytes 0/9306 requests/responses 0/1 active reqs 1
+2020-07-15 00:36:18.056 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:37:18.484 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:38:18.070 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:39:18.048 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:40:18.048 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:41:18.047 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:42:18.094 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:43:18.057 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:44:18.051 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:45:04.906 [10280] PROXY 127.0.0.1:63715 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 00:45:05.589 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 00:45:05.906 [10280] PROXY 127.0.0.1:63715 (127.0.0.1) <- 200 localhost:4002 (9328 bytes)
+2020-07-15 00:45:18.050 [10280] PROXY RX/TX bytes 0/9328 requests/responses 0/1 active reqs 1
+2020-07-15 00:46:21.788 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:47:19.094 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:48:18.395 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:49:18.268 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:50:18.061 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:51:18.065 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:52:18.054 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:53:18.063 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:54:18.054 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:55:06.093 [10280] PROXY 127.0.0.1:63921 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 00:55:06.140 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 00:55:06.154 [10280] PROXY 127.0.0.1:63921 (127.0.0.1) <- 200 localhost:4002 (9329 bytes)
+2020-07-15 00:55:18.068 [10280] PROXY RX/TX bytes 0/9329 requests/responses 0/1 active reqs 1
+2020-07-15 00:56:18.068 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:57:18.059 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:58:18.062 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 00:59:18.067 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:00:18.072 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:01:18.075 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:02:18.064 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:03:18.068 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:04:18.073 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:05:06.344 [10280] PROXY 127.0.0.1:64039 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 01:05:06.390 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 01:05:06.404 [10280] PROXY 127.0.0.1:64039 (127.0.0.1) <- 200 localhost:4002 (9343 bytes)
+2020-07-15 01:05:18.063 [10280] PROXY RX/TX bytes 0/9343 requests/responses 0/1 active reqs 1
+2020-07-15 01:06:18.074 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:07:18.067 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:08:18.079 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:09:18.081 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:10:18.076 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:11:18.078 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:12:18.082 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:13:18.083 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:14:18.082 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:15:06.603 [10280] PROXY 127.0.0.1:64135 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 01:15:06.645 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 01:15:06.664 [10280] PROXY 127.0.0.1:64135 (127.0.0.1) <- 200 localhost:4002 (9345 bytes)
+2020-07-15 01:15:18.079 [10280] PROXY RX/TX bytes 0/9345 requests/responses 0/1 active reqs 1
+2020-07-15 01:16:18.077 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:17:18.071 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:18:18.077 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:19:18.081 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:20:18.085 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:21:18.090 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:22:18.079 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:23:18.092 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:24:18.092 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:25:06.862 [10280] PROXY 127.0.0.1:64249 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 01:25:06.905 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 01:25:06.911 [10280] PROXY 127.0.0.1:64249 (127.0.0.1) <- 200 localhost:4002 (9345 bytes)
+2020-07-15 01:25:18.084 [10280] PROXY RX/TX bytes 0/9345 requests/responses 0/1 active reqs 1
+2020-07-15 01:26:18.086 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:27:18.081 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:28:18.092 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:29:18.094 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:30:18.098 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:31:18.089 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:32:18.085 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:33:18.091 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:34:18.290 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:35:17.841 [10280] PROXY 127.0.0.1:64365 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 01:35:17.882 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 01:35:17.895 [10280] PROXY 127.0.0.1:64365 (127.0.0.1) <- 200 localhost:4002 (9339 bytes)
+2020-07-15 01:35:18.100 [10280] PROXY RX/TX bytes 0/9339 requests/responses 0/1 active reqs 1
+2020-07-15 01:36:18.089 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:37:18.088 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:38:18.127 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:39:18.099 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:40:18.101 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:41:18.104 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:42:18.105 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:43:18.097 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:44:18.096 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:45:18.084 [10280] PROXY 127.0.0.1:64470 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 01:45:18.116 [10280] PROXY RX/TX bytes 265/0 requests/responses 1/0 active reqs 1
+2020-07-15 01:45:18.129 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 01:45:18.134 [10280] PROXY 127.0.0.1:64470 (127.0.0.1) <- 200 localhost:4002 (9331 bytes)
+2020-07-15 01:46:18.136 [10280] PROXY RX/TX bytes 0/9331 requests/responses 0/1 active reqs 1
+2020-07-15 01:47:18.116 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:48:18.122 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:48:22.634 [10280] MAIN connecting to maki3642.eu-central-1.miso.saucelabs.com - maki3642.eu-central-1.miso.saucelabs.com:443
+2020-07-15 01:48:24.384 [10280] MAIN connecting to KGP server maki3642.eu-central-1.miso.saucelabs.com took 2521 ms
+2020-07-15 01:49:18.100 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:50:19.099 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:51:18.110 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:52:18.988 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:53:18.111 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:54:18.299 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:55:18.113 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:55:18.322 [10280] PROXY 127.0.0.1:64568 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 01:55:18.491 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 01:55:18.506 [10280] PROXY 127.0.0.1:64568 (127.0.0.1) <- 200 localhost:4002 (9318 bytes)
+2020-07-15 01:56:18.105 [10280] PROXY RX/TX bytes 0/9318 requests/responses 0/1 active reqs 1
+2020-07-15 01:57:07.657 [10280] MAIN connecting to maki3642.eu-central-1.miso.saucelabs.com - maki3642.eu-central-1.miso.saucelabs.com:443
+2020-07-15 01:57:07.886 [10280] MAIN connecting to KGP server maki3642.eu-central-1.miso.saucelabs.com took 229 ms
+2020-07-15 01:57:18.104 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:58:18.111 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 01:59:18.116 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:00:18.114 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:01:18.110 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:02:18.122 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:03:18.110 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:04:18.113 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:05:18.112 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:05:18.694 [10280] PROXY 127.0.0.1:64692 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 02:05:18.737 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 02:05:18.743 [10280] PROXY 127.0.0.1:64692 (127.0.0.1) <- 200 localhost:4002 (9317 bytes)
+2020-07-15 02:06:18.110 [10280] PROXY RX/TX bytes 0/9317 requests/responses 0/1 active reqs 1
+2020-07-15 02:07:18.116 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:08:18.462 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:09:18.123 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:10:18.126 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:11:18.124 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:12:18.118 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:13:18.118 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:14:18.128 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:14:44.259 [10280] MAIN connecting to maki3642.eu-central-1.miso.saucelabs.com - maki3642.eu-central-1.miso.saucelabs.com:443
+2020-07-15 02:14:44.571 [10280] MAIN connecting to KGP server maki3642.eu-central-1.miso.saucelabs.com took 311 ms
+2020-07-15 02:15:18.128 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:15:18.944 [10280] PROXY 127.0.0.1:64843 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 02:15:18.986 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 02:15:19.001 [10280] PROXY 127.0.0.1:64843 (127.0.0.1) <- 200 localhost:4002 (9325 bytes)
+2020-07-15 02:16:18.123 [10280] PROXY RX/TX bytes 0/9325 requests/responses 0/1 active reqs 1
+2020-07-15 02:17:18.130 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:18:18.130 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:19:18.122 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:20:18.134 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:21:18.136 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:22:18.131 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:23:18.124 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:24:18.229 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:25:18.129 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:25:19.349 [10280] PROXY 127.0.0.1:64960 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 02:25:19.391 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 02:25:19.397 [10280] PROXY 127.0.0.1:64960 (127.0.0.1) <- 200 localhost:4002 (9313 bytes)
+2020-07-15 02:26:18.138 [10280] PROXY RX/TX bytes 0/9313 requests/responses 0/1 active reqs 1
+2020-07-15 02:27:18.127 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:28:18.142 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:29:18.130 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:30:18.186 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:31:18.134 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:32:18.144 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:33:18.140 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:34:18.142 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:35:18.148 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:35:19.593 [10280] PROXY 127.0.0.1:65084 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 02:35:19.636 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 02:35:19.651 [10280] PROXY 127.0.0.1:65084 (127.0.0.1) <- 200 localhost:4002 (9315 bytes)
+2020-07-15 02:36:18.133 [10280] PROXY RX/TX bytes 0/9315 requests/responses 0/1 active reqs 1
+2020-07-15 02:36:48.682 [10280] MAIN connecting to maki3642.eu-central-1.miso.saucelabs.com - maki3642.eu-central-1.miso.saucelabs.com:443
+2020-07-15 02:36:48.912 [10280] MAIN connecting to KGP server maki3642.eu-central-1.miso.saucelabs.com took 229 ms
+2020-07-15 02:37:18.148 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:38:18.149 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:39:18.135 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:40:18.143 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:41:18.143 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:42:18.152 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:43:18.149 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:44:18.147 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:45:18.150 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:45:19.842 [10280] PROXY 127.0.0.1:65173 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 02:45:19.882 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 02:45:19.888 [10280] PROXY 127.0.0.1:65173 (127.0.0.1) <- 200 localhost:4002 (9315 bytes)
+2020-07-15 02:46:18.153 [10280] PROXY RX/TX bytes 0/9315 requests/responses 0/1 active reqs 1
+2020-07-15 02:47:18.143 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:48:18.153 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:49:18.151 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:50:18.155 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:51:18.149 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:52:18.151 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:53:18.148 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:54:18.155 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:55:18.158 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:55:20.075 [10280] PROXY 127.0.0.1:65292 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 02:55:20.117 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 02:55:20.132 [10280] PROXY 127.0.0.1:65292 (127.0.0.1) <- 200 localhost:4002 (9315 bytes)
+2020-07-15 02:56:18.148 [10280] PROXY RX/TX bytes 0/9315 requests/responses 0/1 active reqs 1
+2020-07-15 02:57:19.018 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:58:18.150 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 02:59:18.811 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:00:18.158 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:01:18.162 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:02:18.166 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:03:18.168 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:04:18.169 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:05:18.170 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:05:20.317 [10280] PROXY 127.0.0.1:65376 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 03:05:20.360 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 03:05:20.374 [10280] PROXY 127.0.0.1:65376 (127.0.0.1) <- 200 localhost:4002 (9318 bytes)
+2020-07-15 03:06:18.160 [10280] PROXY RX/TX bytes 0/9318 requests/responses 0/1 active reqs 1
+2020-07-15 03:07:18.171 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:08:18.172 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:09:18.173 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:10:18.174 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:11:18.175 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:12:18.175 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:13:18.176 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:14:18.168 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:15:18.172 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:15:20.587 [10280] PROXY 127.0.0.1:65456 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 03:15:20.628 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 03:15:20.643 [10280] PROXY 127.0.0.1:65456 (127.0.0.1) <- 200 localhost:4002 (9318 bytes)
+2020-07-15 03:16:18.178 [10280] PROXY RX/TX bytes 0/9318 requests/responses 0/1 active reqs 1
+2020-07-15 03:17:18.179 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:18:18.180 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:19:18.174 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:20:18.178 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:21:18.182 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:22:18.183 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:23:18.183 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:24:18.185 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:25:18.185 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:25:20.837 [10280] PROXY 127.0.0.1:49174 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 03:25:20.878 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 03:25:20.894 [10280] PROXY 127.0.0.1:49174 (127.0.0.1) <- 200 localhost:4002 (9319 bytes)
+2020-07-15 03:26:18.182 [10280] PROXY RX/TX bytes 0/9319 requests/responses 0/1 active reqs 1
+2020-07-15 03:27:18.177 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:28:18.182 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:29:18.186 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:30:18.189 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:31:18.178 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:32:18.182 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:33:18.182 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:34:18.186 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:35:18.190 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:35:21.082 [10280] PROXY 127.0.0.1:49251 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 03:35:21.128 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 03:35:21.141 [10280] PROXY 127.0.0.1:49251 (127.0.0.1) <- 200 localhost:4002 (9319 bytes)
+2020-07-15 03:36:18.194 [10280] PROXY RX/TX bytes 0/9319 requests/responses 0/1 active reqs 1
+2020-07-15 03:37:18.194 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:38:18.189 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:39:18.192 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:40:18.196 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:41:18.194 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:42:18.193 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:43:18.199 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:44:18.200 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:45:18.191 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:45:31.178 [10280] PROXY 127.0.0.1:49432 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 03:45:31.406 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 03:45:31.817 [10280] PROXY 127.0.0.1:49432 (127.0.0.1) <- 200 localhost:4002 (9315 bytes)
+2020-07-15 03:46:18.201 [10280] PROXY RX/TX bytes 0/9315 requests/responses 0/1 active reqs 1
+2020-07-15 03:47:18.188 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:48:18.192 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:49:18.190 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:50:18.194 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:51:18.198 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:52:18.203 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:53:18.192 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:54:18.196 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:55:18.207 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:55:32.045 [10280] PROXY 127.0.0.1:49769 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 03:55:32.100 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 03:55:32.116 [10280] PROXY 127.0.0.1:49769 (127.0.0.1) <- 200 localhost:4002 (9322 bytes)
+2020-07-15 03:56:18.196 [10280] PROXY RX/TX bytes 0/9322 requests/responses 0/1 active reqs 1
+2020-07-15 03:57:18.206 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:58:18.210 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 03:59:18.206 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:00:18.211 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:01:18.207 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:02:18.252 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:03:18.203 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:04:18.207 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:05:18.206 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:05:32.464 [10280] PROXY 127.0.0.1:50143 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 04:05:32.509 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 04:05:32.515 [10280] PROXY 127.0.0.1:50143 (127.0.0.1) <- 200 localhost:4002 (9324 bytes)
+2020-07-15 04:06:18.209 [10280] PROXY RX/TX bytes 0/9324 requests/responses 0/1 active reqs 1
+2020-07-15 04:07:18.890 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:08:18.213 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:09:18.208 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:10:18.206 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:11:18.214 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:12:18.274 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:13:18.209 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:14:18.214 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:15:18.223 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:15:32.708 [10280] PROXY 127.0.0.1:50632 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 04:15:32.750 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 04:15:32.764 [10280] PROXY 127.0.0.1:50632 (127.0.0.1) <- 200 localhost:4002 (9321 bytes)
+2020-07-15 04:16:18.220 [10280] PROXY RX/TX bytes 0/9321 requests/responses 0/1 active reqs 1
+2020-07-15 04:17:18.223 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:18:18.216 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:19:18.218 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:20:18.226 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:21:18.217 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:22:18.214 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:23:18.218 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:24:18.217 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:25:18.222 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:25:33.120 [10280] PROXY 127.0.0.1:51045 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 04:25:33.163 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 04:25:33.169 [10280] PROXY 127.0.0.1:51045 (127.0.0.1) <- 200 localhost:4002 (9333 bytes)
+2020-07-15 04:26:18.219 [10280] PROXY RX/TX bytes 0/9333 requests/responses 0/1 active reqs 1
+2020-07-15 04:27:18.225 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:28:18.233 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:29:18.227 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:30:18.224 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:31:18.387 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:32:18.234 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:33:18.228 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:34:18.243 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:35:18.236 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:35:33.356 [10280] PROXY 127.0.0.1:51761 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 04:35:33.399 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 04:35:33.414 [10280] PROXY 127.0.0.1:51761 (127.0.0.1) <- 200 localhost:4002 (9340 bytes)
+2020-07-15 04:36:18.237 [10280] PROXY RX/TX bytes 0/9340 requests/responses 0/1 active reqs 1
+2020-07-15 04:37:18.313 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:38:18.229 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:39:18.237 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:40:18.387 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:41:18.230 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:42:18.234 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:43:18.239 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:44:18.243 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:45:18.247 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:45:33.597 [10280] PROXY 127.0.0.1:52741 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 04:45:33.639 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 04:45:33.652 [10280] PROXY 127.0.0.1:52741 (127.0.0.1) <- 200 localhost:4002 (9336 bytes)
+2020-07-15 04:46:18.235 [10280] PROXY RX/TX bytes 0/9336 requests/responses 0/1 active reqs 1
+2020-07-15 04:47:18.246 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:48:18.250 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:49:18.250 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:50:18.250 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:51:18.251 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:52:18.253 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:53:18.253 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:54:18.254 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:55:18.248 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:55:33.851 [10280] PROXY 127.0.0.1:53101 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 04:55:33.895 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 04:55:33.909 [10280] PROXY 127.0.0.1:53101 (127.0.0.1) <- 200 localhost:4002 (9337 bytes)
+2020-07-15 04:56:18.255 [10280] PROXY RX/TX bytes 0/9337 requests/responses 0/1 active reqs 1
+2020-07-15 04:57:18.250 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:58:18.254 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 04:59:18.258 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:00:18.258 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:01:18.260 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:02:18.260 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:03:18.261 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:04:18.261 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:05:18.262 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:05:34.097 [10280] PROXY 127.0.0.1:53417 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 05:05:34.141 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 05:05:34.155 [10280] PROXY 127.0.0.1:53417 (127.0.0.1) <- 200 localhost:4002 (9338 bytes)
+2020-07-15 05:06:18.254 [10280] PROXY RX/TX bytes 0/9338 requests/responses 0/1 active reqs 1
+2020-07-15 05:07:18.257 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:08:18.261 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:09:18.265 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:10:18.266 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:11:18.267 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:12:18.268 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:13:18.268 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:14:18.269 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:15:18.255 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:15:34.354 [10280] PROXY 127.0.0.1:53554 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 05:15:34.397 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 05:15:34.412 [10280] PROXY 127.0.0.1:53554 (127.0.0.1) <- 200 localhost:4002 (9338 bytes)
+2020-07-15 05:16:18.259 [10280] PROXY RX/TX bytes 0/9338 requests/responses 0/1 active reqs 1
+2020-07-15 05:17:18.271 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:18:18.261 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:19:18.266 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:20:18.265 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:21:18.269 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:22:18.273 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:23:18.277 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:24:18.273 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:25:18.276 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:25:34.597 [10280] PROXY 127.0.0.1:53641 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 05:25:34.639 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 05:25:34.644 [10280] PROXY 127.0.0.1:53641 (127.0.0.1) <- 200 localhost:4002 (9337 bytes)
+2020-07-15 05:26:18.278 [10280] PROXY RX/TX bytes 0/9337 requests/responses 0/1 active reqs 1
+2020-07-15 05:27:18.371 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:28:18.279 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:29:18.268 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:30:18.279 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:31:18.269 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:32:18.279 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:33:18.274 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:34:18.276 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:35:18.284 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:35:34.836 [10280] PROXY 127.0.0.1:53761 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 05:35:34.879 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 05:35:34.898 [10280] PROXY 127.0.0.1:53761 (127.0.0.1) <- 200 localhost:4002 (9336 bytes)
+2020-07-15 05:36:18.282 [10280] PROXY RX/TX bytes 0/9336 requests/responses 0/1 active reqs 1
+2020-07-15 05:37:18.275 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:38:18.274 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:39:18.288 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:40:18.288 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:41:18.276 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:42:18.284 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:43:18.290 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:44:18.282 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:45:18.289 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:45:35.086 [10280] PROXY 127.0.0.1:53863 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 05:45:35.128 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 05:45:35.135 [10280] PROXY 127.0.0.1:53863 (127.0.0.1) <- 200 localhost:4002 (9336 bytes)
+2020-07-15 05:46:18.285 [10280] PROXY RX/TX bytes 0/9336 requests/responses 0/1 active reqs 1
+2020-07-15 05:47:18.293 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:48:18.282 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:49:18.282 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:50:18.286 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:51:18.289 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:52:18.293 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:53:18.297 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:54:18.297 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:55:18.287 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:55:35.342 [10280] PROXY 127.0.0.1:53951 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 05:55:35.386 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 05:55:35.402 [10280] PROXY 127.0.0.1:53951 (127.0.0.1) <- 200 localhost:4002 (9336 bytes)
+2020-07-15 05:56:18.299 [10280] PROXY RX/TX bytes 0/9336 requests/responses 0/1 active reqs 1
+2020-07-15 05:57:18.290 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:58:18.303 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 05:59:18.290 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:00:18.295 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:01:18.302 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:02:18.341 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:03:18.307 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:04:18.429 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:05:18.298 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:05:35.599 [10280] PROXY 127.0.0.1:54102 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 06:05:35.643 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 06:05:35.649 [10280] PROXY 127.0.0.1:54102 (127.0.0.1) <- 200 localhost:4002 (9331 bytes)
+2020-07-15 06:06:18.304 [10280] PROXY RX/TX bytes 0/9331 requests/responses 0/1 active reqs 1
+2020-07-15 06:07:18.299 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:08:18.623 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:09:18.301 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:10:18.301 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:11:18.310 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:12:18.304 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:13:18.301 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:14:18.301 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:15:18.302 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:15:35.836 [10280] PROXY 127.0.0.1:54197 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 06:15:35.882 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 06:15:35.896 [10280] PROXY 127.0.0.1:54197 (127.0.0.1) <- 200 localhost:4002 (9336 bytes)
+2020-07-15 06:16:18.317 [10280] PROXY RX/TX bytes 0/9336 requests/responses 0/1 active reqs 1
+2020-07-15 06:17:18.317 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:18:18.319 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:19:18.311 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:20:18.313 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:21:18.313 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:22:18.320 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:23:18.319 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:24:18.308 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:25:18.317 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:25:36.086 [10280] PROXY 127.0.0.1:54320 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 06:25:36.126 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 06:25:36.132 [10280] PROXY 127.0.0.1:54320 (127.0.0.1) <- 200 localhost:4002 (9341 bytes)
+2020-07-15 06:26:18.313 [10280] PROXY RX/TX bytes 0/9341 requests/responses 0/1 active reqs 1
+2020-07-15 06:27:18.321 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:28:18.323 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:29:18.312 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:30:18.323 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:31:18.390 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:32:18.325 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:33:18.325 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:34:18.321 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:35:18.324 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:35:36.456 [10280] PROXY 127.0.0.1:54445 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 06:35:36.550 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 06:35:36.693 [10280] PROXY 127.0.0.1:54445 (127.0.0.1) <- 200 localhost:4002 (9342 bytes)
+2020-07-15 06:36:18.321 [10280] PROXY RX/TX bytes 0/9342 requests/responses 0/1 active reqs 1
+2020-07-15 06:37:18.328 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:38:18.333 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:39:18.328 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:40:18.322 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:41:18.330 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:42:18.966 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:43:18.337 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:44:18.330 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:45:18.335 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:45:36.955 [10280] PROXY 127.0.0.1:54580 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 06:45:36.997 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 06:45:37.003 [10280] PROXY 127.0.0.1:54580 (127.0.0.1) <- 200 localhost:4002 (9347 bytes)
+2020-07-15 06:46:18.416 [10280] PROXY RX/TX bytes 0/9347 requests/responses 0/1 active reqs 1
+2020-07-15 06:47:18.331 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:48:18.328 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:49:18.337 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:50:18.339 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:51:18.332 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:52:18.337 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:53:18.339 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:54:18.345 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:55:18.339 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:55:41.281 [10280] MAIN connecting to maki3642.eu-central-1.miso.saucelabs.com - maki3642.eu-central-1.miso.saucelabs.com:443
+2020-07-15 06:55:42.807 [10280] MAIN connecting to KGP server maki3642.eu-central-1.miso.saucelabs.com took 505 ms
+2020-07-15 06:55:44.199 [10280] PROXY 127.0.0.1:54851 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 06:55:44.302 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 06:55:44.320 [10280] PROXY 127.0.0.1:54851 (127.0.0.1) <- 200 localhost:4002 (9346 bytes)
+2020-07-15 06:56:18.348 [10280] PROXY RX/TX bytes 0/9346 requests/responses 0/1 active reqs 1
+2020-07-15 06:57:18.336 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:58:18.347 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 06:59:18.336 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:00:18.345 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:01:18.348 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:02:18.338 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:03:18.381 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:04:18.340 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:05:18.352 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:05:45.153 [10280] PROXY 127.0.0.1:55040 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 07:05:45.193 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 07:05:45.199 [10280] PROXY 127.0.0.1:55040 (127.0.0.1) <- 200 localhost:4002 (9348 bytes)
+2020-07-15 07:06:18.351 [10280] PROXY RX/TX bytes 0/9348 requests/responses 0/1 active reqs 1
+2020-07-15 07:07:18.351 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:08:18.362 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:09:18.356 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:10:18.345 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:11:18.355 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:12:18.347 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:13:18.351 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:14:18.351 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:15:18.356 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:15:45.383 [10280] PROXY 127.0.0.1:55125 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 07:15:45.425 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 07:15:45.441 [10280] PROXY 127.0.0.1:55125 (127.0.0.1) <- 200 localhost:4002 (9347 bytes)
+2020-07-15 07:16:18.351 [10280] PROXY RX/TX bytes 0/9347 requests/responses 0/1 active reqs 1
+2020-07-15 07:17:18.360 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:18:18.362 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:19:18.365 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:20:18.354 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:21:18.362 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:22:18.360 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:23:18.363 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:24:18.357 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:25:18.362 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:25:45.631 [10280] PROXY 127.0.0.1:55207 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 07:25:45.673 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 07:25:45.679 [10280] PROXY 127.0.0.1:55207 (127.0.0.1) <- 200 localhost:4002 (9341 bytes)
+2020-07-15 07:26:18.380 [10280] PROXY RX/TX bytes 0/9341 requests/responses 0/1 active reqs 1
+2020-07-15 07:27:18.363 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:28:18.359 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:29:18.370 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:30:18.369 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:31:18.360 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:32:18.375 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:33:18.365 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:34:18.362 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:35:18.363 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:35:45.870 [10280] PROXY 127.0.0.1:55300 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 07:35:45.913 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 07:35:45.928 [10280] PROXY 127.0.0.1:55300 (127.0.0.1) <- 200 localhost:4002 (9347 bytes)
+2020-07-15 07:36:18.366 [10280] PROXY RX/TX bytes 0/9347 requests/responses 0/1 active reqs 1
+2020-07-15 07:37:18.367 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:38:18.378 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:39:19.591 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:40:18.370 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:41:18.372 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:42:18.372 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:43:18.380 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:44:18.589 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:45:18.373 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:45:46.124 [10280] PROXY 127.0.0.1:55406 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 07:45:46.165 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 07:45:46.172 [10280] PROXY 127.0.0.1:55406 (127.0.0.1) <- 200 localhost:4002 (9353 bytes)
+2020-07-15 07:46:18.496 [10280] PROXY RX/TX bytes 0/9353 requests/responses 0/1 active reqs 1
+2020-07-15 07:47:18.378 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:48:18.385 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:49:18.388 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:50:18.378 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:51:18.381 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:52:18.386 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:53:18.377 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:54:18.389 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:55:18.391 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:55:46.363 [10280] PROXY 127.0.0.1:55500 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 07:55:46.408 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 07:55:46.424 [10280] PROXY 127.0.0.1:55500 (127.0.0.1) <- 200 localhost:4002 (9353 bytes)
+2020-07-15 07:56:18.394 [10280] PROXY RX/TX bytes 0/9353 requests/responses 0/1 active reqs 1
+2020-07-15 07:57:18.385 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:58:18.942 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 07:59:18.386 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:00:18.390 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:01:18.386 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:02:18.385 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:03:18.880 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:04:18.396 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:05:18.392 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:05:46.614 [10280] PROXY 127.0.0.1:55792 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 08:05:46.657 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 08:05:46.663 [10280] PROXY 127.0.0.1:55792 (127.0.0.1) <- 200 localhost:4002 (9358 bytes)
+2020-07-15 08:06:18.393 [10280] PROXY RX/TX bytes 0/9358 requests/responses 0/1 active reqs 1
+2020-07-15 08:07:18.401 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:08:18.399 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:09:18.402 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:10:18.411 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:11:18.421 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:12:18.441 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:13:18.466 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:14:18.393 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:15:18.575 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:15:46.850 [10280] PROXY 127.0.0.1:56033 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 08:15:46.892 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 08:15:46.907 [10280] PROXY 127.0.0.1:56033 (127.0.0.1) <- 200 localhost:4002 (9368 bytes)
+2020-07-15 08:16:18.640 [10280] PROXY RX/TX bytes 0/9368 requests/responses 0/1 active reqs 1
+2020-07-15 08:17:18.398 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:18:18.411 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:19:18.399 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:20:18.401 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:21:18.400 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:22:18.404 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:23:18.408 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:24:18.412 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:25:18.416 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:25:47.124 [10280] PROXY 127.0.0.1:56428 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 08:25:47.164 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 08:25:47.178 [10280] PROXY 127.0.0.1:56428 (127.0.0.1) <- 200 localhost:4002 (9370 bytes)
+2020-07-15 08:26:18.417 [10280] PROXY RX/TX bytes 0/9370 requests/responses 0/1 active reqs 1
+2020-07-15 08:27:18.409 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:28:18.413 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:29:18.417 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:30:18.407 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:31:18.411 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:32:18.415 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:33:18.419 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:34:18.423 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:35:18.413 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:35:47.366 [10280] PROXY 127.0.0.1:56568 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 08:35:47.409 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 08:35:47.421 [10280] PROXY 127.0.0.1:56568 (127.0.0.1) <- 200 localhost:4002 (9370 bytes)
+2020-07-15 08:36:18.411 [10280] PROXY RX/TX bytes 0/9370 requests/responses 0/1 active reqs 1
+2020-07-15 08:37:18.417 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:38:18.421 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:39:18.425 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:40:18.415 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:41:18.419 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:42:18.423 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:43:18.428 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:44:18.419 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:45:18.419 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:45:47.609 [10280] PROXY 127.0.0.1:56695 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 08:45:47.773 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 08:45:47.788 [10280] PROXY 127.0.0.1:56695 (127.0.0.1) <- 200 localhost:4002 (9370 bytes)
+2020-07-15 08:46:18.418 [10280] PROXY RX/TX bytes 0/9370 requests/responses 0/1 active reqs 1
+2020-07-15 08:47:18.420 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:48:18.425 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:49:18.430 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:50:18.434 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:51:18.423 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:52:18.427 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:53:18.433 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:54:18.438 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:55:18.427 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:55:48.066 [10280] PROXY 127.0.0.1:56833 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 08:55:48.108 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 08:55:48.121 [10280] PROXY 127.0.0.1:56833 (127.0.0.1) <- 200 localhost:4002 (9370 bytes)
+2020-07-15 08:56:18.439 [10280] PROXY RX/TX bytes 0/9370 requests/responses 0/1 active reqs 1
+2020-07-15 08:57:18.428 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:58:18.433 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 08:59:18.437 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:00:18.441 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:01:18.430 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:02:18.436 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:03:18.441 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:04:18.445 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:05:18.434 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:05:48.309 [10280] PROXY 127.0.0.1:57382 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 09:05:48.352 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 09:05:48.366 [10280] PROXY 127.0.0.1:57382 (127.0.0.1) <- 200 localhost:4002 (9385 bytes)
+2020-07-15 09:06:18.448 [10280] PROXY RX/TX bytes 0/9385 requests/responses 0/1 active reqs 1
+2020-07-15 09:07:18.440 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:08:18.445 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:09:18.449 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:10:18.438 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:11:18.445 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:12:18.450 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:13:18.457 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:14:18.446 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:15:18.441 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:15:48.957 [10280] PROXY 127.0.0.1:57958 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 09:15:49.007 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 09:15:49.021 [10280] PROXY 127.0.0.1:57958 (127.0.0.1) <- 200 localhost:4002 (9362 bytes)
+2020-07-15 09:16:18.445 [10280] PROXY RX/TX bytes 0/9362 requests/responses 0/1 active reqs 1
+2020-07-15 09:17:18.453 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:18:18.453 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:19:18.444 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:20:18.448 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:21:18.457 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:22:18.463 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:23:18.448 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:24:18.606 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:25:19.933 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:25:49.219 [10280] PROXY 127.0.0.1:58564 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 09:25:49.263 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 09:25:49.270 [10280] PROXY 127.0.0.1:58564 (127.0.0.1) <- 200 localhost:4002 (9365 bytes)
+2020-07-15 09:26:18.457 [10280] PROXY RX/TX bytes 0/9365 requests/responses 0/1 active reqs 1
+2020-07-15 09:27:18.457 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:28:18.453 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:29:18.465 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:30:18.457 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:31:18.464 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:32:18.474 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:33:18.476 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:34:18.477 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:35:18.483 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:35:49.487 [10280] PROXY 127.0.0.1:59138 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 09:35:49.528 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 09:35:49.546 [10280] PROXY 127.0.0.1:59138 (127.0.0.1) <- 200 localhost:4002 (9369 bytes)
+2020-07-15 09:36:18.473 [10280] PROXY RX/TX bytes 0/9369 requests/responses 0/1 active reqs 1
+2020-07-15 09:37:18.534 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:38:18.484 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:39:18.643 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:40:18.480 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:41:18.489 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:42:18.490 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:43:18.495 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:44:18.491 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:45:18.484 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:45:49.939 [10280] PROXY 127.0.0.1:59729 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 09:45:49.983 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 09:45:49.990 [10280] PROXY 127.0.0.1:59729 (127.0.0.1) <- 200 localhost:4002 (9380 bytes)
+2020-07-15 09:46:18.483 [10280] PROXY RX/TX bytes 0/9380 requests/responses 0/1 active reqs 1
+2020-07-15 09:47:18.490 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:48:18.496 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:49:18.491 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:50:18.502 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:51:18.526 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:52:18.494 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:53:18.502 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:54:18.496 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:55:18.497 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:55:50.358 [10280] PROXY 127.0.0.1:60082 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 09:55:50.402 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 09:55:50.418 [10280] PROXY 127.0.0.1:60082 (127.0.0.1) <- 200 localhost:4002 (9383 bytes)
+2020-07-15 09:56:18.490 [10280] PROXY RX/TX bytes 0/9383 requests/responses 0/1 active reqs 1
+2020-07-15 09:57:18.507 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:58:18.502 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 09:59:18.497 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:00:18.562 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:01:18.499 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:02:18.496 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:03:18.497 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:04:18.508 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:05:18.523 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:05:50.625 [10280] PROXY 127.0.0.1:60170 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 10:05:50.670 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 10:05:50.686 [10280] PROXY 127.0.0.1:60170 (127.0.0.1) <- 200 localhost:4002 (9395 bytes)
+2020-07-15 10:06:18.514 [10280] PROXY RX/TX bytes 0/9395 requests/responses 0/1 active reqs 1
+2020-07-15 10:07:18.514 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:08:18.523 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:09:18.514 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:10:18.518 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:11:18.518 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:12:18.863 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:13:18.527 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:14:18.518 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:15:18.566 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:15:50.904 [10280] PROXY 127.0.0.1:60446 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 10:15:50.944 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 10:15:50.966 [10280] PROXY 127.0.0.1:60446 (127.0.0.1) <- 200 localhost:4002 (9395 bytes)
+2020-07-15 10:16:18.520 [10280] PROXY RX/TX bytes 0/9395 requests/responses 0/1 active reqs 1
+2020-07-15 10:17:18.517 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:18:18.907 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:19:18.516 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:20:18.636 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:21:18.518 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:22:18.515 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:23:18.526 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:24:18.526 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:25:18.533 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:25:51.779 [10280] PROXY 127.0.0.1:60721 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-07-15 10:25:52.130 [10280] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-07-15 10:25:52.148 [10280] PROXY 127.0.0.1:60721 (127.0.0.1) <- 200 localhost:4002 (9401 bytes)
+2020-07-15 10:26:21.647 [10280] PROXY RX/TX bytes 0/9401 requests/responses 0/1 active reqs 1
+2020-07-15 10:26:25.481 [10280] MAIN connecting to maki3642.eu-central-1.miso.saucelabs.com - maki3642.eu-central-1.miso.saucelabs.com:443
+2020-07-15 10:26:25.781 [10280] MAIN connecting to KGP server maki3642.eu-central-1.miso.saucelabs.com took 284 ms
+2020-07-15 10:27:18.515 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:28:18.522 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:28:28.516 [10280]  socket 1324 timeout
+2020-07-15 10:28:25.515 [10280] MAIN connecting to maki3642.eu-central-1.miso.saucelabs.com - maki3642.eu-central-1.miso.saucelabs.com:443
+2020-07-15 10:28:31.673 [10280] MAIN connecting to KGP server maki3642.eu-central-1.miso.saucelabs.com took 266 ms
+2020-07-15 10:29:18.530 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:30:18.526 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:31:18.526 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:32:18.525 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:33:18.532 [10280] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-07-15 10:33:25.640 [10280] Disconnected since 1594830504 **** exiting ****
+2020-07-15 10:33:25.640 [10280] Cleaning up.
+2020-07-15 10:33:25.640 [10280] Removing tunnel e0f622ac3df24f548cc7cae116f18813.
+2020-07-15 10:33:25.641 [10280] Waiting for any active jobs using this tunnel to finish.
+2020-07-15 10:33:25.641 [10280] Press CTRL-C again to shut down immediately.
+2020-07-15 10:33:25.641 [10280] Note: if you do this, tests that are still running will fail.
+2020-07-15 10:33:27.020 [10280] MAIN connecting to maki3642.eu-central-1.miso.saucelabs.com - maki3642.eu-central-1.miso.saucelabs.com:443
+2020-07-15 10:33:27.224 [10280] MAIN connecting to KGP server maki3642.eu-central-1.miso.saucelabs.com took 204 ms
+2020-07-15 10:33:28.155 [10280] All jobs using the tunnel have finished.
+2020-07-15 10:33:28.157 [10280] Waiting for the connection to terminate...
+2020-07-15 10:33:28.157 [10280] SC Status: 1594830806 after 1 tries
+2020-07-15 10:33:29.160 [10280] SC Status: 1 after 2 tries
+2020-07-15 10:33:30.161 [10280] SC Status: 1 after 3 tries
+2020-07-15 10:33:31.163 [10280] SC Status: 3 after 4 tries
+2020-07-15 10:33:31.163 [10280] Connection closed (8).
+2020-07-15 10:33:31.164 [10280] Goodbye.
+2020-08-06 12:33:24.736 [11828] Sauce Connect 4.6.2, build 5183 ad61662 
+2020-08-06 12:33:24.737 [11828] Trying to autodetect proxy settings
+2020-08-06 12:33:24.755 [11828] Starting up; pid 11828
+2020-08-06 12:33:24.756 [11828] Command line arguments: sc -u InfyDMQA -k **** --config-file D:\Automation\Sauceconnect\sc-4.6.2-win32\bin\config.eu-desktop.yml 
+2020-08-06 12:33:24.756 [11828] Log file: sc.eu-desktop_livetest.log
+2020-08-06 12:33:24.756 [11828] Pid file: sc.eu-desktop_livetest.pid
+2020-08-06 12:33:24.756 [11828] Timezone: MDT GMT offset: -6h
+2020-08-06 12:33:24.758 [11828] Using no proxy for connecting to Sauce Labs REST API.
+2020-08-06 12:33:25.144 [11828] PROXY *** scproxy started ***
+2020-08-06 12:33:25.198 [11828] PROXY found DNS server 10.64.173.141
+2020-08-06 12:33:25.198 [11828] PROXY found DNS server 10.64.173.142
+2020-08-06 12:33:25.198 [11828] PROXY found DNS server 165.237.86.86
+2020-08-06 12:33:25.243 [11828] Started scproxy on port 57747.
+2020-08-06 12:33:25.243 [11828] Please wait for 'you may start your tests' to start your tests.
+2020-08-06 12:33:40.215 [11828] Secure remote tunnel VM provisioned.
+2020-08-06 12:33:40.215 [11828] Tunnel ID: ef3104d114094813b151e882d5d0c7bf
+2020-08-06 12:33:40.741 [11828] Starting OCSP certificate check.
+2020-08-06 12:33:40.743 [11828] Using no proxy for connecting to http://status.geotrust.com.
+2020-08-06 12:33:40.864 [11828] Using no proxy for connecting to http://ocsp.digicert.com.
+2020-08-06 12:33:40.938 [11828] Reached a trusted CA. Certificate chain is verified.
+2020-08-06 12:33:40.938 [11828] Using no proxy for connecting to tunnel VM.
+2020-08-06 12:33:40.940 [11828] Starting Selenium listener...
+2020-08-06 12:33:40.940 [11828] Establishing secure TLS connection to tunnel...
+2020-08-06 12:33:41.011 [11828] [EVDNS] Added nameserver 10.64.173.141:53 as 039490D8
+2020-08-06 12:33:41.012 [11828] [EVDNS] Added nameserver 10.64.173.142:53 as 039492F0
+2020-08-06 12:33:41.012 [11828] [EVDNS] Added nameserver 165.237.86.86:53 as 03949428
+2020-08-06 12:33:41.014 [11828] MAIN connecting to maki112.eu-central-1.miso.saucelabs.com - maki112.eu-central-1.miso.saucelabs.com:443
+2020-08-06 12:33:41.190 [11828] Selenium listener started on port 4001.
+2020-08-06 12:33:41.259 [11828] MAIN connecting to KGP server maki112.eu-central-1.miso.saucelabs.com took 244 ms
+2020-08-06 12:33:42.324 [11828] PROXY 127.0.0.1:57772 (127.0.0.1) -> HEAD http://localhost:4002/debug/vars (265 bytes)
+2020-08-06 12:33:42.367 [11828] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-08-06 12:33:42.548 [11828] PROXY 127.0.0.1:57772 (127.0.0.1) -> GET http://localhost:4002/debug/vars (264 bytes)
+2020-08-06 12:33:43.191 [11828] Sauce Connect is up, you may start your tests.
+2020-08-06 12:34:25.211 [11828] PROXY RX/TX bytes 0/4291 requests/responses 0/0 active reqs 1
+2020-08-06 12:35:25.200 [11828] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 17:57:43.606 [18512] Sauce Connect 4.6.2, build 5183 ad61662 
+2020-08-21 17:57:43.606 [18512] Trying to autodetect proxy settings
+2020-08-21 17:57:43.616 [18512] Starting up; pid 18512
+2020-08-21 17:57:43.616 [18512] Command line arguments: sc -u InfyDMQA -k **** --config-file C:\Users\bmadhudevi\Documents\SauceTunnel\sc-4.6.2-win32\bin\config.eu-desktop.yml 
+2020-08-21 17:57:43.616 [18512] Log file: sc.eu-desktop_livetest.log
+2020-08-21 17:57:43.616 [18512] Pid file: sc.eu-desktop_livetest.pid
+2020-08-21 17:57:43.617 [18512] Timezone: IST GMT offset: 5h
+2020-08-21 17:57:43.617 [18512] Using no proxy for connecting to Sauce Labs REST API.
+2020-08-21 17:57:46.643 [18512] PROXY *** scproxy started ***
+2020-08-21 17:57:46.675 [18512] PROXY found DNS server 142.136.252.87
+2020-08-21 17:57:46.677 [18512] PROXY found DNS server 142.136.253.87
+2020-08-21 17:57:46.678 [18512] PROXY found DNS server 192.168.1.1
+2020-08-21 17:57:46.744 [18512] Started scproxy on port 55089.
+2020-08-21 17:57:46.744 [18512] Please wait for 'you may start your tests' to start your tests.
+2020-08-21 17:58:02.338 [18512] Secure remote tunnel VM provisioned.
+2020-08-21 17:58:02.338 [18512] Tunnel ID: 17c3fd0ac7d8478b88d5835203185478
+2020-08-21 17:58:05.430 [18512] Starting OCSP certificate check.
+2020-08-21 17:58:05.430 [18512] Using no proxy for connecting to http://status.geotrust.com.
+2020-08-21 17:58:06.384 [18512] Using no proxy for connecting to http://ocsp.digicert.com.
+2020-08-21 17:58:07.048 [18512] Reached a trusted CA. Certificate chain is verified.
+2020-08-21 17:58:07.049 [18512] Using no proxy for connecting to tunnel VM.
+2020-08-21 17:58:07.051 [18512] Starting Selenium listener...
+2020-08-21 17:58:07.051 [18512] Establishing secure TLS connection to tunnel...
+2020-08-21 17:58:07.098 [18512] [EVDNS] Added nameserver 142.136.252.87:53 as 03BC4990
+2020-08-21 17:58:07.099 [18512] [EVDNS] Added nameserver 142.136.253.87:53 as 03BC4BA8
+2020-08-21 17:58:07.100 [18512] [EVDNS] Added nameserver 192.168.1.1:53 as 03BC4CE0
+2020-08-21 17:58:07.102 [18512] MAIN connecting to maki3645.eu-central-1.miso.saucelabs.com - maki3645.eu-central-1.miso.saucelabs.com:443
+2020-08-21 17:58:07.302 [18512] Selenium listener started on port 4001.
+2020-08-21 17:58:07.702 [18512] MAIN connecting to KGP server maki3645.eu-central-1.miso.saucelabs.com took 597 ms
+2020-08-21 17:58:11.306 [18512] Sauce Connect is up, you may start your tests.
+2020-08-21 17:58:13.215 [18512] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-08-21 17:58:13.217 [18512] PROXY 127.0.0.1:55137 (127.0.0.1) -> HEAD http://localhost:4002/debug/vars (266 bytes)
+2020-08-21 17:58:13.742 [18512] PROXY 127.0.0.1:55137 (127.0.0.1) -> GET http://localhost:4002/debug/vars (265 bytes)
+2020-08-21 18:04:51.753 [13868] Sauce Connect 4.6.2, build 5183 ad61662 
+2020-08-21 18:04:51.753 [13868] Trying to autodetect proxy settings
+2020-08-21 18:04:51.763 [13868] Starting up; pid 13868
+2020-08-21 18:04:51.763 [13868] Command line arguments: sc -u Madhudevi -k **** --config-file C:\Users\bmadhudevi\Documents\SauceTunnel\sc-4.6.2-win32\bin\config.eu-desktop.yml 
+2020-08-21 18:04:51.764 [13868] Log file: sc.eu-desktop_livetest.log
+2020-08-21 18:04:51.764 [13868] Pid file: sc.eu-desktop_livetest.pid
+2020-08-21 18:04:51.764 [13868] Timezone: IST GMT offset: 5h
+2020-08-21 18:04:51.764 [13868] Using no proxy for connecting to Sauce Labs REST API.
+2020-08-21 18:04:54.796 [13868] PROXY *** scproxy started ***
+2020-08-21 18:04:54.830 [13868] PROXY found DNS server 142.136.252.87
+2020-08-21 18:04:54.832 [13868] PROXY found DNS server 142.136.253.87
+2020-08-21 18:04:54.833 [13868] PROXY found DNS server 192.168.1.1
+2020-08-21 18:04:54.896 [13868] Started scproxy on port 56022.
+2020-08-21 18:04:54.896 [13868] Please wait for 'you may start your tests' to start your tests.
+2020-08-21 18:05:07.824 [13868] Secure remote tunnel VM provisioned.
+2020-08-21 18:05:07.825 [13868] Tunnel ID: 805c1348e83e426ba4f74329e16bf6d8
+2020-08-21 18:05:10.382 [13868] Starting OCSP certificate check.
+2020-08-21 18:05:10.382 [13868] Using no proxy for connecting to http://status.geotrust.com.
+2020-08-21 18:05:11.567 [13868] Using no proxy for connecting to http://ocsp.digicert.com.
+2020-08-21 18:05:13.624 [13868] Reached a trusted CA. Certificate chain is verified.
+2020-08-21 18:05:13.625 [13868] Using no proxy for connecting to tunnel VM.
+2020-08-21 18:05:13.627 [13868] Starting Selenium listener...
+2020-08-21 18:05:13.628 [13868] Establishing secure TLS connection to tunnel...
+2020-08-21 18:05:13.667 [13868] [EVDNS] Added nameserver 142.136.252.87:53 as 03BA5C78
+2020-08-21 18:05:13.670 [13868] [EVDNS] Added nameserver 142.136.253.87:53 as 03BA5DB0
+2020-08-21 18:05:13.672 [13868] [EVDNS] Added nameserver 192.168.1.1:53 as 03BA5EE8
+2020-08-21 18:05:13.673 [13868] MAIN connecting to maki51.eu-central-1.miso.saucelabs.com - maki51.eu-central-1.miso.saucelabs.com:443
+2020-08-21 18:05:13.879 [13868] Selenium listener started on port 4001.
+2020-08-21 18:05:14.354 [13868] MAIN connecting to KGP server maki51.eu-central-1.miso.saucelabs.com took 2321 ms
+2020-08-21 18:05:17.882 [13868] Sauce Connect is up, you may start your tests.
+2020-08-21 18:05:18.474 [13868] PROXY resolved 'localhost' to '127.0.0.1:4002'
+2020-08-21 18:05:18.476 [13868] PROXY 127.0.0.1:56079 (127.0.0.1) -> HEAD http://localhost:4002/debug/vars (264 bytes)
+2020-08-21 18:05:19.180 [13868] PROXY 127.0.0.1:56079 (127.0.0.1) -> GET http://localhost:4002/debug/vars (263 bytes)
+2020-08-21 18:05:54.840 [13868] PROXY RX/TX bytes 0/4320 requests/responses 0/0 active reqs 1
+2020-08-21 18:06:54.839 [13868] PROXY RX/TX bytes 0/0 requests/responses 0/0 active reqs 0
+2020-08-21 18:07:40.879 [13868] Got signal interrupt
+2020-08-21 18:07:41.341 [13868] Cleaning up.
+2020-08-21 18:07:41.341 [13868] Removing tunnel 805c1348e83e426ba4f74329e16bf6d8.
+2020-08-21 18:07:41.341 [13868] Waiting for any active jobs using this tunnel to finish.
+2020-08-21 18:07:41.341 [13868] Press CTRL-C again to shut down immediately.
+2020-08-21 18:07:41.341 [13868] Note: if you do this, tests that are still running will fail.
+2020-08-21 18:07:48.259 [2520] Sauce Connect 4.6.2, build 5183 ad61662 
+2020-08-21 18:07:48.259 [2520] Trying to autodetect proxy settings
+2020-08-21 18:07:48.267 [2520] Starting up; pid 2520
+2020-08-21 18:07:48.267 [2520] Command line arguments: sc -u Madhudevi -k **** --config-file C:\Users\bmadhudevi\Documents\SauceTunnel\sc-4.6.2-win32\bin\config.eu-desktop.yml 
+2020-08-21 18:07:48.267 [2520] Log file: sc.eu-desktop_livetest.log
+2020-08-21 18:07:48.267 [2520] Pid file: sc.eu-desktop_livetest.pid
+2020-08-21 18:07:48.267 [2520] Timezone: IST GMT offset: 5h
+2020-08-21 18:07:48.268 [2520] Using no proxy for connecting to Sauce Labs REST API.
+2020-08-21 18:07:51.150 [2520] PROXY *** scproxy started ***
+2020-08-21 18:07:51.183 [2520] PROXY found DNS server 142.136.252.87
+2020-08-21 18:07:51.184 [2520] PROXY found DNS server 142.136.253.87
+2020-08-21 18:07:51.184 [2520] PROXY found DNS server 192.168.1.1
+2020-08-21 18:07:51.252 [2520] Started scproxy on port 56238.
+2020-08-21 18:07:51.252 [2520] Please wait for 'you may start your tests' to start your tests.

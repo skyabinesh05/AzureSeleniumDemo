@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Environment>
+    <ST>
+        <STchain>
+            <URL>https://pdv-collbb.sky.local</URL>
+        </STchain>
+    </ST>
+    <IT>
+        <ITchain>
+            <URL>https://pdvapmcollam.sky.local</URL>
+        </ITchain>
+    </IT>
+</Environment>
